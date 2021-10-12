@@ -13099,7 +13099,14 @@ video {
 
  html {
     font-size: 10px;
-} 
+}
+
+.navbar-nav .dropdown-item,
+.navbar-nav .nav-link,
+.navbar-nav .dropdown-toggle,
+.navbar-nav .btn-gradient-purple {
+    font-size: 1.3rem !important;
+}
 
 body {
     line-height: 1.625;
