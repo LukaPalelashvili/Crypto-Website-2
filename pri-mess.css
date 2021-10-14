@@ -31,6 +31,35 @@ lg\:px-12 {
 }
 
 
+#about:before {
+    content : '';
+    background : url('./theme-assets/images/what-is-crypto-shape.png') no-repeat center right;
+    width : 236px;
+    position : absolute;
+    left : 0;
+    height : 729px;
+  }
+
+  hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin-top: 10px;
+}
+
+
+
+  #our-coin:before {
+    content : '';
+    background : url('./theme-assets/images/our-coin-shape.png') no-repeat center right;
+    width : 213px;
+    position : absolute;
+    right : 0;
+    height : 346px;
+    margin-top: 100px;
+  }
+
 
 .grid {
     display: grid;
@@ -742,10 +771,10 @@ a {
 }
 
 
-.col-span-6 {
+/* .col-span-6 {
     grid-column: span 6 / span 6;
-}
-
+} */
+/* wavshale account generationis meore seqciis gasworebis dros */
 .mt-auto {
     margin-top: auto;
 }
