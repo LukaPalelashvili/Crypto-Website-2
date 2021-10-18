@@ -614,9 +614,9 @@
 .ti-align-center:before {
 	content: "\e6c4";
 }
-.ti-alert:before {
+/* .ti-alert:before {
 	content: "\e6c5";
-}
+} */
 .ti-alarm-clock:before {
 	content: "\e6c6";
 }

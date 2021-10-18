@@ -1,0 +1,274 @@
+#explore {
+        font-family: "IBM Plex Sans", apple-system, BlinkMacSystemFont, Segoe UI, Roboto;
+        line-height: 1.625;
+        font-size: 14px;
+    
+}
+
+/* html #explore {
+    font-size: 10px;
+} */
+
+lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.max-w-screen-2xl {
+    max-width: 1450px;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.grid {
+    display: grid;
+}
+
+.relative {
+    position: relative;
+}
+.bg-blue-gray-light {
+    --bg-opacity: 1;
+    background-color: #EEF2F5;
+    background-color: rgba(238, 242, 245, var(--bg-opacity));
+}
+
+.order-2 {
+    order: 2;
+}
+
+
+.w-screen {
+    width: 100vw;
+}
+.right-0 {
+    right: 0;
+}
+.absolute {
+    position: absolute;
+}
+
+
+.md\:pr-16 {
+    padding-right: 4rem;
+}
+.py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.xl\:text-5xl {
+    font-size: 3.2rem;
+}
+.mt-24 {
+    margin-top: 6rem;
+}
+.text-4xl {
+    font-size: 2.4rem;
+}
+.font-display {
+    font-family: "Manrope", sans-serif;
+}
+
+
+.mt-6 {
+    margin-top: 1.5rem;
+}
+
+
+
+.md\:inline-flex {
+    display: inline-flex;
+}
+.duration-200 {
+    transition-duration: 200ms;
+}
+.transition-all {
+    transition-property: all;
+}
+
+.py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.mt-12 {
+    margin-top: 3rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+.font-special {
+    font-family: "IBM Plex Mono", apple-system, BlinkMacSystemFont, Segoe UI, Roboto;
+}
+
+.items-center {
+    align-items: center;
+}
+.flex {
+    display: flex;
+}
+.border {
+    border-width: 1px;
+}
+.rounded {
+    border-radius: 0.25rem;
+}
+.border-black {
+    --border-opacity: 1;
+    border-color: #000;
+    border-color: rgba(0, 0, 0, var(--border-opacity));
+}
+
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.transform {
+    --transform-translate-x: 0;
+    --transform-translate-y: 0;
+    --transform-rotate: 0;
+    --transform-skew-x: 0;
+    --transform-skew-y: 0;
+    --transform-scale-x: 1;
+    --transform-scale-y: 1;
+    transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+}
+.ml-4 {
+    margin-left: 1rem;
+}
+
+.md\:-mt-16 {
+    margin-top: -4rem;
+}
+
+.-z-1 {
+    z-index: -1;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.md\:p-32 {
+    padding: 8rem;
+}
+.text-white {
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255, 255, 255, var(--text-opacity));
+}
+
+
+.flex-col {
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+}
+
+md\:mt-12 {
+    margin-top: 3rem;
+}
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.text-gray-300 {
+    --text-opacity: 1;
+    color: #B2B2B2;
+    color: rgba(178, 178, 178, var(--text-opacity));
+}
+
+
+.mt-4 {
+    margin-top: 1rem;
+}
+
+.mt-6 {
+    margin-top: 1.5rem;
+}
+
+
+.px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+.font-semibold {
+    font-weight: 600;
+}
+.font-special {
+    font-family: "IBM Plex Mono", apple-system, BlinkMacSystemFont, Segoe UI, Roboto;
+}
+.justify-between {
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.border-white {
+    --border-opacity: 1;
+    border-color: #fff;
+    border-color: rgba(255, 255, 255, var(--border-opacity));
+}
+
+.md\:-mb-32 {
+    margin-bottom: -8rem;
+}
+
+.lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.md\:-mb-16 {
+    margin-bottom: -4rem;
+
+}
+
+.md\:order-none {
+    order: 0;
+}
+
+.md\:mt-4 {
+    margin-top: 1rem;
+}
+
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.mb-20 {
+    margin-bottom: 5rem;
+}
+
+.mt-16 {
+    margin-top: 4rem;
+}
+
