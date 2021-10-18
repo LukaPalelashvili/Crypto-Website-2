@@ -2322,7 +2322,7 @@ svg#loader g:last-child circle {
 .vertical-social {
   z-index : 999;
   top : 35% !important;
-  left : 2% !important;
+  left : 1% !important;
   width : 44px;
   border-radius : 40px;
   -webkit-box-shadow : 0 4px 13px 0 rgba(0, 0, 0, 0.4);
