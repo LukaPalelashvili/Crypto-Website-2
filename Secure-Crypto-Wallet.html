@@ -34,7 +34,7 @@
     <!-- BEGIN Custom CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- END Custom CSS-->
-    <link rel="stylesheet" href="pri-mess.css"> 
+    <!-- <link rel="stylesheet" href="pri-mess.css">  -->
     <link rel="manifest" href="/theme-assets/manifest.json">
     <meta name="msapplication-TileColor" content="#4360DF">
     <meta name="msapplication-TileImage" content="/theme-assets/images/ms-icon-144x144.png"> 
@@ -62,37 +62,26 @@
 
   <body class=" 1-column undefined  page-animated svg-wrapper" data-menu-open="hover" data-menu="">
     <!-- Preloader | Comment below code if you don't want preloader-->
-<div id="loader-wrapper">
-    <svg viewbox=" 0 0 512 512" id="loader">
-        <linearGradient id="loaderLinearColors" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="5%" stop-color="#28bcfd"></stop>
-            <stop offset="100%" stop-color="#1d78ff"></stop>
-        </linearGradient>        
-        <g>
-            <circle cx="256" cy="256" r="150" fill="none" stroke="url(#loaderLinearColors)" />
-        </g>
-        <g>
-            <circle cx="256" cy="256" r="125" fill="none" stroke="url(#loaderLinearColors)" />
-        </g>
-        <g>
-            <circle cx="256" cy="256" r="100" fill="none" stroke="url(#loaderLinearColors)" />
-        </g>
-        <g>
-            <circle cx="256" cy="256" r="75" fill="none" stroke="url(#loaderLinearColors)" />
-        </g>
-        <circle cx="256" cy="256" r="100" fill="url(#loaderImage)" stroke="none" stroke-width="0" />
-
-        <!-- Change the preloader logo here -->
-        <defs>
-            <pattern id="loaderImage" height="100%" width="100%" patternContentUnits="objectBoundingBox">
-                <image href="theme-assets/images/andoid-icon-192x192.png" preserveAspectRatio="none" width="1" height="1"></image>
-            </pattern>
-        </defs>
-    </svg>
-
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
-</div>
+	<div id="loader-wrapper">
+		<svg viewbox=" 0 0 512 512" id="loader">
+			<linearGradient id="loaderLinearColors" x1="0" y1="0" x2="1" y2="1">
+				<stop offset="5%" stop-color="#28bcfd"></stop>
+				<stop offset="100%" stop-color="#1d78ff"></stop>
+			</linearGradient>        
+			
+			<circle cx="256" cy="256" r="100" fill="url(#loaderImage)" stroke="none" stroke-width="0" />
+	
+			<!-- Change the preloader logo here -->
+			<defs>
+				<pattern id="loaderImage" height="100%" width="100%" patternContentUnits="objectBoundingBox">
+					<image href="theme-assets/images/andoid-icon-192x192.png" preserveAspectRatio="none" width="1" height="1"></image>
+				</pattern>
+			</defs>
+		</svg>
+	
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
 
 
 <nav class="vertical-social" style="position: fixed; top: 0px; left: 0px; right: 0px; overflow: hidden; height: 218.8px;"><div class="midnightHeader default" style="position: absolute; overflow: hidden; inset: 0px; transform: translateY(0%) translateZ(0px);"><div class="midnightInner" style="position: absolute; overflow: auto; inset: 0px; transform: translateY(0%) translateZ(0px);">
@@ -180,12 +169,12 @@
    
     <main><!-- Header: 3D Animation -->
      	<!--WALLET-INTRO-->
-	<section style="margin-top: 45px; margin-left: 30px;" id="about" class="pt-16 xl:pt-0">
+	<section style="margin-top: 100px; margin-left: 30px;" id="about" class="pt-16 xl:pt-0">
 		<div class="max-w-screen-2xl mx-auto lg:px-12">
 			<div class="grid md:grid-cols-2">
 				<div class="relative px-8 self-center xl:mb-32">
 					<span class="w-screen absolute -z-1 right-0 h-full"></span>
-					<h1 style="color: #fff;" class="leading-tight font-display text-6xl font-medium xl:text-7xl 2xl:text-8xl">A Crypto Super Wallet</h1>
+					<h1 style="color: #fff;" class="leading-tight font-display text-6xl xl:text-7xl 2xl:text-8xl">A Crypto Super Wallet</h1>
 					<p style="color: #fff;" class="text-gray-600 mt-12 text-xl 2xl:text-4xl font-display font-normal leading-normal">
 						With the secure, non-custodial PCNP Wallet, you are in complete control of your funds. <br> 
 						<br> Soon on
@@ -237,9 +226,9 @@
 			<div class="grid md:grid-cols-2 gap-24">
 				<div class="flex flex-col px-8 justify-center items-start md:pt-0 pt-32">
 					<h3 style="color: #fff;" class="font-display text-4xl xl:text-5xl 2xl:text-6xl">Designed for Security</h3>
-					<p style="color: #fff;" class="text-gray-600 mt-12 text-xl font-display font-medium leading-normal">Protect your funds with the latest security standards, anti-phishing mechanisms, and locally generated and stored public and private keys. Trust your assets are safe with the PCNP Wallet.</p>
+					<p style="color: #fff;" class="text-gray-600 mt-12 text-xl font-display  leading-normal">Protect your funds with the latest security standards, anti-phishing mechanisms, and locally generated and stored public and private keys. Trust your assets are safe with the PCNP Wallet.</p>
 					<div class="flex">
-						<a href="https://specs.PCNP.io/spec/2#initial-key-generation" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-black text-lg">
+						<a href="https://specs.PCNP.io/spec/2#initial-key-generation" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
 							View the Specs
 							<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="theme-assets/images/icon-arrow-right-white.svg"></span>
 						</a>
@@ -278,10 +267,10 @@
 						<div class="flex-1">
 							<h3 class="font-display text-4xl xl:text-6xl mt-4">Defi & More at Your Fingertips</h3>
 							<p style="color: #fff;" class="text-xl mt-4 text-gray-300">Access and interact with the growing world of web3 dapps with the integrated wallet and web3 browser.</p>
-							<a href="https://dap.ps/" target="_blank" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-white hover:text-black rounded border-white text-lg">
+							<a style="width: 150px; margin-top: 20px;" href="https://dap.ps/" target="_blank" class="flex md:inline-flex items-center font-special font-bold py-4 px-6 font-bold border text-white border-primary-base rounded hover:bg-primary-900 hover:text-white" style="width: 150px;">
 								Learn More
-								<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="theme-assets/images/icon-arrow-right.svg"></span>
-							</a>
+								<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="theme-assets/images/icon-arrow-right-white.svg"></span>
+							  </a>
 						</div>
 						<div class="mt-20 order-1 md:order-none -ml-8 -mr-8 md:mx-0 mb-12 md:mb-0 md:mt-48">
 							<img src="theme-assets/images/wallet-dapps-2x.png" srcset="./theme-assets/images/wallet-dapps-2x.png 2x" class="md:-ml-32 w-screen-2 w-screen">
@@ -303,20 +292,20 @@
 							<img src="theme-assets/images/wallet-accounts.svg">
 						</div>
 						<div class="flex-1 mt-16 md:mt-32 order-first md:order-last">
-							<h3 style="color: black;" class="font-display text-4xl xl:text-6xl mt-4">Multiple Wallet Accounts for Greater Privacy</h3>
+							<h3 style="color: #fff;" class="font-display text-4xl xl:text-6xl mt-4">Multiple Wallet Accounts for Greater Privacy</h3>
 							<p style="color: gray;" class="text-xl text-gray-300 mt-4">Create multiple accounts in your PCNP wallet. Select which account you use for interacting with DApps, sending payments, and storing funds.</p>
 						</div>
 					</div>
 				</div>
-				<div class="bg-blue-gray-light relative order-1 md:order-none">
-					<span class="bg-blue-gray-light w-screen absolute -z-1 left-0 h-full"></span>
+				<div class="relative order-1 md:order-none">
+					<span class=" w-screen absolute -z-1 left-0 h-full"></span>
 					<div class="h-full px-8 py-32 md:p-32">
-						<h3 class="font-display text-4xl xl:text-6xl mt-4">Hardware Security with Keycard</h3>
+						<h3 style="color: #fff;" class="font-display text-4xl xl:text-6xl mt-4">Hardware Security with Keycard</h3>
 						<p style="color: gray;" class="text-xl text-gray-700">Add a layer of security to your account and funds with Keycard - the contactless hardware wallet.</p>
-						<a href="/keycard-integration/" class="transition-all duration-200 linear group py-4 px-6 flex md:inline-flex justify-between items-center mt-12 border font-special font-semibold hover:bg-black hover:text-white rounded border-black text-lg">
+						<a style="width: 150px; margin-top: 20px;" href="https://get.keycard.tech/" target="_blank" class="flex md:inline-flex items-center font-special font-bold py-4 px-6 font-bold border text-white border-primary-base rounded hover:bg-primary-900 hover:text-white" style="width: 150px;">
 							Learn More
-							<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="theme-assets/images/icon-arrow-right.svg"></span>
-						</a>
+							<span class="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="theme-assets/images/icon-arrow-right-white.svg"></span>
+						  </a>
 						<img src="theme-assets/images/wallet-keycard-2x.png" srcset="./theme-assets/images/wallet-keycard-2x.png 2x" class="-mb-32 mt-32">
 					</div>
 				</div>

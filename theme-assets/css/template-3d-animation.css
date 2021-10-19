@@ -2351,55 +2351,6 @@ svg#loader g:last-child circle {
   }
 }
 
-/*  Sales Notification
-    -------------------------------------------------------------------------------------------*/
-/* .alert-minimalist {
-  background-color : white;
-  border-radius : 5px;
-  -webkit-box-shadow : 0 5px 40px rgba(14, 42, 76, 0.2);
-          box-shadow : 0 5px 40px rgba(14, 42, 76, 0.2);
-  padding : 10px;
-  width : 350px;
-  z-index : 2147483648 !important;
-}
-.alert-minimalist [data-notify='dismiss'] {
-  color : rgba(149, 149, 149, 0.7);
-}
-.alert-minimalist #image {
-  float : left;
-}
-.alert-minimalist #image [data-notify='icon'] {
-  height : 60px;
-  margin-right : 12px;
-}
-.alert-minimalist #text {
-  float : left;
-  margin-top : 2px;
-}
-.alert-minimalist #text [data-notify='title'] {
-  color : #333333;
-  line-height : 1rem;
-  display : block;
-  font-size : 85%;
-  font-weight : 700;
-}
-.alert-minimalist #text [data-notify='message'] {
-  font-size : 80%;
-}
-.alert-minimalist #text [data-notify='message'] span.blue {
-  color : #28BCFD;
-  font-weight : 700;
-}
-.alert-minimalist #text [data-notify='time'] {
-  display : block;
-  font-size : 70%;
-  color : rgba(149, 149, 149, 0.7);
-  margin-top : 4px;
-} */
-
-/*	Page sections css
-* 	----------------------------------------------------------------------------------------------*/
-/* Navbar section : Navbar area css */
 .navbar {
   padding : 0;
 }
