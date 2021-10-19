@@ -83,11 +83,14 @@ lg\:px-12 {
     margin-top: 1.5rem;
 }
 
+@media (max-width: 768px) {
+    .md\:inline-flex {
+        display: inline-flex;
+    }
 
-
-.md\:inline-flex {
-    display: inline-flex;
 }
+
+
 .duration-200 {
     transition-duration: 200ms;
 }
