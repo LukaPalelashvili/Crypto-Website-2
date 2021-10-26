@@ -1,0 +1,14 @@
+@media screen and (max-width: 480px){
+    .private-and-secure-img {
+        width: 333px !important;
+        margin-top: -150px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .private-and-secure-img {
+        width: 493px !important;
+        /* margin-top: -150px; */
+        
+    }
+}
