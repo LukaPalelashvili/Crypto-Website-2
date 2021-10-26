@@ -1867,10 +1867,11 @@ svg#loader g:last-child circle {
 *   -------------------------------------------------------------------------------------------*/
 .particles-js-canvas-el {
   position : absolute;
-  top : 0;
-  z-index : 1;
+  bottom  : 0vh;
+  z-index : 0;
   height : 100vh !important;
 }
+
 
 /*  Background ripple effect scss
 *   -------------------------------------------------------------------------------------------*/
@@ -3383,7 +3384,7 @@ header .navbar.navbar-shadow {
   padding-top : 18.5rem;
   padding-bottom : 2.5rem;
   position : relative;
-  background : url('../../theme-assets/images/footer-image.png') no-repeat center center;
+  background : url('../../theme-assets/images/footer-main.png') no-repeat center center;
   -webkit-background-size : cover;
           background-size : cover;
 }
@@ -3981,6 +3982,7 @@ body.inner-page {
 .error404 .particles-js-canvas-el {
   z-index : 0;
 }
+
 .error404 .error-img {
   height : 100vh;
   overflow : hidden;
@@ -4382,7 +4384,7 @@ p {
 
 #about:before {
   content : '';
-  background : url('../../theme-assets/images/what-is-crypto-shape.png') no-repeat center right;
+  background : url('../../theme-assets/images/eterium-1.png') no-repeat center right;
   width : 236px;
   position : absolute;
   left : 0;
@@ -4391,7 +4393,7 @@ p {
 
 #problem-solution:before {
   content : '';
-  background : url('../../theme-assets/images/solutions-shape.png') no-repeat center right;
+  background : url('../../theme-assets/images/eterium-full.png') no-repeat center right;
   width : 346px;
   position : absolute;
   right : 5%;
@@ -4403,7 +4405,7 @@ p {
 }
 #token-sale-mobile-app .token-sale:before {
   content : '';
-  background : url('../../theme-assets/images/token-sale-shape.png') no-repeat center left;
+  background : url('../../theme-assets/images/eterium-3.png') no-repeat center left;
   width : 673px;
   position : absolute;
   left : 0;
@@ -4416,10 +4418,10 @@ p {
 
 #our-coin:before {
   content : '';
-  background : url('../../theme-assets/images/our-coin-shape.png') no-repeat center right;
+  background : url('../../theme-assets/images/eterium-2.png') no-repeat center right;
   width : 213px;
   position : absolute;
-  right : 0;
+  right : -60px;
   height : 346px;
 }
 
@@ -4454,8 +4456,8 @@ p {
 
 .contact:before {
   content : '';
-  background : url('../../theme-assets/images/contact-shape.png') no-repeat center right;
-  width : 153px;
+  background : url('../../theme-assets/images/eterium-last1.png') no-repeat center right;
+  width : 253px;
   position : absolute;
   right : 0;
   height : 556px;
