@@ -1,8 +1,8 @@
 /* 	----------------------------------------------------------------------------------------------
-*	File Name: template-3d-animation Template
-* 	Description: 3D Animation Template Specific CSS
+*	File Name: PCN-3d-animation PCN
+* 	Description: 3D Animation PCN Specific CSS
 * 	----------------------------------------------------------------------------------------------
-* 	Item Name: Crypto ICO - Cryptocurrency Website Landing Page HTML Template
+* 	Item Name: Crypto ICO - Cryptocurrency Website Landing Page HTML PCN
 * 	Version: 1.0
 * 	Author: PIXINVENT
 * 	Author URL: http://www.themeforest.net/user/pixinvent
@@ -2564,7 +2564,7 @@ header .navbar.navbar-shadow {
 
 .about .content-area .play-video {
   position : absolute;
-  top : 78%;
+  top : 58%;
   left : 53%;
   -webkit-transform : translate(-70%, -50%);
      -moz-transform : translate(-70%, -50%);
@@ -3395,7 +3395,7 @@ header .navbar.navbar-shadow {
   color : #000000;
 }
 .footer .footer-wrapper .title {
-  margin-bottom : 55px;
+  margin-bottom : 40px;
 }
 .footer .footer-wrapper .logo-text {
   font-size : 1.5rem;
@@ -4017,7 +4017,7 @@ body.inner-page {
   }
 }
 
-/*  Template level css needed for all 3d-animation pages
+/*  PCN level css needed for all 3d-animation pages
 *   ----------------------------------------------------------------------------------------------*/
 .svg-wrapper {
   background-image : -webkit-linear-gradient(20deg, #140E38 0%, #140E38 25%, #14387B 35%, #14387B 65%, #140E38 75%, #140E38 100%);

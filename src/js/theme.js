@@ -2,7 +2,7 @@
  *   File Name: theme.js
  *   Description: Theme related common JS.
  *   -------------------------------------------------------------------------------------------
- *   Item Name: Crypto ICO - Cryptocurrency Website Landing Page HTML Template
+ *   Item Name: Crypto ICO - Cryptocurrency Website Landing Page HTML PCN
  *   Version: 1.0  
  *   Author: Pixinvent
  *   Author URL: http://www.themeforest.net/user/pixinvent
@@ -203,7 +203,7 @@ function navbarAbsolute() {
 }
 
 function inverseNavbar(isFixed){
-    if($('body').hasClass('template-intro-video')){
+    if($('body').hasClass('Template-intro-video')){
         if(isFixed){
             $('.navbar-brand-logo-dark').removeClass('d-none');
             $('.navbar-brand-logo').addClass('d-none');
