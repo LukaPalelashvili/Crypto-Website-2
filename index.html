@@ -36,7 +36,12 @@
   <body class=" 1-column undefined  page-animated svg-wrapper" data-menu-open="hover" data-menu="">
     <!-- Preloader | Comment below code if you don't want preloader-->
 <div id="loader-wrapper">
-    <svg viewbox=" 0 0 512 512" id="loader">
+   
+   
+    <video id="loader-video"  autoplay muted>
+        <source src="./src/videos/world_digital_5_bw_1920.mp4" type="video/mp4">
+      </video> 
+    <!-- <svg viewbox=" 0 0 512 512" id="loader">
         <linearGradient id="loaderLinearColors" x1="0" y1="0" x2="1" y2="1">
             <stop offset="5%" stop-color="#28bcfd"></stop>
             <stop offset="100%" stop-color="#1d78ff"></stop>
@@ -48,7 +53,7 @@
         <circle cx="256" cy="256" r="100" fill="url(#loaderImage)" stroke="none" stroke-width="0" />
 
         <!-- Change the preloader logo here -->
-        <defs>
+        <!-- <defs>
             <pattern id="loaderImage" height="100%" width="100%" patternContentUnits="objectBoundingBox">
                 <image href="theme-assets/images/andoid-icon-192x192.png" preserveAspectRatio="none" width="1" height="1"></image>
             </pattern>
@@ -56,7 +61,7 @@
     </svg>
 
     <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
+    <div class="loader-section section-right"></div> --> 
 </div>
 <!--/ Preloader --><nav class="vertical-social">
     <ul>
@@ -389,7 +394,7 @@
                 </div>
                 <div class="col-md-12 col-lg-6 animated" data-animation="fadeInUpShorter" data-animation-delay="0.7s">
                     <div style="right: 60px;" class="position-relative what-is-crypto-img float-xl-right">
-                        <img style="height: 500px;" class="img-fluid" src="theme-assets/images/play-phone1.jpg" alt="What is Crypto?">
+                        <img style="height: 500px;" class="img-fluid" src="theme-assets/images/Phoneplayme1.png" alt="What is Crypto?">
                         <div class="play-video text-center">
                             <a href="#" class="play rounded-circle btn-gradient-purple btn-glow video-btn" data-toggle="modal" data-src="https://www.youtube.com/embed/UXAJu3zS4bU" data-target="#ico-modal"><i class="ti-control-play"></i></a>
                             <!-- <span class="mt-2 d-none d-md-block">How it works</span> -->
@@ -790,38 +795,7 @@ to the people </h4>
             <!--/ Crypto ico App -->
         </section>
         <!--/ Pre-Sale & Mobile Apps -->
-        	<!--HOME-ABOUT-->
-	<section class="pt-24">
-		<div class="max-w-screen-2xl mx-auto px-8 lg:px-20">
-			<div class="grid md:grid-cols-2 gap-24">
-				<div>
-					<div class="heading mb-4">
-                        <h3 class="title" style="text-align: left;">An Open Source Project</h3>
-                    </div>
-					<p style="color: #fff;"  class="text-gray-600 mt-12 text-lg text-left 2xl:text-2xl font-display font-medium leading-normal animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">Entirely open source and made by contributors around the world. Developers, designers, creators, educators, enthusiasts, and more have free and open access to the repos, assets, and information. Designed to be censorship resistant and free from third party control.</p>
-					<ul class="flex flex-col md:flex-row md:items-center -ml-12">
-						<li class="ml-12">
-							<a style=" animation-delay: 0.6s; opacity: 1;width: 170px;margin-top: -15px;color: #4360DF;/*! text-align: left; */margin-left: -55px;" href="https://github.com/PCN-Protocol" class="flex items-center font-special font-bold py-4 px-6 font-bold  border-primary-base rounded hover:text-white animated fadeInUpShorter" data-animation="fadeInUpShorter" data-animation-delay="0.6s">
-                                <img src="./theme-assets/images/developers-img.svg">
-								<span style="margin-left: 0.5rem;">Developers</span>
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div class="pb-32 md:pb-0">
-					<div class="heading mb-4">
-                        <h3 class="title" style="text-align: left;">Mission &amp; Principles</h3>
-                    </div>
-					<p style="color: #fff;" class="text-gray-600 mt-12 text-left text-lg 2xl:text-2xl font-display font-medium leading-normal animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">PCNP strives to be a secure communication tool that upholds human rights. Designed to enable the free flow of information, protect the right to private, secure conversations, and promote the sovereignty of individuals.</p>
-					<a style=" animation-delay: 0.7s; opacity: 1;width: 170px;color: #4360DF;margin-left: -20px;" href="our-mission.html" class="flex items-center font-special font-bold py-4 px-6 font-bold  border-primary-base rounded  hover:text-white animated fadeInUpShorter" data-animation="fadeInUpShorter" data-animation-delay="0.6s">
-						Learn More
-						<span style="margin-left: 0.5rem;" class=" group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="./theme-assets/images/icon-arrow-right-white.svg">
-					</span></a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--END-HOME-ABOUT-->
+        	
         <!-- Roadmap -->
         <section id="roadmap" class="roadmap section-padding">
             <div class="container">
@@ -912,42 +886,41 @@ to the people </h4>
         </section>
         <!--/ Roadmap -->
 
+        <!--HOME-ABOUT-->
+	<section class="pt-24">
+		<div class="max-w-screen-2xl mx-auto px-8 lg:px-20">
+			<div class="grid md:grid-cols-2 gap-24">
+				<div>
+					<div class="heading mb-4">
+                        <h3 class="title" style="text-align: left;">An Open Source Project</h3>
+                    </div>
+					<p style="color: #fff;"  class="text-gray-600 mt-12 text-lg text-left 2xl:text-2xl font-display font-medium leading-normal animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">Entirely open source and made by contributors around the world. Developers, designers, creators, educators, enthusiasts, and more have free and open access to the repos, assets, and information. Designed to be censorship resistant and free from third party control.</p>
+					<ul class="flex flex-col md:flex-row md:items-center -ml-12">
+						<li class="ml-12">
+							<a style=" animation-delay: 0.6s; opacity: 1;width: 170px;margin-top: -15px;color: #4360DF;/*! text-align: left; */margin-left: -55px;" href="https://github.com/PCN-Protocol" class="flex items-center font-special font-bold py-4 px-6 font-bold  border-primary-base rounded hover:text-white animated fadeInUpShorter" data-animation="fadeInUpShorter" data-animation-delay="0.6s">
+                                <img src="./theme-assets/images/developers-img.svg">
+								<span style="margin-left: 0.5rem;">Developers</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="pb-32 md:pb-0">
+					<div class="heading mb-4">
+                        <h3 class="title" style="text-align: left;">Mission &amp; Principles</h3>
+                    </div>
+					<p style="color: #fff;" class="text-gray-600 mt-12 text-left text-lg 2xl:text-2xl font-display font-medium leading-normal animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">PCNP strives to be a secure communication tool that upholds human rights. Designed to enable the free flow of information, protect the right to private, secure conversations, and promote the sovereignty of individuals.</p>
+					<a style=" animation-delay: 0.7s; opacity: 1;width: 170px;color: #4360DF;margin-left: -20px;" href="our-mission.html" class="flex items-center font-special font-bold py-4 px-6 font-bold  border-primary-base rounded  hover:text-white animated fadeInUpShorter" data-animation="fadeInUpShorter" data-animation-delay="0.6s">
+						Learn More
+						<span style="margin-left: 0.5rem;" class=" group-hover:translate-x-1 transform transition-all duration-200 linear"><img src="./theme-assets/images/icon-arrow-right-white.svg">
+					</span></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--END-HOME-ABOUT-->
+
         <!-- Contact -->
-        <section id="contact" class="contact section-padding">
-            <div class="container">
-                <div class="heading text-center">
-                    <div class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.3s">
-                        <h6 class="sub-title">JOIN US</h6>
-                        <h2 class="title">Contact</h2>
-                    </div>
-                    <p class="content-desc animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">Have questions? We’re happy to help.</p>
-                </div>
-                <div class="row">
-                    <div class="col-xl-8 col-md-12 mx-auto">
-                        <ul class="list-unstyled contact-info pb-5 mb-5">
-                            <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.5s">
-                                <i class="ti-headphone"></i>
-                                <span class="ml-1">+44 0123 4567</span>
-                            </li>
-                            <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s">
-                                <i class="ti-email"></i>
-                                <span class="ml-1">infopcnp@gmail.com</span>
-                            </li>
-                            <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.7s">
-                                <i class="ti-comment-alt"></i>
-                                <span class="ml-1">Join us on Telegram</span>
-                            </li>
-                        </ul>
-                        <form action="#" method="post" accept-charset="utf-8" class="text-center">
-                            <input type="text" class="form-control animated" data-animation="fadeInUpShorter" data-animation-delay="0.8s" name="name" placeholder="Your Name">
-                            <input type="text" class="form-control animated" data-animation="fadeInUpShorter" data-animation-delay="0.9s" name="mail" placeholder="Your Mail">
-                            <input type="text" class="form-control animated" data-animation="fadeInUpShorter" data-animation-delay="1.0s" name="message" placeholder="Your Massage">
-                            <button type="submit" class="btn btn-lg btn-gradient-purple btn-glow animated" data-animation="fadeInUpShorter" data-animation-delay="1.1s">Send Message</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         <!--/ Contact -->
         <!-- Exchange Listing Area -->
         <section class="exchange-listing" id="exchange-listing">
@@ -1562,79 +1535,124 @@ to the people </h4>
 </div> -->
 
 
-    </footer>
+   
 
-    <footer class="footer static-bottom footer-dark footer-custom-class" data-midnight="white"><div class="container">
-        <div class="footer-wrapper">
-            <div id="particles-js2"></div>
-            <div class="title animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">
-                <img style="width: 65px; height: 60px; margin-top: -10px; margin-left: -20px;" src="theme-assets/images/pcnLOGO.svg" alt="Logo">
-                <p style="margin-left: 50px; margin-top: -50px; color: #fff;" class="logo-text">PCN Protocol</p>
-            </div>
-        <div class="row">
-            <div class="col-md-2">
-                <div class="links">
-                    <h5 style="font-size: 1.15rem;"  class="title animated"  data-animation-delay="0.5s">Useful Links</h5>
-                    <ul class="useful-links float-left mr-5">
-                        <li class="animated"  data-animation-delay="0.6s"><a href="index.html#about">About</a></li>
-                        <li class="animated"  data-animation-delay="0.7s"><a href="index.html#token-sale-mobile-app">Token Sale</a></li>
-                        <li class="animated"  data-animation-delay="0.8s"><a href="#index.html#whitepaper">Whitepaper </a></li>
-                    </ul>
-            </div>
-            </div>
-           
-            <div class="col-md-2">
-                <div class="links">
-                    <h5 style="font-size: 1.15rem;"  class="title animated"  data-animation-delay="0.5s">Useful Links</h5>
-                    <ul class="useful-links">
-                        <li class="animated"  data-animation-delay="0.9s"><a href="index.html#roadmap">Roadmap</a></li>
-                        <li class="animated"  data-animation-delay="1.0s"><a href="index.html#team">Team</a></li>
-                        <li class="animated"  data-animation-delay="1.1s"><a href="https://pixinvent.com/demo/crypto-ico-admin/html/ltr/vertical-menu/account-login.html">Sign in</a></li>
-                    </ul>
-            </div>
-            </div>
-    
-            <div class="col-md-2">
-                <div class="links">
-                    <h5 style="font-size: 1.15rem;"  class="title animated"  data-animation-delay="0.5s">Social</h5>
-                    <ul class="useful-links float-left mr-5">
-                        <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s"><a href="https://www.facebook.com/PCNProtocol/" target="_blank" title="Facebook" class=" "><i class="ti-facebook"></i><span style="margin-left: 10px;">Facebook</span></a></li>
-                        <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.5s"><a href="https://twitter.com/PcnProtocol" target="_blank" title="Twitter" class=" "><i class="ti-twitter-alt"></i><span style="margin-left: 10px;">Twitter</span></a></li>
-                        <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s"><a href="https://www.reddit.com/r/PCNProtocol/" target="_blank" title="Reddit" class=" "><i class="ti-reddit"></i><span style="margin-left: 10px;">Reddit</span></a></li>
-                    </ul>
-            </div>
-            </div>
-    
-            <div class="col-md-2">
-                <div class="links">
-                    <h5 style="font-size: 1.15rem;"  class="title animated"  data-animation-delay="0.5s">Social Links</h5>
-                    <ul class="useful-links float-left mr-5">
-                        <li class="animated"  data-animation-delay="0.6s"><a href="https://www.youtube.com/channel/UCGkShKklTgRovjWVai_w4OQ" target="_blank" title="Youtube" class=" "><i class="fa fa-youtube-play"></i><span style="margin-left: 10px;">Youtube</span></a></li>
-                        <li class="animated"  data-animation-delay="0.7s"><a href="https://github.com/PCN-Protocol" target="_blank" title="Youtube" class=" "><i class="ti-github"></i><span style="margin-left: 10px;">GitHub</span></a></li>
-                        <li class="animated"  data-animation-delay="0.8s"><a href="https://www.instagram.com/pcnprotocol/" target="_blank" title="Instagram" class=""><i class="ti-instagram"></i><span style="margin-left: 10px;">Instagram</span> </a></li>
-                       
-                    </ul>
-            </div>
-            </div>
-    
-            <div class="col-md-4">
-                <div class="feed">
-                    <h5 style="font-size: 1.15rem;"  class="title animated" data-animation="fadeInUpShorter" data-animation-delay="0.8s">Twitter Feed</h5>
-                    <div class="tweets">
-                        <span class="animated" data-animation="fadeInUpShorter" data-animation-delay="1.0s">More about our most powerful theme PCN Protocol : https://t.co/JHBAS345</span>
-                        <span class="animated" data-animation="fadeInUpShorter" data-animation-delay="1.2s">More infotamation about CIC Coin : https://t.co/JHSD34JHB</span>
-                    </div>
+<footer class="footer static-bottom footer-dark footer-custom-class" data-midnight="white"><div class="container">
+    <div class="footer-wrapper">
+        <div id="particles-js2"></div>
+        <div class="title animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">
+            <img style="width: 65px; height: 60px; margin-top: -10px; margin-left: -20px;" src="theme-assets/images/pcnLOGO.svg" alt="Logo">
+            <p style="margin-left: 50px; margin-top: -50px; color: #fff;" class="logo-text">PCN Protocol</p>
+        </div>
+    <div class="row">
+        <div class="col-md-2">
+            <div class="links">
+                <h5 style="font-size: 1.15rem;"  class="title animated"  data-animation-delay="0.5s">Useful Links</h5>
+                <ul class="useful-links">
+                    <li class="animated"  data-animation-delay="0.9s"><a href="index.html#roadmap">Roadmap</a></li>
+                    <li class="animated"  data-animation-delay="1.0s"><a href="index.html#team">Team</a></li>
+                    <li class="animated"  data-animation-delay="1.1s"><a href="https://pixinvent.com/demo/crypto-ico-admin/html/ltr/vertical-menu/account-login.html">Sign in</a></li>
+                </ul>
+        </div>
+        </div>
+        <div class="col-md-2">
+            <div class="links">
+                <h5 style="font-size: 1.15rem;"  class="title animated"  data-animation-delay="0.5s">PCNP</h5>
+                <ul class="useful-links float-left mr-5">
+                    <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s"><a href="get-involved.html" target="_blank">Get Involved</a></li>
+                    <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.5s"><a href="security.html" target="_blank">About</a></li>
+                    <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s"><a href="form.html" target="_blank">White Paper</a></li>
+                    <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s"><a href="form.html" target="_blank">Jobs</a></li>
+                </ul>
+        </div>
+        </div>
+        <div class="col-md-2">
+            <div class="links">
+                <h5 style="font-size: 1.15rem;"  class="title animated"  data-animation-delay="0.5s">Product</h5>
+                <ul class="useful-links float-left mr-5">
+                    <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s"><a href="form.html" target="_blank">Features</a></li>
+                    <li class="animated"  data-animation-delay="0.7s"><a href="security.html">Security</a></li>
+                    <li style="line-height: 25px;" class="animated"  data-animation-delay="0.8s"><a href="form.html">Become an <span>Investor</span> </a></li>
+                </ul>
+        </div>
+        </div>
+
+
+        <div class="col-md-2">
+            <div class="links">
+                <h5 style="font-size: 1.15rem;"  class="title animated"  data-animation-delay="0.5s">PCNP Network</h5>
+                <ul class="useful-links float-left mr-5">
+                    <li class="animated"  data-animation-delay="0.6s"><a href="https://keycard.tech/" target="_blank">Keycard</a></li>
+                    <li class="animated"  data-animation-delay="0.7s"><a href="https://assemble.fund/" target="_blank">Assemble</a></li>
+                    <li class="animated"  data-animation-delay="0.8s"><a href="">Embark</a></li>
+                    <li class="animated"  data-animation-delay="0.7s"><a href="/" target="_blank">Nimbus</a></li>
+                   
+                </ul>
+        </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="feed">
+                <h5 style="font-size: 1.15rem;"  class="title animated" data-animation="fadeInUpShorter" data-animation-delay="0.8s">Twitter Feed</h5>
+                <div class="tweets">
+                    <span class="animated" data-animation="fadeInUpShorter" data-animation-delay="1.0s">More about our most powerful theme PCN Protocol : https://t.co/JHBAS345</span>
+                    <span class="animated" data-animation="fadeInUpShorter" data-animation-delay="1.2s">More infotamation about CIC Coin : https://t.co/JHSD34JHB</span>
                 </div>
             </div>
-            </div>
-            
-            <div class="copy-right mx-auto text-center">
-                <span class="copyright">Copyright &copy; 2019, PCN Protocol. Template Designed by <a href="http://pixinvent.com" title="pixinvent" class="white">Pixinvent</a></span>
-            </div>
-            </div>
         </div>
-      
-    </footer>
+        </div>
+        <!-- <div>
+            <ul class="social-buttons list-unstyled mb-5">
+                <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s"><a href="#" title="Facebook" class="btn font-medium"><i class="ti-facebook"></i></a></li>
+                <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.5s"><a href="#" title="Twitter" class="btn font-medium"><i class="ti-twitter-alt"></i></a></li>
+                <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.6s"><a href="#" title="LinkedIn" class="btn font-medium"><i class="ti-linkedin"></i></a></li>
+                <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.7s"><a href="#" title="GitHub" class="btn font-medium"><i class="ti-github"></i></a></li>
+                <li class="animated" data-animation="fadeInUpShorter" data-animation-delay="0.8s"><a href="#" title="Pintrest" class="btn font-medium"><i class="ti-pinterest"></i></a></li>
+            </ul>
+        </div> -->
+        
+             <!-- <div class="copy-right mx-auto text-center">
+                <span class="copyright">Copyright &copy; 2019, PCN Protocol. Template Designed by <a href="http://pixinvent.com" title="pixinvent" class="white">Pixinvent</a></span>
+                 </div> -->
+
+         <div style="margin-top: 20px;" class="row">
+            <div class="col-md-4">
+                <div class="about">
+                    <ul class="social-buttons list-unstyled">
+                        <li class=""><a href="https://www.facebook.com/PCNProtocol/" target="_blank" title="Facebook" class="btn font-medium"><i class="ti-facebook"></i></a></li>
+                        <li class=""><a href="https://twitter.com/PcnProtocol" target="_blank" title="Twitter" class="btn font-medium"><i class="ti-twitter-alt"></i></a></li>
+                        <li class=""><a href="https://www.reddit.com/r/PCNProtocol/" target="_blank" title="Reddit" class="btn font-medium"><i class="ti-reddit"></i></a></li>
+                        <li class=""><a href="https://www.youtube.com/channel/UCGkShKklTgRovjWVai_w4OQ" target="_blank" title="Youtube" class="btn font-medium"><i class="fa fa-youtube-play"></i></a></li>
+                        <li class=""><a href="https://github.com/PCN-Protocol" target="_blank" title="GitHub" class="btn font-medium"><i class="ti-github"></i></a></li>
+                        <li class=""><a href="https://www.instagram.com/pcnprotocol/" target="_blank" title="Instagram" class="btn font-medium"><i class="ti-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+             <div class="col-md-4">
+                <div class="copy-right mx-auto text-center">
+                    <span class="copyright">Copyright &copy; 2019, PCN Protocol. Template Designed by <a href="http://pixinvent.com" title="pixinvent" class="white">Pixinvent</a></span>
+                 </div>
+            </div>
+
+            <div style=" text-align: right;" class="col-md-4">
+                <div style="display: inline-block;">
+                    <ul style="font-size: 0.75rem;" class="">
+                        <li style="display: inline-block; margin-right: 5px; animation-delay: 0.5s; opacity: 0;" class="animated fadeInUpShorter" data-animation="fadeInUpShorter" data-animation-delay="0.5s"><a href="#" title="Twitter" class="">Privacy Policy</a></li>
+                        <li style="display: inline-block;">•</li>
+                        <li style="display: inline-block; margin-left: 5px; animation-delay: 0.6s; opacity: 0;" class="animated fadeInUpShorter" data-animation="fadeInUpShorter" data-animation-delay="0.6s"><a href="#" title="LinkedIn" class="">Terms of Use</a></li>
+                        
+                    </ul>
+
+                </div>
+            </div>
+         </div>
+        </div>
+    </div>
+
+  
+  
+</footer>
      
          <!-- 3rd party scripts -->
          <script type="text/javascript" src="./src/js/scripts/footerline.js"></script>
