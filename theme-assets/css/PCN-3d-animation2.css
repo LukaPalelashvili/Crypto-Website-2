@@ -14,7 +14,7 @@
       }
       
       p {
-        font-size : 0.938rem;
+        font-size : 15.008px;
       }
       
       a:hover {
@@ -544,24 +544,24 @@
       
       /* Font-size */
       .font-xlarge {
-        font-size : 2.75rem;
+        font-size : 44px;
       }
       
       .font-large {
-        font-size : 2rem;
-        line-height : 2rem;
+        font-size : 32px;
+        line-height : 32px;
       }
       
       .font-medium {
-        font-size : 1.125rem;
+        font-size : 18px;
       }
       
       .font-small {
-        font-size : 0.875rem;
+        font-size : 14px;
       }
       
       .font-xsmall {
-        font-size : 0.75rem;
+        font-size : 12px;
       }
       
       /*  Grey Color */
@@ -3380,9 +3380,9 @@
       
       /* 3d animation footer section : footer area css */
       .footer {
-        /* margin-top : 6.5rem; */
-        padding-top : 8.5rem;
-        padding-bottom : 2.5rem;
+        margin-top : 104px;
+        padding-top : 136px;
+        padding-bottom : 40px;
         position : relative;
         background : url('../../theme-assets/images/footer-main.png') no-repeat center center;
         -webkit-background-size : cover;
@@ -3398,7 +3398,7 @@
         margin-bottom : 40px;
       }
       .footer .footer-wrapper .logo-text {
-        font-size : 1.5rem;
+        font-size : 24px;
       }
       .footer .footer-wrapper ul.useful-links {
         padding : 0;
@@ -3418,8 +3418,8 @@
       .footer .footer-wrapper ul.social-buttons li a {
         padding : 0;
         color : #FFFFFF;
-        margin-right : 1rem;
-        font-size : 1.125rem;
+        margin-right : 16px;
+        font-size : 18px;
       }
       .footer .footer-wrapper ul.social-buttons li a i {
         vertical-align : middle;
@@ -3430,10 +3430,10 @@
       .footer .footer-wrapper .feed span {
         display : block;
         margin-bottom : 25px;
-        font-size : 0.875rem;
+        font-size : 14px;
       }
       .footer .footer-wrapper .copyright {
-        font-size : 0.75rem;
+        font-size : 12px;
       }
       
       .blog-area {
