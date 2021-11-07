@@ -1870,7 +1870,7 @@ svg#loader g:last-child circle {
   bottom  : 0vh;
   z-index : 0;
   height : 100% !important;
-  width: 90% !important
+  /* width: 100% !important; */
 }
 
 
