@@ -1870,6 +1870,7 @@ svg#loader g:last-child circle {
   bottom  : 0vh;
   z-index : 0;
   height : 100% !important;
+  width: 90% !important
 }
 
 
@@ -4382,61 +4383,62 @@ p {
   margin-top : 100px;
 }
 
-#about:before {
+/* #about:before {
   content : '';
   background : url('../../theme-assets/images/HD-CUSTOM-LOGO22.png') no-repeat center right;
   width : 1336px;
   position : absolute;
-  left : -820px;
+  left : 820px;
   height : 650px;
-}
+} */
 
-#problem-solution:before {
+/* #problem-solution:before {
   content : '';
   background : url('../../theme-assets/images/pcnp-full1.png') no-repeat center right;
   width : 711px;
   position : absolute;
-  right : -10%;
+  right : 10%;
   height : 346px;
-}
+} */
 
 #token-sale-mobile-app {
   position : relative;
 }
-#token-sale-mobile-app .token-sale:before {
+/* #token-sale-mobile-app .token-sale:before {
   content : '';
-  /* background : url('../../theme-assets/images/eterium-3.png') no-repeat center left; */
+   background : url('../../theme-assets/images/eterium-3.png') no-repeat center left; 
   width : 673px;
   position : absolute;
   left : 0;
   height : 902px;
   top : 15%;
-}
+} */
+
 #token-sale-mobile-app ul.token-sale-info li {
   color : #C7B8FF;
 }
 
-#our-coin:before {
+/* #our-coin:before {
   content : '';
   background : url('../../theme-assets/images/HD-CUSTOM-LOGO27.png') no-repeat center right;
   width : 600px;
   position : absolute;
-  right : -280px;
+  right : 280px;
   height : 292px;
-}
+} */
 
 #token-distribution h6.content-title {
   color : #FFFFFF;
 }
 
-#team:before {
+ #team:before {
   content : '';
   background : url('../../theme-assets/images/team-shape.png') no-repeat center left;
   width : 260px;
   position : absolute;
   left : 0;
   height : 424px;
-}
+} 
 
 #team .team-width p {
   color : #FFFFFF;
@@ -4454,14 +4456,14 @@ p {
   color : #7D7D7D;
 }
 
-.contact:before {
+/* .contact:before {
   content : '';
   background : url('../../theme-assets/images/eterium-last1.png') no-repeat center right;
   width : 253px;
   position : absolute;
   right : 0;
   height : 556px;
-}
+} */
 
 .exchange-listing .listing .col:before {
   border-left : 1px solid #C7B8FF;
