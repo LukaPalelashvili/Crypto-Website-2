@@ -4382,23 +4382,23 @@
         margin-top : 100px;
       }
       
-      #about:before {
+      /* #about:before {
         content : '';
         background : url('../../theme-assets/images/HD-CUSTOM-LOGO22.png') no-repeat center right;
         width : 1336px;
         position : absolute;
         left : -820px;
         height : 650px;
-      }
+      } */
       
-      #problem-solution:before {
+      /* #problem-solution:before {
         content : '';
         background : url('../../theme-assets/images/pcnp-full1.png') no-repeat center right;
         width : 711px;
         position : absolute;
         right : -10%;
         height : 346px;
-      }
+      } */
       
       #token-sale-mobile-app {
         position : relative;
@@ -4416,14 +4416,14 @@
         color : #C7B8FF;
       }
       
-      #our-coin:before {
+      /* #our-coin:before {
         content : '';
         background : url('../../theme-assets/images/HD-CUSTOM-LOGO27.png') no-repeat center right;
         width : 600px;
         position : absolute;
         right : -280px;
         height : 292px;
-      }
+      } */
       
       #token-distribution h6.content-title {
         color : #FFFFFF;
@@ -4454,14 +4454,14 @@
         color : #7D7D7D;
       }
       
-      .contact:before {
+      /* .contact:before {
         content : '';
         background : url('../../theme-assets/images/eterium-last1.png') no-repeat center right;
         width : 253px;
         position : absolute;
         right : 0;
         height : 556px;
-      }
+      } */
       
       .exchange-listing .listing .col:before {
         border-left : 1px solid #C7B8FF;
