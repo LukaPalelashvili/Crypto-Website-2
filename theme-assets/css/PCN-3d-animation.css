@@ -8,8 +8,13 @@
 * 	Author URL: http://www.themeforest.net/user/pixinvent
 * 	----------------------------------------------------------------------------------------------*/
 /*  Basic reboot css
+
+
+
     -------------------------------------------------------------------------------------------*/
-body {
+
+
+    body {
   overflow-x : hidden;
 }
 
@@ -2361,6 +2366,8 @@ svg#loader g:last-child circle {
 }
 .navbar .navbar-brand img {
   margin-right : 0.65rem;
+  width: 160px;
+  height: 60px;
 }
 .navbar .navbar-brand .brand-text {
   position : relative;

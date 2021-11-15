@@ -243,3 +243,12 @@
     height: 100% !important;
     background: #00356B;
   } */
+
+
+  .navbar-brand a img {
+    width: 180px;
+    height: 55px;
+  }
+
+
+  
