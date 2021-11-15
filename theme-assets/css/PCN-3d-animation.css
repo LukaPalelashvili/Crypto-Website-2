@@ -393,10 +393,10 @@ svg#loader g:last-child circle {
        -o-transition : 0.5s;
      -moz-transition : 0.5s;
           transition : 0.5s;
-  background-image : -webkit-linear-gradient(50deg, #BF68E6 20%, #9E48CD 51%, #BF68E6 90%);
-  background-image :    -moz-linear-gradient(50deg, #BF68E6 20%, #9E48CD 51%, #BF68E6 90%);
-  background-image :      -o-linear-gradient(50deg, #BF68E6 20%, #9E48CD 51%, #BF68E6 90%);
-  background-image :         linear-gradient(40deg, #BF68E6 20%, #9E48CD 51%, #BF68E6 90%);
+  background-image : -webkit-linear-gradient(40deg, #000000 20%, #290ecb 51%, #d91414 90%);
+  background-image :    -moz-linear-gradient(50deg, #000000 20%, #290ecb 51%, #d91414 90%);
+  background-image :      -o-linear-gradient(50deg, #000000 20%, #290ecb 51%, #d91414 90%);
+  background-image :         linear-gradient(40deg, #000000 20%, #290ecb 51%, #d91414 90%);
   background-position : left center;
   -webkit-background-size : 200% auto;
           background-size : 200% auto;
@@ -409,14 +409,14 @@ svg#loader g:last-child circle {
   color : #FFFFFF;
 }
 .btn-gradient-purple:not(:disabled):not(.disabled):active {
-  background-image : -webkit-linear-gradient(50deg, #BF68E6 0%, #9E48CD 51%, #BF68E6 90%);
-  background-image :    -moz-linear-gradient(50deg, #BF68E6 0%, #9E48CD 51%, #BF68E6 90%);
-  background-image :      -o-linear-gradient(50deg, #BF68E6 0%, #9E48CD 51%, #BF68E6 90%);
-  background-image :         linear-gradient(40deg, #BF68E6 0%, #9E48CD 51%, #BF68E6 90%);
+  background-image : -webkit-linear-gradient(50deg,#000000 20%, #290ecb 51%, #d91414 90%);
+  background-image :    -moz-linear-gradient(50deg, #000000 20%, #290ecb 51%, #d91414 90%);
+  background-image :      -o-linear-gradient(50deg, #000000 20%, #290ecb 51%, #d91414 90%);
+  background-image :         linear-gradient(40deg, #000000 20%, #290ecb 51%, #d91414 90%);
 }
 .btn-gradient-purple.btn-glow {
-  -webkit-box-shadow : 0 0 12px 0 #9E48CD;
-          box-shadow : 0 0 12px 0 #9E48CD;
+  -webkit-box-shadow : 0 0 12px 0 #000000;
+          box-shadow : 0 0 12px 0 #000000;
 }
 
 .btn-light {
