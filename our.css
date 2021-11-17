@@ -13,6 +13,28 @@
     }
 }
 
+@media screen and (max-width: 480px){
+    .jss114 {
+        margin-left: -40px;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .foooter-links-for-mobiles {
+        margin-left: 50px;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .p-t-footer {
+        margin-left: -70px;
+        margin-top: 20px;
+        
+    }
+}
+
 
 #loader-video {
     object-fit: cover;
