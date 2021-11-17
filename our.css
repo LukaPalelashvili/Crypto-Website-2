@@ -21,6 +21,26 @@
 
 
 @media screen and (max-width: 480px){
+    .footer-nav-header {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .footer-nav-main {
+        font-size: 13px;
+       
+    }
+}
+
+@media screen and (max-width: 480px){
+    .footer .footer-wrapper .title {
+        margin-bottom: 15px !important;
+    }
+}
+
+
+@media screen and (max-width: 480px){
     .foooter-links-for-mobiles {
         margin-left: 50px;
     }
