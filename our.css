@@ -55,6 +55,13 @@
     }
 }
 
+@media screen and (max-width: 480px){
+    .footer-head-line {
+        
+        
+    }
+}
+
 
 #loader-video {
     object-fit: cover;
@@ -64,6 +71,138 @@
     top: 0;
     left: 0;
         
+}
+
+#mySlider{
+    display: block;
+}
+
+#mySlider2{
+    display: block;
+}
+
+.remove-header {
+    display: block;
+}
+
+
+
+@media screen and (max-width: 480px){
+    #mySlider {
+        display: none;
+        
+    }
+}
+
+@media screen and (max-width: 480px){
+    .problema {
+        display: block;
+        
+    }
+}
+
+@media screen and (max-width: 580px){
+    #mySlider {
+        display: none;
+        
+    }
+}
+
+@media screen and (max-width: 680px){
+    #mySlider {
+        display: none;
+        
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .problema {
+        display: none;
+        
+    }
+}
+
+.footer-head-line {
+    
+    display: block;
+}
+
+
+@media screen and (min-width: 768px){
+    .footer-head-line {
+        display: none;
+        
+    }
+}
+
+/* @media screen and (max-width: 768px){
+    #mySlider {
+        display: none;
+        
+    }
+} */
+
+/* @media  screen and (min-device-width: 1024px) {
+    #mySlider2 {
+       pointer-events: none;
+   }
+} */
+
+/* @media only screen and (min-device-width: 333px) {
+    #mySlider2 {
+       pointer-events: painted !important;
+   }
+} */
+
+@media (min-width: 430px){
+    #mySlider2 {
+        pointer-events: none
+        
+        
+    }
+}
+
+/* @media  screen and (max-device-width: 780px) {
+    #mySlider2 {
+       pointer-events: none;
+   }
+}
+
+@media  screen and (max-device-width: 700px) {
+    #mySlider2 {
+       pointer-events: none;
+   }
+} */
+
+/* @media  screen and (min-device-width: 800px) {
+    #mySlider2 {
+       pointer-events: none;
+       font-size: 13px;
+   }
+} 
+
+@media  screen and (max-device-width: 800px) {
+    .doc-fix {
+       pointer-events: none;
+       font-size: 13px;
+       margin-left: -10px;
+   }
+} 
+
+@media  screen and (max-device-width: 800px) {
+    #mySlider li {
+       font-size: 10px;
+       
+   }
+}  */
+
+
+
+
+.footer-head-line {
+border-color: #333333;
+border-color: rgba(51, 51, 51, var(--border-opacity));
 }
 
 
