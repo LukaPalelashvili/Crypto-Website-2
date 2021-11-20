@@ -155,13 +155,18 @@
    }
 } */
 
-@media (min-width: 430px){
+@media screen and (min-width: 700px) {
     #mySlider2 {
         pointer-events: none
-        
-        
     }
-}
+  }
+
+
+/* @media only screen and (min-width: 400px) {
+    #mySlider2 {
+        pointer-events: none
+    }
+  } */
 
 /* @media  screen and (max-device-width: 780px) {
     #mySlider2 {
