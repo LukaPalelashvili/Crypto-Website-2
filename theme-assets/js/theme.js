@@ -119,19 +119,19 @@ $(window).on('load', function() {
     });
 
     /* FlipClock Counter */
-    // var clock;
-    // clock = $('.clock').FlipClock({
-    //     clockFace: 'DailyCounter',
-    //     autoStart: false,
-    //     callbacks: {
-    //         stop: function() {
-    //             $('.message').html('The clock has stopped!')
-    //         }
-    //     }
-    // });
-    // clock.setTime(8100000);
-    // clock.setCountdown(true);
-    // clock.start();
+    var clock;
+    clock = $('.clock').FlipClock({
+        clockFace: 'DailyCounter',
+        autoStart: false,
+        callbacks: {
+            stop: function() {
+                $('.message').html('The clock has stopped!')
+            }
+        }
+    });
+    clock.setTime(8100000);
+    clock.setCountdown(true);
+    clock.start();
 
     /* Video Modal Open / Close */
 
