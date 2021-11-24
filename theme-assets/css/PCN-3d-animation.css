@@ -2802,7 +2802,7 @@ header .navbar.navbar-shadow {
 
 /* Mobile App section : Mobile App button, information and image */
 .mobile-app {
-  padding-top : 185px;
+  /* padding-top : 185px; */
 }
 .mobile-app .btn {
   padding : 0.8rem 1.5rem;

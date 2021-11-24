@@ -12,9 +12,9 @@
 /* Preloader */
 $(window).on('load', function() {
 
-    setTimeout(function() {
-        $('body').addClass('loaded');
-    }, 200);
+    // setTimeout(function() {
+    //     $('body').addClass('loaded');
+    // }, 200);
     
     // Vertical Nav with social icons + telegram
     $('nav.vertical-social').midnight();
@@ -42,15 +42,15 @@ $(window).on('load', function() {
 
     
 
-    if($('.page-animated').length > 0){
-        InitWaypointAnimations();
-    }
+    // if($('.page-animated').length > 0){
+    //     InitWaypointAnimations();
+    // }
 
-    setTimeout(function() {
-        $('.cic-logo').addClass('cic-logo-animation');
-        $('.svg-elements-1').addClass('svg-elements-1-animation');
-        $('.svg-elements-2').addClass('svg-elements-2-animation');        
-    }, 3000);
+    // setTimeout(function() {
+    //     $('.cic-logo').addClass('cic-logo-animation');
+    //     $('.svg-elements-1').addClass('svg-elements-1-animation');
+    //     $('.svg-elements-2').addClass('svg-elements-2-animation');        
+    // }, 3000);
 
     
 });
@@ -94,7 +94,7 @@ $(window).on('load', function() {
 
     /* Menu navbar toggler animation */
     $('.main-menu .navbar-toggler').click(function(event) {
-        $('.main-menu').toggleClass('open', 2000, "swing");
+        $('.main-menu').toggleClass('open', 0, "swing");
     });
 
     /* On menu click, Smooth Scrolling */
@@ -106,7 +106,7 @@ $(window).on('load', function() {
                 event.preventDefault();
                 $('html, body').animate({
                     scrollTop: target.offset().top
-                }, 1000, function() {
+                }, 0, function() {
                     var $target = $(target);
                     $target.focus();
                     if ($target.is(":focus")) { return false; } else {
@@ -119,19 +119,19 @@ $(window).on('load', function() {
     });
 
     /* FlipClock Counter */
-    var clock;
-    clock = $('.clock').FlipClock({
-        clockFace: 'DailyCounter',
-        autoStart: false,
-        callbacks: {
-            stop: function() {
-                $('.message').html('The clock has stopped!')
-            }
-        }
-    });
-    clock.setTime(8100000);
-    clock.setCountdown(true);
-    clock.start();
+    // var clock;
+    // clock = $('.clock').FlipClock({
+    //     clockFace: 'DailyCounter',
+    //     autoStart: false,
+    //     callbacks: {
+    //         stop: function() {
+    //             $('.message').html('The clock has stopped!')
+    //         }
+    //     }
+    // });
+    // clock.setTime(8100000);
+    // clock.setCountdown(true);
+    // clock.start();
 
     /* Video Modal Open / Close */
 

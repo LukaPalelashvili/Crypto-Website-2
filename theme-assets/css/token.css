@@ -1,4 +1,21 @@
+.py-5 {
 
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+}
+
+.mt-2 {
+    margin-top: .5rem;
+}
+
+.px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.max-w-7xl {
+    max-width: 80rem;
+}
 
 .bg-arrayLight {
     --tw-bg-opacity: 1;
@@ -112,10 +129,26 @@
 
 .center-text-cor {
     padding-bottom: 10px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 
 .my-9 {
     margin-bottom: 2.25rem;
     margin-top: 2.25rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+
+.bg-arrayDark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(4,26,54,var(--tw-bg-opacity));
+}
+
+.text-main {
+    --tw-text-opacity: 1;
+    color: rgba(255,255,255,var(--tw-text-opacity));
 }
