@@ -2335,8 +2335,8 @@ svg#loader g:last-child circle {
   left : 1% !important;
   width : 44px;
   border-radius : 40px;
-  -webkit-box-shadow : 0 4px 13px 0 rgba(0, 0, 0, 0.4);
-          box-shadow : 0 4px 13px 0 rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow : 0 0 12px 0 #18b0d7;;
+  box-shadow: 0 0 12px 0 #18b0d7;
 }
 .vertical-social .midnightHeader .midnightInner ul {
   margin-bottom : 0;
@@ -4337,14 +4337,13 @@ body.inner-page {
 }
 
 .vertical-social .midnightHeader.default, .vertical-social .midnightHeader.white {
-  background : #FFFFFF;
+  background: linear-gradient(50deg, #154a75 20%, #130278 51%, #18b0d7 90%);
+
 }
 .vertical-social .midnightHeader.default ul li a, .vertical-social .midnightHeader.white ul li a {
-  color : #000000;
-}
+  color: white
 
-header .navbar.navbar-fixed {
-  /*background : #194089;*/
+
 }
 
 header .navbar .dropdown .dropdown-menu .dropdown-item {

@@ -42,15 +42,15 @@ $(window).on('load', function() {
 
     
 
-    // if($('.page-animated').length > 0){
-    //     InitWaypointAnimations();
-    // }
+    if($('.page-animated').length > 0){
+        InitWaypointAnimations();
+    }
 
-    // setTimeout(function() {
-    //     $('.cic-logo').addClass('cic-logo-animation');
-    //     $('.svg-elements-1').addClass('svg-elements-1-animation');
-    //     $('.svg-elements-2').addClass('svg-elements-2-animation');        
-    // }, 3000);
+    setTimeout(function() {
+        $('.cic-logo').addClass('cic-logo-animation');
+        $('.svg-elements-1').addClass('svg-elements-1-animation');
+        $('.svg-elements-2').addClass('svg-elements-2-animation');        
+    }, 3000);
 
     
 });

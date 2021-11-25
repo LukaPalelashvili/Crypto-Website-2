@@ -393,15 +393,15 @@
              -o-transition : 0.5s;
            -moz-transition : 0.5s;
                 transition : 0.5s;
-        background-image : -webkit-linear-gradient(50deg, #BF68E6 20%, #9E48CD 51%, #BF68E6 90%);
-        background-image :    -moz-linear-gradient(50deg, #BF68E6 20%, #9E48CD 51%, #BF68E6 90%);
-        background-image :      -o-linear-gradient(50deg, #BF68E6 20%, #9E48CD 51%, #BF68E6 90%);
-        background-image :         linear-gradient(40deg, #BF68E6 20%, #9E48CD 51%, #BF68E6 90%);
+        background-image : -webkit-linear-gradient(40deg, #154a75 20%, #130278 51%, #18b0d7 90%);
+        background-image :    -moz-linear-gradient(50deg, #154a75 20%, #130278 51%, #18b0d7 90%);
+        background-image :      -o-linear-gradient(50deg,  #154a75 20%, #130278 51%, #18b0d7 90%);
+        background-image :         linear-gradient(50deg,  #154a75 20%, #130278 51%, #18b0d7 90%);
         background-position : left center;
         -webkit-background-size : 200% auto;
                 background-size : 200% auto;
         border : 0;
-        color : #FFFFFF;
+        color : #18b0d7;
       }
       .btn-gradient-purple:hover, .btn-gradient-purple:active {
         background-position : right center;
@@ -409,14 +409,14 @@
         color : #FFFFFF;
       }
       .btn-gradient-purple:not(:disabled):not(.disabled):active {
-        background-image : -webkit-linear-gradient(50deg, #BF68E6 0%, #9E48CD 51%, #BF68E6 90%);
-        background-image :    -moz-linear-gradient(50deg, #BF68E6 0%, #9E48CD 51%, #BF68E6 90%);
-        background-image :      -o-linear-gradient(50deg, #BF68E6 0%, #9E48CD 51%, #BF68E6 90%);
-        background-image :         linear-gradient(40deg, #BF68E6 0%, #9E48CD 51%, #BF68E6 90%);
+        background-image : -webkit-linear-gradient(50deg,#000000 20%, #290ecb 51%, #d91414 90%);
+        background-image :    -moz-linear-gradient(50deg, #000000 20%, #290ecb 51%, #d91414 90%);
+        background-image :      -o-linear-gradient(50deg, #000000 20%, #290ecb 51%, #d91414 90%);
+        background-image :         linear-gradient(40deg, #000000 20%, #290ecb 51%, #d91414 90%);
       }
       .btn-gradient-purple.btn-glow {
-        -webkit-box-shadow : 0 0 12px 0 #9E48CD;
-                box-shadow : 0 0 12px 0 #9E48CD;
+        -webkit-box-shadow : 0 0 12px 0 #18b0d7;
+                box-shadow : 0 0 12px 0 #18b0d7;
       }
       
       .btn-light {
@@ -2326,8 +2326,8 @@
         left : 1% !important;
         width : 44px;
         border-radius : 40px;
-        -webkit-box-shadow : 0 4px 13px 0 rgba(0, 0, 0, 0.4);
-                box-shadow : 0 4px 13px 0 rgba(0, 0, 0, 0.4);
+        -webkit-box-shadow : 0 0 12px 0 #18b0d7;
+        box-shadow: 0 0 12px 0 #18b0d7;
       }
       .vertical-social .midnightHeader .midnightInner ul {
         margin-bottom : 0;
@@ -4326,14 +4326,33 @@
       }
       
       .vertical-social .midnightHeader.default, .vertical-social .midnightHeader.white {
-        background : #FFFFFF;
+        background: linear-gradient(50deg, #154a75 20%, #130278 51%, #18b0d7 90%);
       }
       .vertical-social .midnightHeader.default ul li a, .vertical-social .midnightHeader.white ul li a {
-        color : #000000;
+        color : white;
       }
       
       header .navbar.navbar-fixed {
         /*background : #194089;*/
+      }
+
+      .new-btn {
+        font-size: 16px;
+        line-height: 1.5;
+        border-radius: 4px;
+        -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+        -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        -moz-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        padding: 1rem 3rem;
       }
       
       header .navbar .dropdown .dropdown-menu .dropdown-item {
