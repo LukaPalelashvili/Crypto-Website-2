@@ -2414,7 +2414,7 @@ svg#loader g:last-child circle {
 }
 .navbar .dropdown .dropdown-menu {
   background-color : white;
-  margin-top : 1rem;
+  /* margin-top : 1rem; */
   min-width : 200px;
   border : none;
 }
