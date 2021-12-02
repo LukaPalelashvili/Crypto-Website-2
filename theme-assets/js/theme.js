@@ -17,7 +17,7 @@ $(window).on('load', function() {
     // }, 200);
     
     // Vertical Nav with social icons + telegram
-    $('nav.vertical-social').midnight();
+    // $('nav.vertical-social').midnight();
     
     // Navbar dropdown on hover
     $('.navbar .dropdown').on('mouseover',function () {
@@ -42,15 +42,15 @@ $(window).on('load', function() {
 
     
 
-    if($('.page-animated').length > 0){
-        InitWaypointAnimations();
-    }
+    // if($('.page-animated').length > 0){
+    //     InitWaypointAnimations();
+    // }
 
-    setTimeout(function() {
-        $('.cic-logo').addClass('cic-logo-animation');
-        $('.svg-elements-1').addClass('svg-elements-1-animation');
-        $('.svg-elements-2').addClass('svg-elements-2-animation');        
-    }, 3000);
+    // setTimeout(function() {
+    //     $('.cic-logo').addClass('cic-logo-animation');
+    //     $('.svg-elements-1').addClass('svg-elements-1-animation');
+    //     $('.svg-elements-2').addClass('svg-elements-2-animation');        
+    // }, 3000);
 
     
 });
