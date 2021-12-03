@@ -17,7 +17,7 @@ $(window).on('load', function() {
     }, 200);
     
     // Vertical Nav with social icons + telegram
-    $('nav.vertical-social').midnight();
+    // $('nav.vertical-social').midnight();
     
     // Navbar dropdown on hover
     $('.navbar .dropdown').on('mouseover',function () {
