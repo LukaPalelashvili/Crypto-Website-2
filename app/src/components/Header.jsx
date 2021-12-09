@@ -116,7 +116,7 @@ export const Header = () => {
                   </div>
                 </li>
                 <li style={{ border: 2 }} className="dropdown show mr-4 ">
-                  <a
+                  <a style={{padding: '1rem'}}
                     className="dropdown-toggle rounded  border border-radius"
                     href="#"
                     role="button"
@@ -124,7 +124,7 @@ export const Header = () => {
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    style={{ padding: '1rem !important' }}
+                    
                   >
                     {' '}
                     EN
