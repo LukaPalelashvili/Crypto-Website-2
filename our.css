@@ -481,8 +481,8 @@ border-color: rgba(51, 51, 51, var(--border-opacity));
     z-index: 0;
     overflow: hidden;
     position: absolute;
-    border-radius: inherit;
     pointer-events: none;
+    border-radius: inherit;
 }
 
 
