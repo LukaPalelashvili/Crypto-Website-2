@@ -6,6 +6,9 @@ import './css/token.css'
 import './css/main2.css'
 import './css/style.css'
 import './css/themify/style.min.css'
+import './css/animate.css'
+import './css/slick/slick1.css'
+import './css/slick/slick2.css'
 
 ReactDOM.render(
   <React.StrictMode>

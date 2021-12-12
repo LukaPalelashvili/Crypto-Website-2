@@ -1,4 +1,4 @@
-import { Particles } from '../../../components/Particles'
+import { Slider2 } from '../..//MainPage/Slider/Slider2'
 
 export const Hero = () => {
   return (
@@ -41,7 +41,7 @@ export const Hero = () => {
                   </div>
                 </div>
               </div>
-              {/*<Slider/>*/}
+              <Slider2 />
             </div>
           </div>
         </div>

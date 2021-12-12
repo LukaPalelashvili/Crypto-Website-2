@@ -47,9 +47,27 @@
   To begin the development, run `npm start` or `yarn start`.
   To create a production bundle, use `npm run build` or `yarn build`.
 -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="vendors/vendors.js"></script>
+<script src="flipclock/flipclock.js"></script>
+
+<script src="theme/theme.js"></script>
 <script src="particles/particles.js"></script>
 <script src="particles/config.js"></script>
+<script src="waypoints/waypoints.js"></script>
+<script src="slick/slick.js" id='wpos-slick-jquery-js'></script>
+<script type='text/javascript' id='wpsisac-public-script-js-extra'>
+  var Wpsisac = {"is_mobile":"0","is_rtl":"0","is_avada":"0"};</script>
+<script src="slick/slick2.js" id='wpsisac-public-script-js'></script>
 <script>
+  $(document).ready(function() {
+    InitWaypointAnimations({
+      // offset: "50%",
+      animateClass: "animated",
+      // animateGroupClass: "animate-group-on-scroll",
+    });
+  });
+
   document.addEventListener("DOMContentLoaded", () => {
       particlesJS('particle', config);
       particlesJS('particles-js2', config);

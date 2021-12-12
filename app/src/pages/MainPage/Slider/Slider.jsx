@@ -1,3 +1,9 @@
+import Picture1 from '../../../images/images slider/picture1.png'
+import Picture2 from '../../../images/images slider/picture2.png'
+import Picture3 from '../../../images/images slider/picture3.png'
+import Picture4 from '../../../images/images slider/picture4.png'
+import Picture5 from '../../../images/images slider/picture5.png'
+
 export const Slider = () => {
   return (
     <div className="col-lg-6 header-first-main-text col-md-12 ">
@@ -22,7 +28,7 @@ export const Slider = () => {
                 style={{ height: '400px' }}
               >
                 <img
-                  src="./images slider/picture1.png"
+                  src={Picture1}
                   alt="1-The urban farmers battling Bangalore’s jungle"
                 />
               </div>
@@ -34,7 +40,7 @@ export const Slider = () => {
               style={{ height: '400px' }}
             >
               <img
-                src="./images slider/picture3.png"
+                src={Picture2}
                 alt="The Head of Design at Ikea on Sampling  Versus"
               />
             </div>
@@ -47,7 +53,7 @@ export const Slider = () => {
                 style={{ height: '400px' }}
               >
                 <img
-                  src="./images slider/picture3.png"
+                  src={Picture3}
                   alt="This flagship coffee shop is about to disappear"
                 />
               </div>
@@ -58,10 +64,7 @@ export const Slider = () => {
               className="wpsisac-image-slide-wrap"
               style={{ height: '400px' }}
             >
-              <img
-                src="./images slider/picture4.png"
-                alt="Dream Homes: North Penthouse Listed"
-              />
+              <img src={Picture4} alt="Dream Homes: North Penthouse Listed" />
             </div>
           </div>
           <div className="wpsisac-image-slide">
@@ -72,7 +75,7 @@ export const Slider = () => {
                 style={{ height: '400px' }}
               >
                 <img
-                  src="./images slider/picture5.png"
+                  src={Picture5}
                   alt="Kerala: They call it Own Country for nothing"
                 />
               </div>
