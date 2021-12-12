@@ -41,7 +41,7 @@ export const Hero = () => {
                   </div>
                 </div>
               </div>
-              <Slider2 />
+              {/*<Slider2 />*/}
             </div>
           </div>
         </div>
