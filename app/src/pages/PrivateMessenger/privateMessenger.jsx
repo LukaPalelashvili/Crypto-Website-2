@@ -1,4 +1,4 @@
-import '../../css/main.css';
+// import '../../css/main.css';
 
 import MessengerIntro from '../../images/messenger-intro-2x.png';
 import { ReactComponent as PrivateAndSecureLockBottom  } from '../../images/private-and-secure-lock-bottom.svg';

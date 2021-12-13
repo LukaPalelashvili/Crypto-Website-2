@@ -1,5 +1,5 @@
 
-import '../../css/main.css';
+// import '../../css/main.css';
 import WalletIntro2x from '../../images/wallet-intro-2x.png'
 import { ReactComponent as IconArrowWhite } from '../../images/icon-arrow-right-white.svg'
 

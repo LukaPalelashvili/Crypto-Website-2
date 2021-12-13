@@ -1,13 +1,15 @@
 import LogoTransparent from '../images/Logo 2 Transparent.png'
+import {Link} from "react-router-dom";
 
 export const Header = () => {
   return (
     <header className="page-header">
       <nav className="main-menu static-top navbar-dark navbar navbar-expand-lg fixed-top mb-1">
         <div className="container">
-          <a className="navbar-brand" href="#head-area">
-            <img src={LogoTransparent} alt="Pcnprotocol Logo" />
-          </a>
+        <Link to="/" className="navbar-brand">
+          <img src={LogoTransparent} alt="Pcnprotocol Logo" />
+           </Link>
+         
           <button
             className="navbar-toggler"
             type="button"
@@ -23,7 +25,7 @@ export const Header = () => {
             <div id="navigation" className="navbar-nav ml-auto">
               <ul className="navbar-nav mt-1">
                 <li className="nav-item ">
-                  <a className="nav-link" href="index.html#about">
+                  <a className="nav-link" href="">
                     About
                   </a>
                 </li>
@@ -39,33 +41,30 @@ export const Header = () => {
                     Features
                   </a>
                   <div className="dropdown-menu" aria-labelledby="more">
-                    <a className="dropdown-item" href="Private-Messenger.html">
-                      Private Messenger
-                    </a>
-                    <a className="dropdown-item" href="Account-Generation.html">
-                      Account Generation
-                    </a>
-                    <a
-                      className="dropdown-item"
-                      href="Secure-Crypto-Wallet.html"
-                    >
-                      Secure Crypto Wallet
-                    </a>
-                    <a className="dropdown-item" href="keygard.html">
-                      KeyPass
-                    </a>
-                    <a className="dropdown-item" href="Web3-Browser.html">
-                      Web3 Browser
-                    </a>
-                    <a className="dropdown-item" href="DVPN.html">
-                      DVPN
-                    </a>
+                    <Link to="/privatemessenger" className="dropdown-item">
+                        Private Messenger
+                    </Link>
+                    <Link to="/accountgeneration" className="dropdown-item">
+                          Account Generation
+                    </Link>
+                    <Link to="/securecryoto" className="dropdown-item">
+                          Secure Crypto Wallet
+                    </Link>
+                    <Link to="/KeyPass" className="dropdown-item">
+                          KeyPass
+                    </Link>
+                    <Link to="/web3Browser" className="dropdown-item">
+                          Web3 Browser
+                    </Link>
+                    <Link to="/dvpn" className="dropdown-item">
+                          DVPN
+                    </Link>
                   </div>
                 </li>
                 <li className="nav-item ">
-                  <a className="nav-link" href="security.html">
+                 <Link to="/dvpn" className="nav-link">
                     Security
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item ">
                   <a className="nav-link" href="index.html#token-distribution">
@@ -104,9 +103,9 @@ export const Header = () => {
                     <a className="dropdown-item" href="index.html#team">
                       Team
                     </a>
-                    <a className="dropdown-item" href="faq.html">
-                      FAQ
-                    </a>
+                    <Link to="/faq" className="dropdown-item">
+                       FAQ
+                    </Link>
                     <a className="dropdown-item" href="index.html#contact">
                       Contact
                     </a>
@@ -116,7 +115,7 @@ export const Header = () => {
                   </div>
                 </li>
                 <li style={{ border: 2 }} className="dropdown show mr-4 ">
-                  <a style={{padding: '1rem'}}
+                  <a style={{padding: '.8rem'}}
                     className="dropdown-toggle rounded  border border-radius"
                     href="#"
                     role="button"
@@ -177,8 +176,8 @@ export const Header = () => {
               </ul>
               <span id="slide-line" />
               <form className="form-inline mt-2 mt-md-0">
-                <a
-                  className="btn btn-sm btn-gradient-purple btn-glow my-2 my-sm-0 "
+                <a style={{width: '83.35px', height: '35.2px', fontSize: '.875rem'}}
+                  className="btn  btn-gradient-purple btn-glow my-2 my-sm-0 "
                   href="https://pixinvent.com/demo/crypto-ico-admin/html/ltr/vertical-menu/account-login.html"
                   target="_blank"
                 >
