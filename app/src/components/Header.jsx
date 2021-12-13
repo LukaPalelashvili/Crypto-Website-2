@@ -176,8 +176,8 @@ export const Header = () => {
               </ul>
               <span id="slide-line" />
               <form className="form-inline mt-2 mt-md-0">
-                <a style={{width: '83.35px', height: '35.2px', fontSize: '.875rem'}}
-                  className="btn  btn-gradient-purple btn-glow my-2 my-sm-0 "
+                <a 
+                  className="btn btn-sm  btn-gradient-purple btn-glow my-2 my-sm-0 "
                   href="https://pixinvent.com/demo/crypto-ico-admin/html/ltr/vertical-menu/account-login.html"
                   target="_blank"
                 >

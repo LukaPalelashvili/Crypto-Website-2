@@ -8,6 +8,7 @@ import { Sale } from '../pages/MainPage/Sale/Sale'
 import { Roadmap } from '../pages/MainPage/Roadmap/Roadmap'
 import { Ratings } from '../pages/MainPage/Ratings/Ratings'
 import { Temp } from '../pages/MainPage/Temp/Temp'
+import "../css/bootstrap.min.css"
 
 export const Content = () => {
   return (

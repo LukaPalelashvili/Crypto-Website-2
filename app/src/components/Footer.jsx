@@ -52,12 +52,14 @@ export const Footer = () => {
                   <hr className="footer-head-line" />
                   <h5 className="title mySlider2">
                     <a
-                      style={{ color: 'white' }}
-                      data-toggle="collapse"
-                      className="mySlider2 footer-nav-header collapse-trigger custom-accordion-trigger flex items-center justify-between collapsed"
-                      role="button"
-                      aria-expanded="false"
-                      aria-controls="footer-nav-1"
+                        id="mySlider2"
+                        style={{ color: 'white' }}
+                        data-toggle="collapse"
+                        className="doc-fix footer-nav-header collapse-trigger custom-accordion-trigger flex items-center justify-between"
+                        href="#footer-nav-1"
+                        role="button"
+                        aria-expanded="true"
+                        aria-controls="footer-nav-1"
                     >
                       Company
                     </a>
@@ -137,7 +139,8 @@ export const Footer = () => {
                       id="mySlider2"
                       style={{ color: 'white' }}
                       data-toggle="collapse"
-                      className="footer-nav-header collapse-trigger custom-accordion-trigger flex items-center justify-between"
+                      className="doc-fix footer-nav-header collapse-trigger custom-accordion-trigger flex items-center justify-between"
+                      href="#footer-nav-2"
                       role="button"
                       aria-expanded="true"
                       aria-controls="footer-nav-2"
@@ -471,7 +474,7 @@ export const Footer = () => {
                   </div>
                   <form
                     style={{ zIndex: 999 }}
-                    action="https://messari.us17.list-manage.com/subscribe/post?u=5b89525c77acdd986027c25d1&id=72c535a8a8"
+                    action=""
                     className="jss128 animated"
                     data-animation-delay="0.6s"
                     method="POST"
@@ -480,7 +483,7 @@ export const Footer = () => {
                     <input
                       aria-hidden="true"
                       className="jss129"
-                      name="b_5b89525c77acdd986027c25d1_72c535a8a8"
+                      name=""
                       tabIndex={-1}
                       type="text"
                       defaultValue
@@ -500,7 +503,7 @@ export const Footer = () => {
                         placeholder="Email Address"
                         type="email"
                         className="MuiInputBase-input MuiFilledInput-input jss134 jss125"
-                        defaultValue
+                        
                       />
                     </div>
                     <button

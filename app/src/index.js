@@ -10,6 +10,7 @@ import './css/animate.css'
 import './css/slick/slick1.css'
 import './css/slick/slick2.css'
 
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
