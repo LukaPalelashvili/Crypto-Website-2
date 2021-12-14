@@ -1,29 +1,45 @@
+import React, { Component } from 'react'
+import Slider from 'react-slick'
 import Picture1 from '../../../images/images slider/picture1.png'
 import Picture2 from '../../../images/images slider/picture2.png'
 import Picture3 from '../../../images/images slider/picture3.png'
 import Picture4 from '../../../images/images slider/picture4.png'
 import Picture5 from '../../../images/images slider/picture5.png'
-import Slider from 'react-slick'
 
 export const Slider2 = () => {
   const settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1
   }
 
   return (
-    <Slider {...settings}>
-      <div className="col-lg-6 header-first-main-text col-md-12 ">
-        <div style={{ width: '570px', marginTop: '70px' }}>
-          <div
-            style={{
-              width: '600px',
-              marginTop: '40px !important'
-            }}
-          >
+    <div className="col-lg-6 header-first-main-text col-md-12 ">
+      <div
+        style={{ width: '570px', marginTop: '70px' }}
+        className="wpsisac-slick-carousal-wrp wpsisac-clearfix "
+        data-conf='{"slidestoshow":"3","slidestoscroll":1,"dots":"true","arrows":"true","autoplay":"true","autoplay_interval":3000,"speed":300,"rtl":"false","centermode":"true","lazyload":"","variablewidth":"false","loop":"true","hover_pause":"true"}'
+      >
+        <div
+          style={{
+            width: '600px',
+            marginTop: '40px !important'
+          }}
+        >
+          <link
+            rel="stylesheet"
+            type="text/css"
+            charset="UTF-8"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+          />
+          <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+          />
+          <Slider {...settings}>
             <div className="wpsisac-image-slide">
               <a href>
                 {' '}
@@ -85,9 +101,9 @@ export const Slider2 = () => {
                 </div>
               </a>
             </div>
-          </div>
+          </Slider>
         </div>
       </div>
-    </Slider>
+    </div>
   )
 }

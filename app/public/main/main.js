@@ -69,12 +69,6 @@ $(document).ready(function (e) {
         ),
         e('.js-language-selector-trigger').removeClass('bg-black text-white')
     }),
-    e('.js-using-snt').imagesLoaded(function () {
-      a > 767 &&
-        (t = e('.js-items').masonry({
-          itemSelector: '.js-item'
-        })).masonry('layout')
-    }),
     e('.js-box-remember').wrap(
       "<div class='bg-gray-100 flex my-12 shadow-lg'></div>"
     ),

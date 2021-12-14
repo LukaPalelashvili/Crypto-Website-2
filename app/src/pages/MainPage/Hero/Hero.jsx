@@ -1,4 +1,5 @@
 import { Slider2 } from '../..//MainPage/Slider/Slider2'
+import { Slider } from '../../../pages/MainPage/Slider/Slider'
 
 export const Hero = () => {
   return (
@@ -41,7 +42,7 @@ export const Hero = () => {
                   </div>
                 </div>
               </div>
-              {/*<Slider2 />*/}
+              <Slider2 />
             </div>
           </div>
         </div>
