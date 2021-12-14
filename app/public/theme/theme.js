@@ -161,16 +161,6 @@ $(window).on('load', function () {
     /* a poor man's stop video */
     $('#video').attr('src', $videoSrc)
   })
-
-  if ($(window).width() < 992) {
-    swiper.slideTo(2, 1000, false)
-  }
-
-  $(window).resize(function () {
-    if ($(window).width() < 992) {
-      swiper.slideTo(2, 1000, false)
-    }
-  })
 })(window, document, jQuery)
 
 /* Absolute navbar below 992(md) screen */
