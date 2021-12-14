@@ -20,7 +20,7 @@ export const Slider2 = () => {
       <div
         style={{ width: '570px', marginTop: '70px' }}
         className="wpsisac-slick-carousal-wrp wpsisac-clearfix "
-        data-conf='{"slidestoshow":"3","slidestoscroll":1,"dots":"true","arrows":"true","autoplay":"true","autoplay_interval":3000,"speed":300,"rtl":"false","centermode":"true","lazyload":"","variablewidth":"false","loop":"true","hover_pause":"true"}'
+        data-conf='{"slidestoshow":"3","slidestoscroll":1,"dots":"false","arrows":"true","autoplay":"true","autoplay_interval":3000,"speed":300,"rtl":"false","centermode":"true","lazyload":"","variablewidth":"false","loop":"true","hover_pause":"true"}'
       >
         <div
           style={{

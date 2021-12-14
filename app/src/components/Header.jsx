@@ -62,7 +62,7 @@ export const Header = () => {
                   </div>
                 </li>
                 <li className="nav-item ">
-                 <Link to="/dvpn" className="nav-link">
+                 <Link to="/security" className="nav-link">
                     Security
                   </Link>
                 </li>
