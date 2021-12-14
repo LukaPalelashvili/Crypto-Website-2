@@ -1,4 +1,4 @@
-import { Slider2 } from '../..//MainPage/Slider/Slider2'
+import { Slider2 } from '../../../pages/MainPage/Slider/Slider2'
 import { Slider } from '../../../pages/MainPage/Slider/Slider'
 
 export const Hero = () => {

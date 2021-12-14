@@ -840,9 +840,12 @@
     pointer-events: none;
 }
 
-.slick-active {
+.slick-slide {
+    transition: all ease-in-out .3s;
+}
+
+.slick-current + .slick-slide {
     transform: scale(1.2);
-    
 }
 
 .slick-initialized .slick-slide

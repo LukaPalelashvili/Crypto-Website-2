@@ -1,15 +1,15 @@
 import LogoTransparent from '../images/Logo 2 Transparent.png'
-import {Link} from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 export const Header = () => {
   return (
     <header className="page-header">
       <nav className="main-menu static-top navbar-dark navbar navbar-expand-lg fixed-top mb-1">
         <div className="container">
-        <Link to="/" className="navbar-brand">
-          <img src={LogoTransparent} alt="Pcnprotocol Logo" />
-           </Link>
-         
+          <Link to="/" className="navbar-brand">
+            <img src={LogoTransparent} alt="Pcnprotocol Logo" />
+          </Link>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -42,27 +42,27 @@ export const Header = () => {
                   </a>
                   <div className="dropdown-menu" aria-labelledby="more">
                     <Link to="/privatemessenger" className="dropdown-item">
-                        Private Messenger
+                      Private Messenger
                     </Link>
                     <Link to="/accountgeneration" className="dropdown-item">
-                          Account Generation
+                      Account Generation
                     </Link>
                     <Link to="/securecryoto" className="dropdown-item">
-                          Secure Crypto Wallet
+                      Secure Crypto Wallet
                     </Link>
                     <Link to="/KeyPass" className="dropdown-item">
-                          KeyPass
+                      KeyPass
                     </Link>
-                    <Link to="/web3Browser" className="dropdown-item">
-                          Web3 Browser
+                    <Link to="/web" className="dropdown-item">
+                      Web3 Browser
                     </Link>
                     <Link to="/dvpn" className="dropdown-item">
-                          DVPN
+                      DVPN
                     </Link>
                   </div>
                 </li>
                 <li className="nav-item ">
-                 <Link to="/security" className="nav-link">
+                  <Link to="/security" className="nav-link">
                     Security
                   </Link>
                 </li>
@@ -104,7 +104,7 @@ export const Header = () => {
                       Team
                     </a>
                     <Link to="/faq" className="dropdown-item">
-                       FAQ
+                      FAQ
                     </Link>
                     <a className="dropdown-item" href="index.html#contact">
                       Contact
@@ -115,7 +115,8 @@ export const Header = () => {
                   </div>
                 </li>
                 <li style={{ border: 2 }} className="dropdown show mr-4 ">
-                  <a style={{padding: '.8rem'}}
+                  <a
+                    style={{ padding: '.8rem' }}
                     className="dropdown-toggle rounded  border border-radius"
                     href="#"
                     role="button"
@@ -123,7 +124,6 @@ export const Header = () => {
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
-                    
                   >
                     {' '}
                     EN
@@ -176,7 +176,7 @@ export const Header = () => {
               </ul>
               <span id="slide-line" />
               <form className="form-inline mt-2 mt-md-0">
-                <a 
+                <a
                   className="btn btn-sm  btn-gradient-purple btn-glow my-2 my-sm-0 "
                   href="https://pixinvent.com/demo/crypto-ico-admin/html/ltr/vertical-menu/account-login.html"
                   target="_blank"

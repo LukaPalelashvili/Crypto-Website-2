@@ -1,6 +1,7 @@
 import Chart1 from '../../../images/Chart1.webp'
 import IconAndroid from '../../../images/icon-android.png'
 import IconApple from '../../../images/icon-apple.png'
+import { Slider2 } from '../../../pages/MainPage/Slider/Slider2'
 
 export const Sale = () => {
   return (
@@ -302,98 +303,7 @@ export const Sale = () => {
               </a>
             </div>
             <div className="col-lg-6 col-md-12 move-first">
-              <div
-                style={{ width: '570px' }}
-                className="wpsisac-slick-carousal-wrp wpsisac-clearfix "
-                data-conf='{"dots":"true","arrows":"true","autoplay":"true","autoplay_interval":3000,"speed":600,"design":"prodesign-2","rtl":"false","loop":"true","slidestoshow":3,"center_padding":0,"slidestoscroll":1,"centermode":"true","hover_pause":"true","focus_pause":"false","lazyload":""}'
-              >
-                <div
-                  id="wpsisac-pro-slick-carousal-2"
-                  className="wpsisac-slick wpsisac-slick-init wpsisac-slick-carousal wpsisac-slick-carousal-slider wpsisac-prodesign-2 wpsisac-arrow-design-1 wpsisac-dots-design-1 wpsisac-image-fit wpsisac-center-mode"
-                >
-                  <div className="wpsisac-slick-image-slide">
-                    <div className="wpsisac-slide-wrap">
-                      <div className="wpsisac-img-wrap">
-                        <img
-                          className="wpsisac-slider-img"
-                          src="./images slider/picture5.png"
-                        />
-                      </div>
-                      <div className="wpsisac-slider-content">
-                        <div className="wpsisac-slider-content-inner">
-                          <div className="wpsisac-slider-short-content">
-                            <p />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="wpsisac-slick-image-slide">
-                    <div className="wpsisac-slide-wrap">
-                      <div className="wpsisac-img-wrap">
-                        <img
-                          className="wpsisac-slider-img"
-                          src="./images slider/picture1.png"
-                        />
-                      </div>
-                      <div className="wpsisac-slider-content">
-                        <div className="wpsisac-slider-content-inner">
-                          <div className="wpsisac-slider-short-content"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="wpsisac-slick-image-slide">
-                    <div className="wpsisac-slide-wrap">
-                      <div className="wpsisac-img-wrap">
-                        <img
-                          className="wpsisac-slider-img"
-                          src="./images slider/picture2.png"
-                        />
-                      </div>
-                      <div className="wpsisac-slider-content">
-                        <div className="wpsisac-slider-content-inner">
-                          <div className="wpsisac-slider-short-content">
-                            <div className="wpsisac-readmore" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="wpsisac-slick-image-slide">
-                    <div className="wpsisac-slide-wrap">
-                      <div className="wpsisac-img-wrap">
-                        <img
-                          className="wpsisac-slider-img"
-                          src="./images slider/picture3.png"
-                        />
-                      </div>
-                      <div className="wpsisac-slider-content">
-                        <div className="wpsisac-slider-content-inner">
-                          <div className="wpsisac-slider-short-content"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="wpsisac-slick-image-slide">
-                    <div className="wpsisac-slide-wrap">
-                      <div className="wpsisac-img-wrap">
-                        <img
-                          className="wpsisac-slider-img"
-                          src="./images slider/picture4.png"
-                        />
-                      </div>
-                      <div className="wpsisac-slider-content">
-                        <div className="wpsisac-slider-content-inner">
-                          <div className="wpsisac-slider-short-content">
-                            <div className="wpsisac-readmore" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <Slider2 />
             </div>
           </div>
         </div>

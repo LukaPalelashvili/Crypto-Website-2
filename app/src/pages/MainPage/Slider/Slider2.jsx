@@ -8,7 +8,8 @@ import Picture5 from '../../../images/images slider/picture5.png'
 
 export const Slider2 = () => {
   const settings = {
-    dots: true,
+    dots: false,
+    centerMode: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -54,7 +55,10 @@ export const Slider2 = () => {
                 </div>
               </a>
             </div>
-            <div className="wpsisac-image-slide">
+            <div
+              style={{ transform: 'scale(1.2)' }}
+              className="wpsisac-image-slide"
+            >
               <div
                 className="wpsisac-image-slide-wrap"
                 style={{ height: '400px' }}
@@ -79,7 +83,10 @@ export const Slider2 = () => {
                 </div>
               </a>
             </div>
-            <div className="wpsisac-image-slide">
+            <div
+              style={{ transform: 'scale(1.2)' }}
+              className="wpsisac-image-slide"
+            >
               <div
                 className="wpsisac-image-slide-wrap"
                 style={{ height: '400px' }}
