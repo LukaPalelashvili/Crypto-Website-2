@@ -13,19 +13,30 @@ import  PrivateAndSecureBg  from '../../images/private-and-secure-bg-2x.png'
 import  PrivateAndSecureAvatar  from '../../images/private-and-secure-avatar-2x.png'
 import { ReactComponent as PrivateAndSecureKey } from '../../images/private-and-secure-key.svg';
 import { ReactComponent as IconArrowRightWhite } from '../../images/icon-arrow-right-white.svg';
+// import '../../css/main.css';
+import '../../css/PCN-3d-animation2.css';
+import '../../css/our.css';
+import '../PrivateMessenger/private.css'
 
 
 
 
 
 
+const css = {
+      
+    fontSize: '10px'
+  
 
+}
 
-export const PrivateMessenger = () => {
+export const PrivateMessenger  = () => {
     return (
         <>
-            <div className="content-wrapper">
-      <div className="content-body">
+        
+
+            <div className="content-wrapper" style={css}>
+      <div className="content-body" style={css}>
         <main>
         <section style={{marginTop: '150px'}} className="pt-16 xl:pt-0">
               <div className="max-w-screen-2xl mx-auto lg:px-12">
