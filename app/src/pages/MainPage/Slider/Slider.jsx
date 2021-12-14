@@ -37,7 +37,7 @@ export const Slider = () => {
           <div className="wpsisac-image-slide">
             <div
               className="wpsisac-image-slide-wrap"
-              style={{ height: '400px' }}
+              style={{ height: '400px', transform: 'scale(1.5)' }}
             >
               <img
                 src={Picture2}

@@ -1,6 +1,6 @@
 import React from 'react'
 // import {MainPage} from './pages/MainPage';
-import {Security} from './pages/security/security';
+// import {Security} from './pages/security/security';
 import { FAQ } from './pages/faq/faq';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { VerticalNavBar } from './components/VerticalNavBar'
@@ -28,7 +28,7 @@ function App() {
         <Route path="/web3Browser " element={<Web3Browser />} />
         <Route path="/dvpn " element={<DVPN />} />
         <Route path="/faq " element={<FAQ />} />
-        <Route path="/security " element={<Security />} />
+        {/* <Route path="/security " element={<Security />} /> */}
 
 
       </Routes>
