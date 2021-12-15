@@ -3,18 +3,20 @@ import Picture2 from '../../../images/images slider/picture2.png'
 import Picture3 from '../../../images/images slider/picture3.png'
 import Picture4 from '../../../images/images slider/picture4.png'
 import Picture5 from '../../../images/images slider/picture5.png'
+import './sliderResp.css';
 
 export const Slider = () => {
   return (
     <div className="col-lg-6 header-first-main-text col-md-12 ">
       <div
-        // style={{ width: '570px', marginTop: '70px' }}
+        style={{ width: '570px', marginTop: '80px' }}
         className="wpsisac-slick-carousal-wrp wpsisac-clearfix "
         data-conf='{"slidestoshow":"3","slidestoscroll":1,"dots":"true","arrows":"true","autoplay":"true","autoplay_interval":3000,"speed":300,"rtl":"false","centermode":"true","lazyload":"","variablewidth":"false","loop":"true","hover_pause":"true"}'
       >
-        <div
+        <div 
+        className="sliderMobileDevice"
           style={{
-            width: '600px',
+            // width: '600px',
             marginTop: '40px !important'
           }}
           id="wpsisac-slick-carousal-7"
