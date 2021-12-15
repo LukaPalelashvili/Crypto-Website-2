@@ -17,7 +17,7 @@ export const Slider2 = () => {
   }
 
   return (
-    <div className="col-lg-6 header-first-main-text col-md-12 ">
+    <div className="col-lg-6 move-first header-first-main-text col-md-12 ">
       <div
         style={{ width: '570px', marginTop: '70px' }}
         className="wpsisac-slick-carousal-wrp wpsisac-clearfix "
@@ -46,7 +46,7 @@ export const Slider2 = () => {
                 {' '}
                 <div
                   className="wpsisac-image-slide-wrap"
-                  style={{ height: '400px' }}
+                  // style={{ height: '400px' }}
                 >
                   <img
                     src={Picture1}
@@ -61,7 +61,7 @@ export const Slider2 = () => {
             >
               <div
                 className="wpsisac-image-slide-wrap"
-                style={{ height: '400px' }}
+                // style={{ height: '400px' }}
               >
                 <img
                   src={Picture2}
@@ -74,7 +74,7 @@ export const Slider2 = () => {
                 {' '}
                 <div
                   className="wpsisac-image-slide-wrap"
-                  style={{ height: '400px' }}
+                  // style={{ height: '400px' }}
                 >
                   <img
                     src={Picture3}
@@ -89,7 +89,7 @@ export const Slider2 = () => {
             >
               <div
                 className="wpsisac-image-slide-wrap"
-                style={{ height: '400px' }}
+                // style={{ height: '400px' }}
               >
                 <img src={Picture4} alt="Dream Homes: North Penthouse Listed" />
               </div>
@@ -99,7 +99,7 @@ export const Slider2 = () => {
                 {' '}
                 <div
                   className="wpsisac-image-slide-wrap"
-                  style={{ height: '400px' }}
+                  // style={{ height: '400px' }}
                 >
                   <img
                     src={Picture5}

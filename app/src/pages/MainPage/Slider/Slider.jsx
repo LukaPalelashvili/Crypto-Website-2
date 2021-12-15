@@ -8,7 +8,7 @@ export const Slider = () => {
   return (
     <div className="col-lg-6 header-first-main-text col-md-12 ">
       <div
-        style={{ width: '570px', marginTop: '70px' }}
+        // style={{ width: '570px', marginTop: '70px' }}
         className="wpsisac-slick-carousal-wrp wpsisac-clearfix "
         data-conf='{"slidestoshow":"3","slidestoscroll":1,"dots":"true","arrows":"true","autoplay":"true","autoplay_interval":3000,"speed":300,"rtl":"false","centermode":"true","lazyload":"","variablewidth":"false","loop":"true","hover_pause":"true"}'
       >
@@ -25,7 +25,7 @@ export const Slider = () => {
               {' '}
               <div
                 className="wpsisac-image-slide-wrap"
-                style={{ height: '400px' }}
+                // style={{ height: '400px' }}
               >
                 <img
                   src={Picture1}
@@ -37,7 +37,7 @@ export const Slider = () => {
           <div className="wpsisac-image-slide">
             <div
               className="wpsisac-image-slide-wrap"
-              style={{ height: '400px', transform: 'scale(1.5)' }}
+              // style={{ height: '400px', transform: 'scale(1.5)' }}
             >
               <img
                 src={Picture2}
@@ -50,7 +50,7 @@ export const Slider = () => {
               {' '}
               <div
                 className="wpsisac-image-slide-wrap"
-                style={{ height: '400px' }}
+                // style={{ height: '400px' }}
               >
                 <img
                   src={Picture3}
@@ -62,7 +62,7 @@ export const Slider = () => {
           <div className="wpsisac-image-slide">
             <div
               className="wpsisac-image-slide-wrap"
-              style={{ height: '400px' }}
+              // style={{ height: '400px' }}
             >
               <img src={Picture4} alt="Dream Homes: North Penthouse Listed" />
             </div>
@@ -72,7 +72,7 @@ export const Slider = () => {
               {' '}
               <div
                 className="wpsisac-image-slide-wrap"
-                style={{ height: '400px' }}
+                // style={{ height: '400px' }}
               >
                 <img
                   src={Picture5}

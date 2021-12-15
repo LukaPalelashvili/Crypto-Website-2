@@ -4878,12 +4878,14 @@ p {
   }
 }
 
+
+
 @media (max-width: 991.98px) {
-  .main-menu.navbar.navbar-absolute.open {
-    background : #102E65;
+  .navbar-collapse {
+    background : #140E38 !important;
   }
   .main-menu.navbar .dropdown-menu {
-    background : #14387B;
+    background : #102E65 !important;
     -webkit-box-shadow : none !important;
             box-shadow : none !important;
   }

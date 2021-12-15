@@ -9,6 +9,8 @@ export const Header = () => {
           <Link to="/" className="navbar-brand">
             <img src={LogoTransparent} alt="Pcnprotocol Logo" />
           </Link>
+          <Link to="/">    
+          </Link>
 
           <button
             className="navbar-toggler"

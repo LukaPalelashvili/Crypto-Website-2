@@ -9,7 +9,7 @@ export const Hero = () => {
         <div className="container">
           <div className="banner-wrapper">
             <div className="row align-items-center">
-              <div className="col-lg-6 col-md-12 our-slider move-first">
+              <div className="col-lg-6 col-md-12 our-slider ">
                 <div className="banner-content pt-5">
                   <h1 className="best-Template ">
                     PCN Protocol Brings the Ultimate{' '}
