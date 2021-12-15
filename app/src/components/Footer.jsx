@@ -1,4 +1,5 @@
 import PCNP6 from '../images/pcnp6.png'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
@@ -10,10 +11,9 @@ export const Footer = () => {
         <div className="container">
           <div className="footer-wrapper">
             <div
-              className="title animated fadeInUpShorter"
+              className="title animated "
               data-animation="fadeInUpShorter"
-              data-animation-delay="0.2s"
-              style={{ animationDelay: '0.2s', opacity: 1 }}
+              data-animation-delay="0.4s"
             >
               <img
                 style={{
@@ -55,11 +55,13 @@ export const Footer = () => {
                         id="mySlider2"
                         style={{ color: 'white' }}
                         data-toggle="collapse"
-                        className="doc-fix footer-nav-header collapse-trigger custom-accordion-trigger flex items-center justify-between"
+                        className="doc-fix animated footer-nav-header collapse-trigger custom-accordion-trigger flex items-center justify-between"
                         href="#footer-nav-1"
                         role="button"
                         aria-expanded="true"
                         aria-controls="footer-nav-1"
+                        data-animation="fadeInUpShorter"
+                        data-animation-delay="0.6s"
                     >
                       Company
                     </a>
@@ -74,12 +76,13 @@ export const Footer = () => {
                           className="hover:text-white footer-nav-main"
                           target="_blank"
                           rel="noreferrer"
+                        
                         >
                           Team
                         </a>
                       </li>
                       <li>
-                        <a
+                        <a href='#about'
                           className="hover:text-white footer-nav-main"
                           target="_blank"
                         >
@@ -89,7 +92,7 @@ export const Footer = () => {
                       <li>
                         <a
                           className="hover:text-white footer-nav-main"
-                          href="#"
+                          href="#roadmap"
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -99,29 +102,36 @@ export const Footer = () => {
                     </ul>
                   </div>
                   <ul id="mySlider" className="useful-links float-left mr-5">
-                    <li>
+                    <li className="animated"
+                        data-animation="fadeInUpShorter"
+                        data-animation-delay="0.6s">
                       <a
                         className="hover:text-white footer-nav-main"
                         target="_blank"
                         rel="noreferrer"
+                       
                       >
                         Team
                       </a>
                     </li>
-                    <li>
+                    <li className="animated"
+                        data-animation="fadeInUpShorter"
+                        data-animation-delay="0.7s">
                       <a
                         className="hover:text-white footer-nav-main"
-                        href="index.html#about"
+                        href="#about"
                         target="_blank"
                         rel="noreferrer"
                       >
                         About Us
                       </a>
                     </li>
-                    <li>
+                    <li className="animated"
+                        data-animation="fadeInUpShorter"
+                        data-animation-delay="0.8s">
                       <a
                         className="hover:text-white footer-nav-main"
-                        href="index.html#roadmap"
+                        href="#roadmap"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -134,16 +144,18 @@ export const Footer = () => {
               <div style={{ zIndex: 999 }} className="col-md-2">
                 <div className="links">
                   <hr className="footer-head-line" />
-                  <h5 className="title animated fadeInUpShorter">
+                  <h5 className="title ">
                     <a
                       id="mySlider2"
                       style={{ color: 'white' }}
                       data-toggle="collapse"
-                      className="doc-fix footer-nav-header collapse-trigger custom-accordion-trigger flex items-center justify-between"
+                      className="doc-fix footer-nav-header animated collapse-trigger custom-accordion-trigger flex items-center justify-between"
                       href="#footer-nav-2"
                       role="button"
                       aria-expanded="true"
                       aria-controls="footer-nav-2"
+                      data-animation="fadeInUpShorter"
+                      data-animation-delay="0.6s"
                     >
                       Features
                     </a>
@@ -156,95 +168,80 @@ export const Footer = () => {
                       <li
                         style={{
                           width: 'max-content',
-                          animationDelay: '0.9s',
-                          opacity: 1
                         }}
-                        className="footer-nav-main animated fadeInUpShorter"
-                        data-animation="fadeInUpShorter"
-                        data-animation-delay="0.9s"
+                        className="footer-nav-main"
+                       
                       >
-                        <a
-                          href="Private-messenger.html"
-                          rel="noreferrer"
-                          target="_blank"
-                        >
-                          Private Messenger
-                        </a>
+                        <Link  rel="noreferrer"
+                          target="_blank" to="/privatemessenger" className="dropdown-item">
+                      Private Messenger
+                    </Link>
                       </li>
                       <li
-                        className="footer-nav-main animated fadeInUpShorter"
-                        data-animation="fadeInUpShorter"
-                        data-animation-delay="0.9s"
-                        style={{ animationDelay: '0.9s', opacity: 1 }}
+                        className="footer-nav-main "
                       >
                         <a href="Secure-Crypto-Wallet.html">Crypto Wallet</a>
                       </li>
                       <li
                         style={{
                           lineHeight: '25px',
-                          animationDelay: '0.8s',
-                          opacity: 1
                         }}
-                        className="animated footer-nav-main"
-                        data-animation-delay="0.8s"
+                        className="footer-nav-main"
                       >
                         <a href="DVPN.html">DVPN</a>
                       </li>
                       <li
                         style={{
                           lineHeight: '25px',
-                          animationDelay: '0.8s',
                           opacity: 1
                         }}
-                        className="animated footer-nav-main"
-                        data-animation-delay="0.8s"
+                        className="footer-nav-main"
                       >
                         <a href="Web3-Browser.html">Web3 Browser</a>
                       </li>
                     </ul>
                   </div>
                   <ul id="mySlider" className="useful-links float-left mr-5">
-                    <li
+                    <li 
                       style={{
                         width: 'max-content',
-                        animationDelay: '0.9s',
                         opacity: 1
                       }}
-                      className="footer-nav-main animated fadeInUpShorter"
+                      className="animated"
                       data-animation="fadeInUpShorter"
-                      data-animation-delay="0.9s"
+                      data-animation-delay="0.6s"
                     >
-                      <a href="Private-messenger.html" target="_blank">
-                        Private Messenger
-                      </a>
+                      <Link  rel="noreferrer"
+                          target="_blank" to="/privatemessenger">
+                      Private Messenger
+                    </Link>
                     </li>
                     <li
-                      className="footer-nav-main animated fadeInUpShorter"
-                      data-animation="fadeInUpShorter"
-                      data-animation-delay="0.9s"
-                      style={{ animationDelay: '0.9s', opacity: 1 }}
+                     className="animated"
+                     data-animation="fadeInUpShorter"
+                     data-animation-delay="0.7s"
                     >
                       <a href="Secure-Crypto-Wallet.html">Crypto Wallet</a>
                     </li>
                     <li
                       style={{
                         lineHeight: '25px',
-                        animationDelay: '0.8s',
                         opacity: 1
                       }}
-                      className="animated footer-nav-main"
-                      data-animation-delay="0.8s"
+                        className="animated"
+                        data-animation="fadeInUpShorter"
+                        data-animation-delay="0.8s"
                     >
                       <a href="DVPN.html">DVPN</a>
                     </li>
                     <li
                       style={{
                         lineHeight: '25px',
-                        animationDelay: '0.8s',
                         opacity: 1
                       }}
-                      className="animated footer-nav-main"
-                      data-animation-delay="0.8s"
+                      className="animated"
+                      data-animation="fadeInUpShorter"
+                      data-animation-delay="0.9s"
                     >
                       <a href="Web3-Browser.html">Web3 Browser</a>
                     </li>
@@ -254,16 +251,18 @@ export const Footer = () => {
               <div style={{ zIndex: 999 }} className="col-md-2">
                 <div className="links">
                   <hr className="footer-head-line" />
-                  <h5 className="title animated fadeInUpShorter">
+                  <h5 className="title">
                     <a
                       id="mySlider2"
                       style={{ color: 'white' }}
                       data-toggle="collapse"
-                      className="doc-fix footer-nav-header collapse-trigger custom-accordion-trigger flex items-center justify-between"
+                      className="doc-fix footer-nav-header animated collapse-trigger custom-accordion-trigger flex items-center justify-between"
                       href="#footer-nav-3"
                       role="button"
                       aria-expanded="true"
                       aria-controls="footer-nav-3"
+                      data-animation="fadeInUpShorter"
+                      data-animation-delay="0.6s"
                     >
                       Documentation
                     </a>
@@ -274,34 +273,33 @@ export const Footer = () => {
                   >
                     <ul className="useful-links float-left mr-5">
                       <li
-                        className="footer-nav-main animated"
-                        data-animation-delay="0.6s"
-                        style={{ animationDelay: '0.6s', opacity: 1 }}
+                        className="footer-nav-main"
+                        // data-animation-delay="0.6s"
+                        // style={{ animationDelay: '0.6s', opacity: 1 }}
                       >
                         <a href="files\whitepaper.pdf" target="_blank">
                           Whitepaper
                         </a>
                       </li>
                       <li
-                        className="footer-nav-main animated"
-                        data-animation-delay="0.7s"
-                        style={{ animationDelay: '0.7s', opacity: 1 }}
+                        className="footer-nav-main "
+                        // data-animation-delay="0.7s"
+                        // style={{ animationDelay: '0.7s', opacity: 1 }}
                       >
                         <a href="privacy-policy.html" target="_blank">
                           Privacy Policy
                         </a>
                       </li>
                       <li
-                        className="footer-nav-main animated"
-                        data-animation-delay="0.8s"
-                        style={{ animationDelay: '0.8s', opacity: 1 }}
+                        className="footer-nav-main \"
+                        
                       >
                         <a href="terms-of-use.html">Terms of use</a>
                       </li>
                       <li
-                        className="footer-nav-main animated"
-                        data-animation-delay="0.8s"
-                        style={{ animationDelay: '0.8s', opacity: 1 }}
+                        // className="footer-nav-main animated"
+                        // data-animation-delay="0.8s"
+                        // style={{ animationDelay: '0.8s', opacity: 1 }}
                       >
                         <a href="faq.html" target="_blank">
                           FAQ's
@@ -311,34 +309,34 @@ export const Footer = () => {
                   </div>
                   <ul id="mySlider" className="useful-links float-left mr-5">
                     <li
-                      className="footer-nav-main animated"
-                      data-animation-delay="0.6s"
-                      style={{ animationDelay: '0.6s', opacity: 1 }}
+                     className="animated"
+                     data-animation="fadeInUpShorter"
+                     data-animation-delay="0.6s"
                     >
                       <a href="files\whitepaper.pdf" target="_blank">
                         Whitepaper
                       </a>
                     </li>
                     <li
-                      className="footer-nav-main animated"
-                      data-animation-delay="0.7s"
-                      style={{ animationDelay: '0.7s', opacity: 1 }}
+                    className="animated"
+                    data-animation="fadeInUpShorter"
+                    data-animation-delay="0.7s"
                     >
                       <a href="privacy-policy.html" target="_blank">
                         Privacy Policy
                       </a>
                     </li>
                     <li
-                      className="footer-nav-main animated"
-                      data-animation-delay="0.8s"
-                      style={{ animationDelay: '0.8s', opacity: 1 }}
+                     className="animated"
+                     data-animation="fadeInUpShorter"
+                     data-animation-delay="0.8s"
                     >
                       <a href="terms-of-use.html">Terms of use</a>
                     </li>
                     <li
-                      className="footer-nav-main animated"
-                      data-animation-delay="0.8s"
-                      style={{ animationDelay: '0.8s', opacity: 1 }}
+                   className="animated"
+                   data-animation="fadeInUpShorter"
+                   data-animation-delay="0.9s"
                     >
                       <a href="faq.html" target="_blank">
                         FAQ's
@@ -350,7 +348,7 @@ export const Footer = () => {
               <div style={{ zIndex: 999 }} className="col-md-2">
                 <div className="links">
                   <hr className="footer-head-line" />
-                  <h5 className="title animated fadeInUpShorter">
+                  <h5 className="title ">
                     <div
                       style={{ width: 'max-content' }}
                       className="lg:flex lg:items-center"
@@ -359,11 +357,13 @@ export const Footer = () => {
                         id="mySlider2"
                         style={{ color: 'white' }}
                         data-toggle="collapse"
-                        className="footer-nav-header js-collapse-trigger custom-accordion-trigger flex items-center justify-between"
+                        className="footer-nav-header animated js-collapse-trigger custom-accordion-trigger flex items-center justify-between"
                         href="#footer-nav-4"
                         role="button"
                         aria-expanded="true"
                         aria-controls="footer-nav-4"
+                        data-animation="fadeInUpShorter"
+                        data-animation-delay="0.6s"
                       >
                         PCNP Network
                       </a>
@@ -380,9 +380,8 @@ export const Footer = () => {
                   >
                     <ul className="useful-links float-left mr-5">
                       <li
-                        className="footer-nav-main animated"
-                        data-animation-delay="0.6s"
-                        style={{ animationDelay: '0.6s', opacity: 1 }}
+                        className="footer-nav-main"
+                       
                       >
                         <a href="keygard.html" target="_blank">
                           KeyPass
@@ -391,29 +390,23 @@ export const Footer = () => {
                       <li
                         style={{
                           width: 'max-content',
-                          animationDelay: '0.7s',
-                          opacity: 1
                         }}
-                        className="footer-nav-main animated"
-                        data-animation-delay="0.7s"
+                        className="footer-nav-main"
+                        
                       >
                         <a href="Account-Generation.html" target="_blank">
                           Account Generation
                         </a>
                       </li>
                       <li
-                        className="footer-nav-main animated"
-                        data-animation-delay="0.8s"
-                        style={{ animationDelay: '0.8s', opacity: 1 }}
+                        className="footer-nav-main "
                       >
                         <a href="index.html#token-sale-mobile-app">
                           Token Sale
                         </a>
                       </li>
                       <li
-                        className="footer-nav-main animated"
-                        data-animation-delay="0.8s"
-                        style={{ animationDelay: '0.8s', opacity: 1 }}
+                        className="footer-nav-main"
                       >
                         <a href="security.html" target="_blank">
                           Security
@@ -423,9 +416,9 @@ export const Footer = () => {
                   </div>
                   <ul id="mySlider" className="useful-links float-left mr-5">
                     <li
-                      className="footer-nav-main animated"
-                      data-animation-delay="0.6s"
-                      style={{ animationDelay: '0.6s', opacity: 1 }}
+                     className="animated"
+                     data-animation="fadeInUpShorter"
+                     data-animation-delay="0.6s"
                     >
                       <a href="keygard.html" target="_blank">
                         KeyPass
@@ -434,27 +427,26 @@ export const Footer = () => {
                     <li
                       style={{
                         width: 'max-content',
-                        animationDelay: '0.7s',
-                        opacity: 1
                       }}
-                      className="footer-nav-main animated"
-                      data-animation-delay="0.7s"
+                      className="animated"
+                     data-animation="fadeInUpShorter"
+                     data-animation-delay="0.7s"
                     >
                       <a href="Account-Generation.html" target="_blank">
                         Account Generation
                       </a>
                     </li>
                     <li
-                      className="footer-nav-main animated"
+                      className="animated"
+                      data-animation="fadeInUpShorter"
                       data-animation-delay="0.8s"
-                      style={{ animationDelay: '0.8s', opacity: 1 }}
                     >
                       <a href="index.html#token-sale-mobile-app">Token Sale</a>
                     </li>
                     <li
-                      className="footer-nav-main animated"
-                      data-animation-delay="0.8s"
-                      style={{ animationDelay: '0.8s', opacity: 1 }}
+                       className="animated"
+                       data-animation="fadeInUpShorter"
+                       data-animation-delay="0.9s"
                     >
                       <a href="security.html" target="_blank">
                         Security
