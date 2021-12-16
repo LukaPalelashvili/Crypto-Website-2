@@ -173,14 +173,16 @@ export const Footer = () => {
                        
                       >
                         <Link  rel="noreferrer"
-                          target="_blank" to="/privatemessenger" className="dropdown-item">
+                          target="_blank" to="/privatemessenger" >
                       Private Messenger
                     </Link>
                       </li>
                       <li
                         className="footer-nav-main "
                       >
-                        <a href="Secure-Crypto-Wallet.html">Crypto Wallet</a>
+                      <Link to="/securecryoto" target="_blank" >
+                      Crypto Wallet
+                    </Link>
                       </li>
                       <li
                         style={{
@@ -188,7 +190,10 @@ export const Footer = () => {
                         }}
                         className="footer-nav-main"
                       >
-                        <a href="DVPN.html">DVPN</a>
+                       <Link  rel="noreferrer"
+                          target="_blank" to="/dvpn" >
+                      DVPN
+                    </Link>
                       </li>
                       <li
                         style={{
@@ -197,7 +202,10 @@ export const Footer = () => {
                         }}
                         className="footer-nav-main"
                       >
-                        <a href="Web3-Browser.html">Web3 Browser</a>
+                         <Link  rel="noreferrer"
+                          target="_blank" to="/web" >
+                      Web3 Browser
+                    </Link>
                       </li>
                     </ul>
                   </div>
@@ -210,8 +218,8 @@ export const Footer = () => {
                       className="animated"
                       data-animation="fadeInUpShorter"
                       data-animation-delay="0.6s"
-                    >
-                      <Link  rel="noreferrer"
+                    >  
+                      <Link 
                           target="_blank" to="/privatemessenger">
                       Private Messenger
                     </Link>
@@ -221,7 +229,11 @@ export const Footer = () => {
                      data-animation="fadeInUpShorter"
                      data-animation-delay="0.7s"
                     >
-                      <a href="Secure-Crypto-Wallet.html">Crypto Wallet</a>
+                      <a href="Secure-Crypto-Wallet.html"></a>
+                      <Link to="/securecryoto" target="_blank" >
+                        
+                      Crypto Wallet
+                    </Link>
                     </li>
                     <li
                       style={{
@@ -232,7 +244,10 @@ export const Footer = () => {
                         data-animation="fadeInUpShorter"
                         data-animation-delay="0.8s"
                     >
-                      <a href="DVPN.html">DVPN</a>
+                      <Link  rel="noreferrer"
+                          target="_blank" to="/dvpn" >
+                      DVPN
+                    </Link>
                     </li>
                     <li
                       style={{
@@ -243,7 +258,10 @@ export const Footer = () => {
                       data-animation="fadeInUpShorter"
                       data-animation-delay="0.9s"
                     >
-                      <a href="Web3-Browser.html">Web3 Browser</a>
+                      <Link  rel="noreferrer"
+                          target="_blank" to="/web" >
+                      Web3 Browser
+                    </Link>
                     </li>
                   </ul>
                 </div>
@@ -301,9 +319,10 @@ export const Footer = () => {
                         // data-animation-delay="0.8s"
                         // style={{ animationDelay: '0.8s', opacity: 1 }}
                       >
-                        <a href="faq.html" target="_blank">
-                          FAQ's
-                        </a>
+                         <Link to="/faq" target="_blank">
+                      FAQ
+                    </Link>
+                       
                       </li>
                     </ul>
                   </div>
@@ -338,9 +357,9 @@ export const Footer = () => {
                    data-animation="fadeInUpShorter"
                    data-animation-delay="0.9s"
                     >
-                      <a href="faq.html" target="_blank">
-                        FAQ's
-                      </a>
+                      <Link to="/faq" target="_blank">
+                      FAQ
+                    </Link>
                     </li>
                   </ul>
                 </div>
@@ -383,9 +402,10 @@ export const Footer = () => {
                         className="footer-nav-main"
                        
                       >
-                        <a href="keygard.html" target="_blank">
-                          KeyPass
-                        </a>
+                         <Link to="/KeyPass" target="_blank">
+                        KeyPass
+                    </Link>
+                       
                       </li>
                       <li
                         style={{
@@ -394,9 +414,9 @@ export const Footer = () => {
                         className="footer-nav-main"
                         
                       >
-                        <a href="Account-Generation.html" target="_blank">
-                          Account Generation
-                        </a>
+                        <Link to="/accountgeneration" target="_blank">
+                      Account Generation
+                    </Link>
                       </li>
                       <li
                         className="footer-nav-main "
@@ -408,9 +428,9 @@ export const Footer = () => {
                       <li
                         className="footer-nav-main"
                       >
-                        <a href="security.html" target="_blank">
-                          Security
-                        </a>
+                        <Link to="/security" target="_blank">
+                        Security
+                    </Link>
                       </li>
                     </ul>
                   </div>
@@ -420,9 +440,9 @@ export const Footer = () => {
                      data-animation="fadeInUpShorter"
                      data-animation-delay="0.6s"
                     >
-                      <a href="keygard.html" target="_blank">
+                       <Link to="/KeyPass" target="_blank">
                         KeyPass
-                      </a>
+                    </Link>
                     </li>
                     <li
                       style={{
@@ -432,9 +452,10 @@ export const Footer = () => {
                      data-animation="fadeInUpShorter"
                      data-animation-delay="0.7s"
                     >
-                      <a href="Account-Generation.html" target="_blank">
-                        Account Generation
-                      </a>
+              
+                      <Link to="/accountgeneration" target="_blank">
+                      Account Generation
+                    </Link>
                     </li>
                     <li
                       className="animated"
@@ -448,9 +469,9 @@ export const Footer = () => {
                        data-animation="fadeInUpShorter"
                        data-animation-delay="0.9s"
                     >
-                      <a href="security.html" target="_blank">
+                      <Link to="/security" target="_blank">
                         Security
-                      </a>
+                    </Link>
                     </li>
                   </ul>
                 </div>
