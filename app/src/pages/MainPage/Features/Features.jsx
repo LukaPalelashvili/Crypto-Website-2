@@ -5,7 +5,7 @@ import { ReactComponent as NoBankSVG } from '../../..//images/no-bank.svg'
 export const Features = () => {
   return (
     <>
-      <section style={{ marginLeft: '15px' }}>
+      <section className='pcnp-feautures-block' style={{ }}>
         <div className="heading text-center">
           <div
             className="animated"
@@ -107,7 +107,7 @@ export const Features = () => {
           </div>
         </div>
       </section>
-      <section style={{ marginLeft: '15px' }}>
+      <section className='pcnp-feautures-block2' style={{  }}>
         <div className="max-w-screen-2xl mx-auto lg:px-12">
           <div className="grid md:grid-cols-2">
             <div className="relative md:-mb-16 order-2 md:order-none">

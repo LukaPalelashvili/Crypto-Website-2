@@ -4609,6 +4609,7 @@ p {
   }
   .about .content-area .what-is-crypto-img {
     text-align : center;
+    margin-left: 100px;
   }
   .about .content-area .play-video {
     top : 75%;

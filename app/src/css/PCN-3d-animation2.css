@@ -4423,13 +4423,13 @@
         position : relative;
       }
       #token-sale-mobile-app .token-sale:before {
-        content : '';
+        /* content : ''; */
         /* background : url('../../theme-assets/images/eterium-3.png') no-repeat center left; */
-        width : 673px;
+        /* width : 673px;
         position : absolute;
         left : 0;
         height : 902px;
-        top : 15%;
+        top : 15%; */
       }
       #token-sale-mobile-app ul.token-sale-info li {
         color : #C7B8FF;

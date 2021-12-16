@@ -1,0 +1,11 @@
+@media screen and (max-width: 456px) {
+    pcnp-feautures-block {
+        margin-left: -15px;
+    }
+}
+
+@media screen and (max-width: 456px) {
+    pcnp-feautures-block2 {
+        margin-left: -15px;
+    }
+}

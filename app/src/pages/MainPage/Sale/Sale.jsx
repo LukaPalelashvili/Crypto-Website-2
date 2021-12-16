@@ -2,6 +2,7 @@ import Chart1 from '../../../images/Chart1.webp'
 import IconAndroid from '../../../images/icon-android.png'
 import IconApple from '../../../images/icon-apple.png'
 import { Slider2 } from '../../../pages/MainPage/Slider/Slider2'
+import '../Sale/sale.css'
 
 export const Sale = () => {
   return (
@@ -36,7 +37,7 @@ export const Sale = () => {
             >
               <div className="token-sale-counter">
                 <h5>ICO will start in</h5>
-                <iframe
+                <iframe className='date-counter-token-sale'
                   src="https://w2.countingdownto.com/3909113"
                   width={398}
                   height={204}
