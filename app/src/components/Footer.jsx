@@ -29,14 +29,14 @@ export const Footer = () => {
                 style={{
                   marginLeft: '23px',
                   marginTop: '-25px',
-                  color: '#fff',
+                  color: '#7D7D7D',
                   fontSize: '20px'
                 }}
                 className="logo-text"
               >
                 <span
                   style={{
-                    color: 'grey',
+                    color: '#161616',
                     fontSize: '28px',
                     fontWeight: 'bolder'
                   }}

@@ -61,35 +61,35 @@ export const Sale = () => {
                 </p>
                 <div className="col-md-5">
                   <ul className="token-sale-info">
-                    <li>
+                    <li style={{color: '#7D7D7D'}}>
                       Public Pre-ITS starts{' '}
-                      <strong className="white">13 March</strong>
+                      <strong style={{color: '#161616'}} className="white">13 March</strong>
                     </li>
-                    <li>
+                    <li style={{color: '#7D7D7D'}} >
                       Public ITS starts{' '}
-                      <strong className="white">25 April</strong>
+                      <strong style={{color: '#161616'}} className="white">25 April</strong>
                     </li>
-                    <li>
-                      Public ITS ends <strong className="white">25 May</strong>
+                    <li style={{color: '#7D7D7D'}}>
+                      Public ITS ends <strong style={{color: '#161616'}} className="white">25 May</strong>
                     </li>
                   </ul>
                 </div>
                 <div className="col-md-7 pr-0">
                   <ul className="token-sale-info">
-                    <li>
+                    <li style={{color: '#7D7D7D'}}>
                       PCNP accepts
-                      <strong className="white">ETH, BTC, &amp; LTC</strong>
+                      <strong style={{color: '#161616'}} className="white">ETH, BTC, &amp; LTC</strong>
                     </li>
-                    <li>
+                    <li style={{color: '#7D7D7D'}}>
                       You can do a minimum transaction of{' '}
-                      <strong className="white">
+                      <strong style={{color: '#161616'}} className="white">
                         1 ETH, 1BTC, &amp; 1LTC.
                       </strong>
                     </li>
-                    <li>
+                    <li style={{color: '#7D7D7D'}}>
                       About 8% Tokens sold till now as the approximated number
                       of sold coins is{' '}
-                      <strong className="white">890,000 CIC</strong>
+                      <strong style={{color: '#161616'}} className="white">890,000 CIC</strong>
                     </li>
                   </ul>
                 </div>

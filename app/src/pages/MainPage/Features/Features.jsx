@@ -64,7 +64,7 @@ export const Features = () => {
               <div className="h-full flex flex-col space-between px-8 py-32 md:p-32 text-white">
                 <div className="flex-1 md:mt-12">
                   <p
-                    style={{ fontSize: '15px', color: '#fff' }}
+                    style={{ fontSize: '15px', color: '#7D7D7D' }}
                     className="text-lg 2xl:text-2xl text-gray-300 animated"
                     data-animation="fadeInUpShorter"
                     data-animation-delay="0.2s"
@@ -75,12 +75,12 @@ export const Features = () => {
                     className="title animated fadeInUpShorter"
                     data-animation="fadeInUpShorter"
                     data-animation-delay="0.2s"
-                    style={{ animationDelay: '0.2s', opacity: 1 }}
+                    style={{ color: '#161616', animationDelay: '0.2s', opacity: 1 }}
                   >
                     Hack-Proof Crypto Wallets
                   </h3>
                   <p
-                    style={{ fontSize: '16px', color: '#fff' }}
+                    style={{ fontSize: '16px', color: '#7D7D7D' }}
                     className="text-lg 2xl:text-xl mt-6 text-gray-300 animated"
                     data-animation="fadeInUpShorter"
                     data-animation-delay="0.4s"
@@ -115,7 +115,7 @@ export const Features = () => {
               <div className="h-full flex flex-col space-between px-8 py-32 md:pr-16 text-white">
                 <div>
                   <p
-                    style={{ fontSize: '15px', color: '#fff' }}
+                    style={{ fontSize: '15px', color: '#7D7D7D' }}
                     className="text-lg 2xl:text-xl text-gray-300 animated"
                     data-animation="fadeInUpShorter"
                     data-animation-delay="0.2s"
@@ -126,12 +126,12 @@ export const Features = () => {
                     className="title animated fadeInUpShorter"
                     data-animation="fadeInUpShorter"
                     data-animation-delay="0.2s"
-                    style={{ animationDelay: '0.2s', opacity: 1 }}
+                    style={{ color: '#161616', animationDelay: '0.2s', opacity: 1 }}
                   >
                     Latest Era of Web 3.0 Browser
                   </h3>
                   <p
-                    style={{ fontSize: '16px', color: 'white' }}
+                    style={{ fontSize: '16px', color: '#7D7D7D' }}
                     className="text-lg 2xl:text-xl text-gray-300 mt-4 animated"
                     data-animation="fadeInUpShorter"
                     data-animation-delay="0.3s"
@@ -143,7 +143,7 @@ export const Features = () => {
                     end-to-end encryption.{' '}
                   </p>
                   <p
-                    style={{ fontSize: '16px', color: '#fff' }}
+                    style={{ fontSize: '16px', color: '#7D7D7D' }}
                     className="text-lg 2xl:text-xl text-gray-300 mt-4 animated"
                     data-animation="fadeInUpShorter"
                     data-animation-delay="0.4s"

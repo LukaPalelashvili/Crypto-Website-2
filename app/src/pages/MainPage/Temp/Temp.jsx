@@ -17,6 +17,7 @@ export const Temp = () => (
               className="d-block animated fadeinupshorter"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.3s"
+              style={{color: '#161616'}}
             >
               PCNP is an Entirely Open-Sourced Project
             </h5>
@@ -27,7 +28,7 @@ export const Temp = () => (
             data-animation-delay="0.4s"
             style={{
               animationDelay: '0.4s',
-              color: 'white',
+              color: '#7D7D7D',
               opacity: 1
             }}
           >
@@ -65,9 +66,10 @@ export const Temp = () => (
               style={{
                 animationDelay: '0.3s',
                 textAlign: 'left',
-                color: '#FFF',
+                color: '#161616',
                 opacity: 1
               }}
+              
               className="d-block animated fadeinupshorter"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.3s"
@@ -81,7 +83,7 @@ export const Temp = () => (
             data-animation-delay="0.4s"
             style={{
               animationDelay: '0.4s',
-              color: 'white',
+              color: '#7D7D7D',
               opacity: 1
             }}
           >
@@ -95,7 +97,7 @@ export const Temp = () => (
             data-animation-delay="0.4s"
             style={{
               animationDelay: '0.4s',
-              color: 'white',
+              color: '#7D7D7D',
               opacity: 1
             }}
           >

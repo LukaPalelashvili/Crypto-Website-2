@@ -34,10 +34,7 @@ a:hover {
 body {
   line-height : 1.6;
   letter-spacing : 0.25px;
-    background-image : -webkit-linear-gradient(20deg, #140E38 0%, #140E38 25%, #14387B 35%, #14387B 65%, #140E38 75%, #140E38 100%);
-    background-image :    -moz-linear-gradient(20deg, #140E38 0%, #140E38 25%, #14387B 35%, #14387B 65%, #140E38 75%, #140E38 100%);
-    background-image :      -o-linear-gradient(20deg, #140E38 0%, #140E38 25%, #14387B 35%, #14387B 65%, #140E38 75%, #140E38 100%);
-    background-image :         linear-gradient(70deg, #140E38 0%, #140E38 25%, #14387B 35%, #14387B 65%, #140E38 75%, #140E38 100%);
+  background-color: #fff;
 
 }
 
@@ -2474,7 +2471,7 @@ svg#loader g:last-child circle {
 }
 .navbar ul.navbar-nav li .nav-link {
   font-size : 0.8rem;
-  color : #FFFFFF;
+  color: #7D7D7D;
   font-weight : 700;
   letter-spacing : 0.5px;
   padding : 0.21rem 0.95rem;
@@ -2485,7 +2482,7 @@ svg#loader g:last-child circle {
 }
 .navbar .dropdown a {
   font-size : 0.8rem;
-  color : #FFFFFF;
+  color : #7D7D7D;
   font-weight : 700;
   text-decoration : none;
   padding : 1.9rem 0.65rem;
@@ -2624,14 +2621,14 @@ header .navbar.navbar-shadow {
   z-index : 6;
 }
 .head-area .head-content h1 {
-  color : #FFFFFF;
+  color : rgb(33, 37, 41);
   font-size : 1.9rem;
   line-height : 2.75rem;
   font-weight : 700;
 }
 .head-area .head-content h3 {
   margin-top : 4.375rem;
-  color : #FFFFFF;
+  color : #7D7D7D;
   font-size : 1.125rem;
   line-height : 1.9rem;
   font-weight : 500;
@@ -2642,11 +2639,11 @@ header .navbar.navbar-shadow {
 
 /* 	About section : about content, image and play button css */
 .about .content-area h4 {
-  color : #FFFFFF;
+  color : #161616;
 }
 
 .about .content-area h6 {
-  color : #FFFFFF;
+  color : #7D7D7D;
   font-size : 1.125rem;
   line-height : 1.5rem;
 }
@@ -2713,7 +2710,7 @@ header .navbar.navbar-shadow {
 .exchange-listing .listing .col h2 {
   font-size : 2rem;
   font-weight : 600;
-  color : #FFFFFF;
+  color : #161616;
 }
 
 @media (max-width: 991.98px) {
@@ -2794,13 +2791,13 @@ header .navbar.navbar-shadow {
   }
 }
 .heading .title {
-  color : #FFFFFF;
+  color : #161616;
   padding-top : 2.25rem;
   text-transform : uppercase;
 }
 .heading .sub-title {
   width : 100%;
-  color : #DCD6F5;
+  color : #7D7D7D;
   position : absolute;
   opacity : 0.2;
   font-size : 5.625rem;
@@ -2819,13 +2816,13 @@ header .navbar.navbar-shadow {
   text-transform : uppercase;
 }
 .heading .content-desc {
-  color : #FFFFFF;
+  color : #7D7D7D;
   margin-top : 2.5rem;
 }
 
 /* Whitepaper section : Whitepaper language image and text */
 .whitepaper .content-title {
-  color : #FFFFFF;
+  color : #7D7D7D;
 }
 
 .whitepaper .whitepaper-languages a:hover {
@@ -3031,7 +3028,7 @@ header .navbar.navbar-shadow {
 
 .roadmap .timestamp {
   margin-bottom : 10px;
-  color : #FFFFFF;
+  color : #161616;
   display : -webkit-box;
   display : -webkit-flex;
   display :    -moz-box;
@@ -3107,7 +3104,7 @@ header .navbar.navbar-shadow {
   background-color : transparent;
 }
 .roadmap .timestamp.active span {
-  color : #FFFFFF;
+  color : #161616;
 }
 .roadmap .timestamp.active span:before {
   content : ' ';
@@ -3140,7 +3137,7 @@ header .navbar.navbar-shadow {
 .roadmap .status span {
   font-size : 0.875rem;
   line-height : 1.5rem;
-  color : #FFFFFF;
+  color : #7D7D7D;
 }
 .roadmap .status.active span {
   color : #FFFFFF;
@@ -4449,15 +4446,15 @@ header .navbar .dropdown .dropdown-menu .dropdown-item {
 }
 
 p {
-  color : #C7B8FF;
+  color : #7D7D7D;
 }
 
 .dark-bg-text-color {
-  color : #C7B8FF;
+  color : #161616;
 }
 
 .title {
-  color : #FFFFFF;
+  color : #7D7D7D;
 }
 
 .heading .sub-title {
