@@ -11,13 +11,13 @@ export const Temp = () => (
               style={{
                 animationDelay: '0.3s',
                 textAlign: 'left',
-                color: '#FFF',
+                color: '#FFFFFF',
                 opacity: 1
               }}
               className="d-block animated fadeinupshorter"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.3s"
-              style={{color: '#161616'}}
+              style={{color: '#FFFFFF'}}
             >
               PCNP is an Entirely Open-Sourced Project
             </h5>
@@ -66,7 +66,7 @@ export const Temp = () => (
               style={{
                 animationDelay: '0.3s',
                 textAlign: 'left',
-                color: '#161616',
+                color: '#FFFFFF',
                 opacity: 1
               }}
               
@@ -97,7 +97,7 @@ export const Temp = () => (
             data-animation-delay="0.4s"
             style={{
               animationDelay: '0.4s',
-              color: '#7D7D7D',
+              color: '#7D7D7Dzzzz',
               opacity: 1
             }}
           >

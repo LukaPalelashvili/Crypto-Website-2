@@ -15,8 +15,8 @@ import { ReactComponent as PrivateAndSecureKey } from '../../images/private-and-
 import { ReactComponent as IconArrowRightWhite } from '../../images/icon-arrow-right-white.svg';
 // import '../../css/main.css';
 import '../../css/PCN-3d-animation2.css';
-import '../../css/our.css';
-import '../PrivateMessenger/private.css'
+// import '../../css/our.css';
+// import '../PrivateMessenger/private.css'
 
 
 

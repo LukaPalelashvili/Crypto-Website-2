@@ -63,14 +63,14 @@ export const Sale = () => {
                   <ul className="token-sale-info">
                     <li style={{color: '#7D7D7D'}}>
                       Public Pre-ITS starts{' '}
-                      <strong style={{color: '#161616'}} className="white">13 March</strong>
+                      <strong style={{color: '#FFFFFF'}} className="white">13 March</strong>
                     </li>
                     <li style={{color: '#7D7D7D'}} >
                       Public ITS starts{' '}
-                      <strong style={{color: '#161616'}} className="white">25 April</strong>
+                      <strong style={{color: '#FFFFFF'}} className="white">25 April</strong>
                     </li>
                     <li style={{color: '#7D7D7D'}}>
-                      Public ITS ends <strong style={{color: '#161616'}} className="white">25 May</strong>
+                      Public ITS ends <strong style={{color: '#FFFFFF'}} className="white">25 May</strong>
                     </li>
                   </ul>
                 </div>
@@ -78,18 +78,18 @@ export const Sale = () => {
                   <ul className="token-sale-info">
                     <li style={{color: '#7D7D7D'}}>
                       PCNP accepts
-                      <strong style={{color: '#161616'}} className="white">ETH, BTC, &amp; LTC</strong>
+                      <strong style={{color: '#FFFFFF'}} className="white">ETH, BTC, &amp; LTC</strong>
                     </li>
                     <li style={{color: '#7D7D7D'}}>
                       You can do a minimum transaction of{' '}
-                      <strong style={{color: '#161616'}} className="white">
+                      <strong style={{color: '#FFFFFF'}} className="white">
                         1 ETH, 1BTC, &amp; 1LTC.
                       </strong>
                     </li>
                     <li style={{color: '#7D7D7D'}}>
                       About 8% Tokens sold till now as the approximated number
                       of sold coins is{' '}
-                      <strong style={{color: '#161616'}} className="white">890,000 CIC</strong>
+                      <strong style={{color: '#FFFFFF'}} className="white">890,000 CIC</strong>
                     </li>
                   </ul>
                 </div>

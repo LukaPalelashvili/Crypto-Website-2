@@ -2478,7 +2478,7 @@
                 transition : all 0.3s ease;
       }
       
-      header .navbar.navbar-fixed {
+      /* header .navbar.navbar-fixed {
         background : -webkit-gradient(linear, left top, right top, from(#140E38), to(#194089));
         background : -webkit-linear-gradient(left, #140E38, #194089);
         background :    -moz-linear-gradient(left, #140E38, #194089);
@@ -2490,10 +2490,10 @@
       header .navbar.navbar-shadow {
         -webkit-box-shadow : 0 5px 40px rgba(14, 42, 76, 0.2);
                 box-shadow : 0 5px 40px rgba(14, 42, 76, 0.2);
-      }
+      } */
       
       /* Medium devices (tablets, 768px and up) */
-      @media (max-width: 1199.98px) {
+      /* @media (max-width: 1199.98px) {
         .navbar ul.navbar-nav li .nav-link {
           padding-left : 0.55rem;
           padding-right : 0.55rem;
@@ -2501,7 +2501,7 @@
       }
       
       /* Responsive navbar for medium and small screen */
-      @media (max-width: 991.98px) {
+      /* @media (max-width: 991.98px) {
         .main-menu.navbar .dropdown-menu.show:before {
           display : none;
         }
@@ -2521,7 +2521,7 @@
         .main-menu.navbar div.navbar-nav .nav-link {
           padding : 0.40rem 0.65rem;
         }
-      }
+      } */ */
       
       /* 3d animation header section : Head area css */
       .head-area {

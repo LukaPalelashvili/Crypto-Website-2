@@ -28,7 +28,7 @@ export const Security = () => {
                 </h4>
               </div>
               <p
-                style={{ color: '#7D7D7D' }}
+                style={{ color: '#FFFFFF' }}
                 className="max-w-6xl text-gray-600 mt-12 text-left  text-lg 2xl:text-2xl font-display font-medium leading-normal animated"
                 data-animation="fadeInUpShorter"
                 data-animation-delay="0.4s"
@@ -81,7 +81,7 @@ export const Security = () => {
                         className="description py-6"
                       >
                         <p
-                          style={{ color: 'black' }}
+                          style={{ color: '#FFFFFF' }}
                           className="max-w-6xl text-black-600  text-1xl font-display leading-snug px-12"
                         >
                           Hey, Can i tell you a secret?{' '}
@@ -92,7 +92,7 @@ export const Security = () => {
                         style={{ width: '323px', height: '63px' }}
                         className="overlay h-full w-full justify-between px-16 items-center flex bg-black top-0 absolute"
                       >
-                        <div style={{color: '#7D7D7D'}} className=" bold  text-1xl">
+                        <div style={{color: '#FFFFFF'}} className=" bold  text-1xl">
                           10!101ß#{'{'}%3
                         </div>
                         <div className="lock relative">
@@ -133,7 +133,7 @@ export const Security = () => {
                   className="d-block white animated fadeInUpShorter"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.3s"
-                  style={{ animationDelay: '0.3s', opacity: 1, color: '#7D7D7D' }}
+                  style={{ animationDelay: '0.3s', opacity: 1, color: '#FFFFFF' }}
                 >
                   Can you imagine being paid in cryptocurrency for scrolling or
                   browsing because you have access to PCNP’s Web 3.0?
@@ -141,7 +141,7 @@ export const Security = () => {
               </div>
               <p
                 style={{
-                  color: '#7D7D7D',
+                  color: '#FFFFFF',
                   fontSize: '16px',
                   animationDelay: '0.4s',
                   opacity: 1

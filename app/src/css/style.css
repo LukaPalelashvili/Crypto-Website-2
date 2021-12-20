@@ -34,7 +34,7 @@ a:hover {
 body {
   line-height : 1.6;
   letter-spacing : 0.25px;
-  background-color: #fff;
+  background-color: #000000;
 
 }
 
@@ -2471,7 +2471,7 @@ svg#loader g:last-child circle {
 }
 .navbar ul.navbar-nav li .nav-link {
   font-size : 0.8rem;
-  color: #7D7D7D;
+  color: #FFFFFF;
   font-weight : 700;
   letter-spacing : 0.5px;
   padding : 0.21rem 0.95rem;
@@ -2482,7 +2482,7 @@ svg#loader g:last-child circle {
 }
 .navbar .dropdown a {
   font-size : 0.8rem;
-  color : #7D7D7D;
+  color : #FFFFFF;
   font-weight : 700;
   text-decoration : none;
   padding : 1.9rem 0.65rem;
@@ -2621,15 +2621,15 @@ header .navbar.navbar-shadow {
   z-index : 6;
 }
 .head-area .head-content h1 {
-  color : rgb(33, 37, 41);
-  font-size : 1.9rem;
+  color :#FFFFFF;
+  font-size : 30px;
   line-height : 2.75rem;
   font-weight : 700;
 }
 .head-area .head-content h3 {
   margin-top : 4.375rem;
-  color : #7D7D7D;
-  font-size : 1.125rem;
+  color : #FFFFFF;
+  font-size : 18px;
   line-height : 1.9rem;
   font-weight : 500;
 }
@@ -2639,11 +2639,11 @@ header .navbar.navbar-shadow {
 
 /* 	About section : about content, image and play button css */
 .about .content-area h4 {
-  color : #161616;
+  color : #FFFFFF;
 }
 
 .about .content-area h6 {
-  color : #7D7D7D;
+  color : #FFFFFF;
   font-size : 1.125rem;
   line-height : 1.5rem;
 }
@@ -2710,7 +2710,7 @@ header .navbar.navbar-shadow {
 .exchange-listing .listing .col h2 {
   font-size : 2rem;
   font-weight : 600;
-  color : #161616;
+  color : #FFFFFF;
 }
 
 @media (max-width: 991.98px) {
@@ -2791,16 +2791,17 @@ header .navbar.navbar-shadow {
   }
 }
 .heading .title {
-  color : #161616;
+  color : #FFFFFF;
   padding-top : 2.25rem;
   text-transform : uppercase;
+  font-size: 32px !important;
 }
 .heading .sub-title {
   width : 100%;
-  color : #7D7D7D;
+  color : #DCD6F5;
   position : absolute;
   opacity : 0.2;
-  font-size : 5.625rem;
+  font-size : 90px;
   font-weight : 700;
   letter-spacing : 0;
   text-align : center;
@@ -2816,13 +2817,14 @@ header .navbar.navbar-shadow {
   text-transform : uppercase;
 }
 .heading .content-desc {
-  color : #7D7D7D;
+  color : #FFFFFF;
   margin-top : 2.5rem;
+  font-size: 15.008px;
 }
 
 /* Whitepaper section : Whitepaper language image and text */
 .whitepaper .content-title {
-  color : #7D7D7D;
+  color : #FFFFFF;
 }
 
 .whitepaper .whitepaper-languages a:hover {
@@ -3028,7 +3030,7 @@ header .navbar.navbar-shadow {
 
 .roadmap .timestamp {
   margin-bottom : 10px;
-  color : #161616;
+  color : #FFFFFF;
   display : -webkit-box;
   display : -webkit-flex;
   display :    -moz-box;
@@ -3104,7 +3106,7 @@ header .navbar.navbar-shadow {
   background-color : transparent;
 }
 .roadmap .timestamp.active span {
-  color : #161616;
+  color : #FFFFFF;
 }
 .roadmap .timestamp.active span:before {
   content : ' ';
@@ -3137,7 +3139,7 @@ header .navbar.navbar-shadow {
 .roadmap .status span {
   font-size : 0.875rem;
   line-height : 1.5rem;
-  color : #7D7D7D;
+  color : #FFFFFF;
 }
 .roadmap .status.active span {
   color : #FFFFFF;
@@ -3482,6 +3484,7 @@ header .navbar.navbar-shadow {
 }
 .footer .footer-wrapper .title {
   margin-bottom : 40px;
+  font-size: 20px !important;
 }
 .footer .footer-wrapper .logo-text {
   font-size : 1.5rem;
@@ -3491,6 +3494,7 @@ header .navbar.navbar-shadow {
 }
 .footer .footer-wrapper ul.useful-links li {
   line-height : 30px;
+  font-size: 15.008px !important;
 }
 .footer .footer-wrapper ul.useful-links li a {
   color : #FFFFFF;
@@ -3498,6 +3502,11 @@ header .navbar.navbar-shadow {
 .footer .footer-wrapper ul.useful-links li a:hover {
   text-decoration : none;
 }
+
+.copy-right{
+  font-size: 16px;
+}
+
 .footer .footer-wrapper ul.social-buttons li {
   display : inline-block;
 }
@@ -4446,15 +4455,15 @@ header .navbar .dropdown .dropdown-menu .dropdown-item {
 }
 
 p {
-  color : #7D7D7D;
+  color : #C7B8FF;
 }
 
 .dark-bg-text-color {
-  color : #161616;
+  color : #FFFFFF;
 }
 
 .title {
-  color : #7D7D7D;
+  color : #FFFFFF;
 }
 
 .heading .sub-title {

@@ -68,7 +68,7 @@ export const Successes = () => {
               >
                 <span
                   style={{
-                    color: 'black',
+                    color: '#FFFFFF',
                     fontWeight: 'bolder',
                     fontFamily: 'Arial, Helvetica, sans-serif'
                   }}
