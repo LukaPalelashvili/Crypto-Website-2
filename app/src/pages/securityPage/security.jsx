@@ -22,7 +22,8 @@ export const Security = () => {
                   style={{
                     color: 'rgb(255, 255, 255)',
                     animationDelay: '1.2s',
-                    opacity: 1
+                    opacity: 1,
+                    fontSize: '48px'
                   }}
                   className="leading-tight font-display text-6xl xl:text-7xl 2xl:text-8xl"
                 >
@@ -32,7 +33,8 @@ export const Security = () => {
                   style={{
                     color: 'rgb(255, 255, 255)',
                     animationDelay: '1.5s',
-                    opacity: 1
+                    opacity: 1,
+                    fontSize: '16px'
                   }}
                   className="text-gray-600 mt-12 text-xl 2xl:text-4xl font-display font-normal leading-normal"
                 >
@@ -44,7 +46,8 @@ export const Security = () => {
                   style={{
                     color: 'rgb(255, 255, 255)',
                     animationDelay: '1.5s',
-                    opacity: 1
+                    opacity: 1,
+                    fontSize: '16px'
                   }}
                   className="text-gray-600 mt-12 text-xl 2xl:text-4xl font-display font-normal leading-normal"
                 >
@@ -83,14 +86,14 @@ export const Security = () => {
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.2s"
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '38px' }}
             >
               Guaranteed Security with 100% Anonymity at PCNP Messaging&nbsp;
             </h2>
             <div className="grid lg:grid-cols-3 gap-12 lg:gap-24 mt-12 lg:mt-32">
               <div>
                 <h4
-                  style={{ color: '#fff' }}
+                  style={{ color: '#fff', fontSize: '24px' }}
                   className="animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.2s"
@@ -98,7 +101,7 @@ export const Security = () => {
                   Uncensored Anonymous <br /> Messaging&nbsp;
                 </h4>
                 <p
-                  style={{ fontSize: '1.4rem' }}
+                  style={{ fontSize: '14px' }}
                   className="animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.4s"
@@ -110,7 +113,7 @@ export const Security = () => {
               </div>
               <div>
                 <h4
-                  style={{ color: '#fff' }}
+                  style={{ color: '#fff', fontSize: '24px' }}
                   className="animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.2s"
@@ -118,7 +121,7 @@ export const Security = () => {
                   Unbreachable Funds <br /> Transactions
                 </h4>
                 <p
-                  style={{ fontSize: '1.4rem' }}
+                  style={{ fontSize: '14px' }}
                   className="animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.4s"
@@ -131,7 +134,7 @@ export const Security = () => {
               </div>
               <div>
                 <h4
-                  style={{ color: '#fff' }}
+                  style={{ color: '#fff', fontSize: '24px' }}
                   className="animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.2s"
@@ -139,7 +142,7 @@ export const Security = () => {
                   Zero Internet <br /> Surveillance
                 </h4>
                 <p
-                  style={{ fontSize: '1.4rem' }}
+                  style={{ fontSize: '14px' }}
                   className="animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.4s"
@@ -155,7 +158,7 @@ export const Security = () => {
           </div>
           <div className="max-w-screen-xl px-8 lg:px-20 mt-20">
             <h3
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '32px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.2s"
@@ -163,7 +166,7 @@ export const Security = () => {
               Secure Encrypted PCN Identity&nbsp;
             </h3>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -174,7 +177,7 @@ export const Security = () => {
               private as you want it.
             </p>
             <h3
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '32px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.2s"
@@ -182,7 +185,7 @@ export const Security = () => {
               P2P Communication Protocol
             </h3>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -195,7 +198,7 @@ export const Security = () => {
               recipient is offline and forwards when online.
             </p>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '12px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -210,7 +213,7 @@ export const Security = () => {
               </a>
             </p>
             <h3
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '32px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.2s"
@@ -218,7 +221,7 @@ export const Security = () => {
               Secure End-to-End Communication Protocol
             </h3>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -228,7 +231,7 @@ export const Security = () => {
               between both and decrypted by the recipient contact only.
             </p>
             <h3
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '32px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.2s"
@@ -236,7 +239,7 @@ export const Security = () => {
               Additional Security with PFS
             </h3>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -247,7 +250,7 @@ export const Security = () => {
               messaging.&nbsp;
             </p>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -257,7 +260,7 @@ export const Security = () => {
               </a>
             </p>
             <h3
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '32px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.2s"
@@ -265,7 +268,7 @@ export const Security = () => {
               Pseudo-Anonymous PCNP Accounts
             </h3>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -282,7 +285,7 @@ export const Security = () => {
               offline extension in case they forget.&nbsp;
             </p>
             <h3
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '32px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.2s"
@@ -290,7 +293,7 @@ export const Security = () => {
               Securing Your PCNP User’s Key&nbsp;
             </h3>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -302,7 +305,7 @@ export const Security = () => {
               key is saved on the user's device locally.
             </p>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -314,7 +317,7 @@ export const Security = () => {
               contactless payments, managing and storing private keys.&nbsp;
             </p>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -326,7 +329,7 @@ export const Security = () => {
               .
             </p>
             <h3
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '32px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.2s"
@@ -334,7 +337,7 @@ export const Security = () => {
               Secure Incognito Web 3.0 Browsing&nbsp;
             </h3>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -353,7 +356,7 @@ export const Security = () => {
               about what the message’s make up.
             </p>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -367,7 +370,7 @@ export const Security = () => {
               </a>
             </p>
             <h3
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '32px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.2s"
@@ -375,7 +378,7 @@ export const Security = () => {
               Protection With Non-Custodial PCNP Wallet&nbsp;
             </h3>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -391,7 +394,7 @@ export const Security = () => {
               forgets the data.&nbsp;
             </p>
             <h3
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '32px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.2s"
@@ -399,7 +402,7 @@ export const Security = () => {
               Refrain Phishing Attacks With 3 Word Sign-In Phrase
             </h3>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -413,7 +416,7 @@ export const Security = () => {
               cancel the transactions, log out of the account and report to us.
             </p>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -427,7 +430,7 @@ export const Security = () => {
               </a>
             </p>
             <h3
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '32px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.2s"
@@ -435,7 +438,7 @@ export const Security = () => {
               Diligent Auditing&nbsp;
             </h3>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -453,7 +456,7 @@ export const Security = () => {
               platform for all transactions.&nbsp;
             </p>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -471,7 +474,7 @@ export const Security = () => {
               for further info.
             </p>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -489,7 +492,7 @@ export const Security = () => {
               .
             </p>
             <h3
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '32px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.2s"
@@ -497,7 +500,7 @@ export const Security = () => {
               How PCNP encourages Cyber Security with our Best Practices Guide
             </h3>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -508,7 +511,7 @@ export const Security = () => {
               censorship by third parties or even by PCNP itself.
             </p>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -530,7 +533,7 @@ export const Security = () => {
               to understand how PCNP users can stay safe.
             </p>
             <h3
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '32px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.2s"
@@ -538,7 +541,7 @@ export const Security = () => {
               24/7 Security Support&nbsp;
             </h3>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -564,7 +567,7 @@ export const Security = () => {
               .
             </p>
             <h3
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '32px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.2s"
@@ -572,7 +575,7 @@ export const Security = () => {
               Hacker one Campaign &amp; Bug Bounty Program
             </h3>
             <p
-              style={{ fontSize: '1.4rem' }}
+              style={{ fontSize: '16px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.4s"
@@ -610,7 +613,7 @@ export const Security = () => {
               data-animation-delay="0.2s"
             >
               <li>
-                <p style={{ fontSize: '1.4rem' }}>
+                <p style={{ fontSize: '16px' }}>
                   <a
                     href="https://github.com/PCN-Protocol/ens-usernames/commit/eaefa92a258c784f1df4066e057e8170bcb6ef95#diff-dbff1e6b987cbb9a6b87ea8180c41e72"
                     target="_blank"
@@ -621,7 +624,7 @@ export const Security = () => {
                 </p>
               </li>
               <li>
-                <p style={{ fontSize: '1.4rem' }}>
+                <p style={{ fontSize: '16px' }}>
                   <a
                     href="https://drive.google.com/open?id=1BqiPGBjILgbIlmMXAO8AombxW_jsQtfC"
                     target="_blank"
@@ -632,7 +635,7 @@ export const Security = () => {
                 </p>
               </li>
               <li>
-                <p style={{ fontSize: '1.4rem' }}>
+                <p style={{ fontSize: '16px' }}>
                   <a
                     href="https://drive.google.com/open?id=12ACYXvPn8WUyRg9WCooUTO3vvJVuo7lL"
                     target="_blank"
@@ -643,7 +646,7 @@ export const Security = () => {
                 </p>
               </li>
               <li>
-                <p style={{ fontSize: '1.4rem' }}>
+                <p style={{ fontSize: '16px' }}>
                   <a
                     href="https://blog.sigmaprime.io/PCNP-ens-review.html"
                     target="_blank"
@@ -655,7 +658,7 @@ export const Security = () => {
               </li>
             </ul>
             <h4
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '24px' }}
               className="animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.2s"
@@ -668,7 +671,7 @@ export const Security = () => {
               data-animation-delay="0.4s"
             >
               <li>
-                <p style={{ fontSize: '1.4rem' }}>
+                <p style={{ fontSize: '16px' }}>
                   <a
                     href="https://drive.google.com/file/d/1wB5pGPaNsQwq2udV7NmHkLuW-2JCMbnV/view"
                     target="_blank"
@@ -679,7 +682,7 @@ export const Security = () => {
                 </p>
               </li>
               <li>
-                <p style={{ fontSize: '1.4rem' }}>
+                <p style={{ fontSize: '16px' }}>
                   <a
                     href="https://blog.pcnp.io/PCNP-deja-vu-security-audit-final-report-5b6eda5a683a"
                     target="_blank"
@@ -699,7 +702,7 @@ export const Security = () => {
           <div className="grid lg:grid-cols-2 lg:gap-24">
             <div>
               <h2
-                style={{ color: '#fff' }}
+                style={{ color: '#fff', fontSize: '32px' }}
                 className="font-display text-4xl xl:text-5xl 2xl:text-6xl  animated"
                 data-animation="fadeInUpShorter"
                 data-animation-delay="0.2s"
@@ -707,7 +710,7 @@ export const Security = () => {
                 Protect Yourself
               </h2>
               <p
-                style={{ color: '#fff' }}
+                style={{ color: '#fff', fontSize: '16px' }}
                 className="mt-16 text-gray-600 text-lg 2xl:text-2xl font-display font-normal leading-normal animated"
                 data-animation="fadeInUpShorter"
                 data-animation-delay="0.4s"
@@ -725,6 +728,7 @@ export const Security = () => {
                     data-animation-delay="0.2s"
                     href="https://notes.pcnp.io/Fa9h9kCVRtm82PcgQ31Y7w"
                     target="_blank"
+                    style={{fontSize: '16px'}}
                   >
                     Learn More
                     <span className="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear">
