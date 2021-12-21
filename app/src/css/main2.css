@@ -10566,7 +10566,7 @@ d
 
 .gap-8 {
     grid-gap: 2rem;
-    gap: 2rem;
+    gap: 20px;
 }
 
 .gap-10 {

@@ -2,13 +2,19 @@ import { useState } from 'react'
 import LogoTransparent from '../images/Logo 2 Transparent.png'
 import { Link } from 'react-router-dom'
 
+import { ReactComponent as IconArrowRightWhite } from '../images/icon-arrow-right.svg';
+import { ReactComponent as IconArrowRightSmall } from '../images/icon-arrow-down-small.svg';
+
+
+
 export const Header = () => {
   const [showDropdown, setShowDropdown] = useState(false)
   const [showMoreDropdown, setShowMoreDropdown] = useState(false)
 
   return (
     <header className="page-header">
-      <nav className="main-menu static-top navbar-dark navbar navbar-expand-lg fixed-top mb-1">
+      <nav style={{background: 'rgb(255, 255, 255) none repeat scroll 0% 0%',
+boxShadow: 'rgba(0, 0, 0, 0.04) 0px 3px 40px', height: '90px'}} className="main-menu static-top navbar-dark navbar navbar-expand-lg fixed-top mb-1">
         <div className="container">
           <Link to="/" className="navbar-brand">
             <img src={LogoTransparent} alt="Pcnprotocol Logo" />
@@ -205,7 +211,7 @@ export const Header = () => {
                 className={`dropdown-menu ${showDropdown ? 'show' : ''}`}
                 aria-labelledby="more"
               >
-                <Link to="/privatemessenger" className="dropdown-item">
+                {/* <Link to="/privatemessenger" className="dropdown-item">
                   Private Messenger
                 </Link>
                 <Link to="/accountgeneration" className="dropdown-item">
@@ -222,28 +228,117 @@ export const Header = () => {
                 </Link>
                 <Link to="/dvpn" className="dropdown-item">
                   DVPN
-                </Link>
+                </Link> */}
+                <div style={{ width: '60%', marginLeft: '20%', marginTop: '30px' }} className="row">
+                        
+                    <div style={{  }} className="col-md-6">
+                    <h4 style={{color: 'black', fontSize: '24px'}} className="text-4xl xl:text-4xl font-display text-gray-900">Features</h4>
+        <p style={{color: 'black'}} className="2xl:text-2xl mt-4 font-display font-normal">Private Messenger, Crypto Wallet, <br />Web3 Browser, NFT Marketplace &amp; more</p>
+                    </div>
+
+                    <div style={{  }} className="col-md-6">
+                    <ul className="grid xl:grid-cols-2 gap-8">
+        <li>
+          <Link to="/privatemessenger" style={{fontSize: '14px', color: 'gray'}} className="flex items-center group header-nav-links">
+                      Private Messenger
+                      <span className="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
+          </Link>
+        </li>
+        <li>
+        <Link to="/accountgeneration" style={{fontSize: '14px', color: 'gray'}} className="flex items-center group header-nav-links">
+               Account Generation
+                      <span className="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
+        </Link>
+        </li>
+        <li>
+        <Link to="/KeyPass" style={{fontSize: '14px', color: 'gray'}} className="flex items-center group header-nav-links">
+                          KeyPass
+                          <span className="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
+                    </Link>
+        </li>
+        <li>
+        <Link to="/KeyPass" style={{fontSize: '14px', color: 'gray'}} className="flex items-center group header-nav-links">
+                          DVPN
+                          <span className="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
+                    </Link>
+        </li>
+        <li>
+        <Link to="/web"  style={{fontSize: '14px', color: 'gray'}} className="flex items-center group header-nav-links">
+                          Web3 Browser
+                          <span className="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
+                    </Link>
+                   
+        </li>
+        <li>
+            
+                    <Link to="/securecryoto" style={{fontSize: '14px', color: 'gray', width: 'max-content'}} className="flex items-center group header-nav-links">
+               Secure Crypto Wallet
+                      <span className="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
+        </Link>
+        </li>
+      </ul>
+
+                    </div>
+
+                    {/* <div style={{  }} className="col-md-4">
+                    <p>How Are You?</p>
+
+                    </div> */}
+              </div>
               </div>
               <div
                 className={`dropdown-menu ${showMoreDropdown ? 'show' : ''}`}
                 aria-labelledby="more"
-                style={{ width: '100%' }}
+                style={{ width: '100%',  }}
               >
-                <a className="dropdown-item" href="index.html#mobile-app">
-                  App
-                </a>
-                <a className="dropdown-item" href="index.html#team">
-                  Team
-                </a>
-                <Link to="/faq" className="dropdown-item">
-                  FAQ
-                </Link>
-                <a className="dropdown-item" href="index.html#contact">
-                  Contact
-                </a>
-                <a className="dropdown-item" href="jobs.html">
-                  Jobs
-                </a>
+                 <div style={{ width: '60%', marginLeft: '20%', marginTop: '30px' }} className="row">
+                        
+                        <div style={{  }} className="col-md-6">
+                        <h4 style={{color: 'black', fontSize: '24px'}} className="text-4xl xl:text-4xl font-display text-gray-900">More</h4>
+            <p style={{color: 'black'}} className="2xl:text-2xl mt-4 font-display font-normal">App, Team, FAQ, <br /> Contact, Jobs &amp; more</p>
+                        </div>
+    
+                        <div style={{  }} className="col-md-6">
+                        <ul className="grid xl:grid-cols-2 gap-8">
+            <li>
+              <a href="Private-Messenger.html" style={{fontSize: '14px', color: 'gray'}} className="flex items-center group header-nav-links">
+               App
+                <span className="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
+              </a>
+            </li>
+            <li>
+              <a href="Account-Generation.html" style={{fontSize: '14px', color: 'gray'}} className="flex items-center group header-nav-links">
+               Team
+                <span className="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
+              </a>
+            </li>
+            <li>
+              <a href="Secure-Crypto-Wallet.html" style={{fontSize: '14px', color: 'gray'}} className="flex items-center group header-nav-links">
+               FAQ
+                <span className="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
+              </a>
+            </li>
+            <li>
+              <a href="keygard.html" style={{fontSize: '14px', color: 'gray'}} className="flex items-center group header-nav-links">
+               Contact
+                <span className="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
+              </a>
+            </li>
+            <li>
+              <a href="Web3-Browser.html" style={{fontSize: '14px', color: 'gray'}} className="flex items-center group header-nav-links">
+                Jobs
+                <span className="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
+              </a>
+            </li>
+          </ul>
+    
+                        </div>
+    
+                        {/* <div style={{  }} className="col-md-4">
+                        <p>How Are You?</p>
+    
+                        </div> */}
+                  </div>
               </div>
             </div>
           </div>
