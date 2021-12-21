@@ -19,7 +19,7 @@ function App() {
   return (
     <BrowserRouter>
       <VerticalNavBar />
-      <Header2 />
+      <Header />
       <Routes>
         <Route path="/" exact element={<Content />} />
         <Route path="/keypass" element={<KeyPass />} />

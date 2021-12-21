@@ -1,7 +1,7 @@
 import LogoTransparent from '../images/Logo 2 Transparent.png'
 import {Link} from "react-router-dom";
-import './header2.css';
-import '../css/main.css';
+// import './header2.css';
+// import '../css/main.css';
 import { ReactComponent as IconArrowRightWhite } from '../images/icon-arrow-right.svg';
 import { ReactComponent as IconArrowRightSmall } from '../images/icon-arrow-down-small.svg';
 

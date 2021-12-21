@@ -21,8 +21,8 @@ export const SecureCryoto = () => {
             <div className="grid md:grid-cols-2">
               <div className="relative px-8 self-center xl:mb-32">
                 <span className="w-screen absolute -z-1 right-0 h-full" />
-                <h1 style={{color: '#fff'}} className="leading-tight font-display text-6xl xl:text-7xl 2xl:text-8xl ">A Crypto Super Wallet</h1>
-                <p style={{color: '#fff'}} className="text-gray-600 mt-12 text-xl 2xl:text-4xl font-display font-normal leading-normal">
+                <h1 style={{color: '#fff', fontSize: '48px'}} className="leading-tight font-display text-6xl xl:text-7xl 2xl:text-8xl ">A Crypto Super Wallet</h1>
+                <p style={{color: '#fff',fontSize: '16px'}} className="text-gray-600 mt-12 text-xl 2xl:text-4xl font-display font-normal leading-normal">
                   With the secure, non-custodial PCNP Wallet, you are in complete control of your funds. <br /> 
                   <br /> Soon on
                 </p>
@@ -51,8 +51,8 @@ export const SecureCryoto = () => {
                 </div>
               </div>
               <div className="flex flex-col px-8 order-first md:order-last justify-center items-start md:pt-0 pt-32">
-                <h3 className="font-display text-4xl xl:text-5xl 2xl:text-6xl animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">Zero Third-Party Interference in Crypto-Wallet &amp; Fund Transaction</h3>
-                <p style={{color: '#fff'}} className="text-gray-300 mt-12 text-xl font-display leading-normal animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">With PCNP crypto-wallet experience absolute freedom to send, receive and transact your funds including Eth, PCNP, DAI, NFT. User’s crypto-wallets activity and transaction trails are entirely non-custodial with zero interference from governments, banks, or PCNP.
+                <h3 style={{color: '#fff', fontSize: '32px'}} className="font-display text-4xl xl:text-5xl 2xl:text-6xl animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">Zero Third-Party Interference in Crypto-Wallet &amp; Fund Transaction</h3>
+                <p style={{color: '#fff', fontSize: '16px'}} className="text-gray-300 mt-12 text-xl font-display leading-normal animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">With PCNP crypto-wallet experience absolute freedom to send, receive and transact your funds including Eth, PCNP, DAI, NFT. User’s crypto-wallets activity and transaction trails are entirely non-custodial with zero interference from governments, banks, or PCNP.
                 </p>
                 <a style={{marginTop: '20px', animationDelay: '1.8s', opacity: 1}} href="https://our.PCNP.io/inside-the-non-custodial-wallet/" className="btn-lg new-btn btn-gradient-purple btn-glow mb-2 animated fadeInUpShorter" data-animation="fadeInUpShorter" data-animation-delay="1.8s">Learn More</a>
               </div>
@@ -65,8 +65,8 @@ export const SecureCryoto = () => {
           <div className="max-w-screen-2xl mx-auto lg:px-12">
             <div className="grid md:grid-cols-2 gap-24">
               <div className="flex flex-col px-8 justify-center items-start md:pt-0 pt-32">
-                <h3 style={{color: '#fff'}} className="font-display text-4xl xl:text-5xl 2xl:text-6xl animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">Security-Driven Design</h3>
-                <p style={{color: '#fff'}} className="text-gray-600 mt-12 text-xl font-display  leading-normal animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">Your digital assets are safe with PCNP as designed using the latest security design to secure you from anti-phishing, personal info hacking &amp; online scamming. With our security-driven design, your public &amp; private keys are safe within the PCNP wallet.&nbsp;</p>
+                <h3 style={{color: '#fff', fontSize: '32px'}} className="font-display text-4xl xl:text-5xl 2xl:text-6xl animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">Security-Driven Design</h3>
+                <p style={{color: '#fff', fontSize: '16px'}} className="text-gray-600 mt-12 text-xl font-display  leading-normal animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">Your digital assets are safe with PCNP as designed using the latest security design to secure you from anti-phishing, personal info hacking &amp; online scamming. With our security-driven design, your public &amp; private keys are safe within the PCNP wallet.&nbsp;</p>
                 <div className="flex">
                   <a style={{marginTop: '20px', animationDelay: '1.8s', opacity: 1}} href="https://specs.PCNP.io/spec/2#initial-key-generation/" className="btn-lg new-btn btn-gradient-purple btn-glow mb-2 animated fadeInUpShorter" data-animation="fadeInUpShorter" data-animation-delay="1.8s">View the Specs</a>
                 </div>
@@ -91,8 +91,8 @@ export const SecureCryoto = () => {
                     <div className="col-md-11 flex flex-col col-lg-10">
                       <img className="animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s" src={WalletPayments} />
                       <div className="order-first md:order-last mb-16 md:mb-0">
-                        <h3 style={{color: '#fff'}} className="font-display text-4xl xl:text-6xl mt-4 md:mt-24 animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">Unlimited Benefits with De-Fi based DApp Browser &amp; Wallet</h3>
-                        <p style={{color: '#fff'}} className="text-xl mt-4 animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">&nbsp;
+                        <h3 style={{color: '#fff', fontSize: '32px'}} className="font-display text-4xl xl:text-6xl mt-4 md:mt-24 animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">Unlimited Benefits with De-Fi based DApp Browser &amp; Wallet</h3>
+                        <p style={{color: '#fff', fontSize: '16px'}} className="text-xl mt-4 animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">&nbsp;
                           Unleash the opportunities to gain multiple profits from DApp web 3.0 based browser. PCNP De-Fi crypto-wallet is user-centric and integrated with the latest tech making crypto-trading more accessible.&nbsp;PCNP users can earn and trade tokens, NFTs, Crypto-coins, and more using our browser, wallet, and messaging.
                         </p>
                       </div>
@@ -104,8 +104,8 @@ export const SecureCryoto = () => {
                 <span className="w-screen absolute -z-1 left-0 h-full" />
                 <div className="h-full flex flex-col space-between px-8 py-32 md:p-32 text-white">
                   <div className="flex-1">
-                    <h3 className="font-display text-4xl xl:text-6xl mt-4 animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s"> WorldWide Accessibility For Your Crypto Transactions</h3>
-                    <p style={{color: '#fff'}} className="text-xl mt-4 text-gray-300 animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">PCNP Wallet is designed to solve the user’s transactional hassles. Now you can send &amp;&nbsp; receive global payments within a snap of time to anyone from anywhere.</p>
+                    <h3 style={{color: '#fff', fontSize: '32px'}} className="font-display text-4xl xl:text-6xl mt-4 animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s"> WorldWide Accessibility For Your Crypto Transactions</h3>
+                    <p style={{color: '#fff',fontSize: '16px'}} className="text-xl mt-4 text-gray-300 animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">PCNP Wallet is designed to solve the user’s transactional hassles. Now you can send &amp;&nbsp; receive global payments within a snap of time to anyone from anywhere.</p>
                     <a style={{marginTop: '20px', animationDelay: '1.8s', opacity: 1}} href="https://dap.ps/" className="btn-lg new-btn btn-gradient-purple btn-glow mb-2 animated fadeInUpShorter" data-animation="fadeInUpShorter" data-animation-delay="1.8s">Learn More</a>
                   </div>
                   <div className="mt-20 order-1 md:order-none -ml-8 -mr-8 md:mx-0 mb-12 md:mb-0 md:mt-48">
@@ -128,17 +128,17 @@ export const SecureCryoto = () => {
                     <WalletAccounts />
                   </div>
                   <div className="flex-1 mt-16 md:mt-32 order-first md:order-last">
-                    <h3 style={{color: '#fff'}} className="font-display text-4xl xl:text-6xl mt-4 animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">Hardware Security with Keycard</h3>
-                    <p style={{color: '#fff'}} className="text-xl text-gray-300 mt-4 animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">Add a layer of security to your account and funds with Keycard - the contactless hardware wallet.</p>
+                    <h3 style={{color: '#fff', fontSize: '32px'}} className="font-display text-4xl xl:text-6xl mt-4 animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">Hardware Security with Keycard</h3>
+                    <p style={{color: '#fff', fontSize: '16px'}} className="text-xl text-gray-300 mt-4 animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">Add a layer of security to your account and funds with Keycard - the contactless hardware wallet.</p>
                   </div>
                 </div>
               </div>
               <div className="relative order-1 md:order-none">
                 <span className=" w-screen absolute -z-1 left-0 h-full" />
                 <div className="h-full px-8 py-32 md:p-32">
-                  <h3 style={{color: '#fff'}} className="font-display text-4xl xl:text-6xl mt-4 animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">
+                  <h3 style={{color: '#fff', fontSize: '32px'}} className="font-display text-4xl xl:text-6xl mt-4 animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">
                     Dedicated Separate Wallet Accounts for Every Task</h3>
-                  <p style={{color: '#fff'}} className="text-xl text-gray-700 animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">Compartmentalize each of your accounts for personal &amp; professional specified tasks by creating special accounts for every task. Eliminate the risks of transitioning funds to the wrong recipients anymore.</p>
+                  <p style={{color: '#fff', fontSize: '16px'}} className="text-xl text-gray-700 animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">Compartmentalize each of your accounts for personal &amp; professional specified tasks by creating special accounts for every task. Eliminate the risks of transitioning funds to the wrong recipients anymore.</p>
                   <a style={{padding: '1rem 3rem', marginTop: '20px'}} href="https://get.keycard.tech/" className="btn  btn-gradient-purple btn-glow mr-4 mb-2 animated fadeInUpShorter" data-animation="fadeInUpShorter" data-animation-delay="1.7s">Learn More</a>
                   <img className="animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s" src={WalletKeycard} />
                 </div>
@@ -152,7 +152,7 @@ export const SecureCryoto = () => {
           <div className="max-w-screen-2xl mx-auto lg:py-48 lg:px-20">
             <div className="grid md:grid-cols-1">
               <div className="flex flex-col justify-center text-white lg:xl-48 px-8 items-center py-32">
-                <h3 className="font-display text-4xl xl:text-5xl 2xl:text-6xl text-center animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">Have Questions? Check out the FAQ</h3>
+                <h3 style={{color: '#fff', fontSize: '48px'}} className="font-display text-4xl xl:text-5xl 2xl:text-6xl text-center animated" data-animation="fadeInUpShorter" data-animation-delay="0.2s">Have Questions? Check out the FAQ</h3>
                 <a href="/faq/#wallet" target="_blank" className="group inline-flex group items-center text-white font-semibold font-special mt-12 animated" data-animation="fadeInUpShorter" data-animation-delay="0.4s">
                   Frequently Asked Questions
                   <span className="ml-4 group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>

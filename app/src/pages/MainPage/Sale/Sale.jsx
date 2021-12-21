@@ -2,7 +2,8 @@ import Chart1 from '../../../images/Chart1.webp'
 import IconAndroid from '../../../images/icon-android.png'
 import IconApple from '../../../images/icon-apple.png'
 import { Slider2 } from '../../../pages/MainPage/Slider/Slider2'
-import '../Sale/sale.css'
+// import '../Sale/sale.css'
+
 
 export const Sale = () => {
   return (
@@ -303,9 +304,9 @@ export const Sale = () => {
                 <span>Apple</span> <img src={IconApple} alt="" />
               </a>
             </div>
-            <div className="col-lg-6 col-md-12 move-first">
-              <Slider2 />
-            </div>
+            
+             <Slider2 />
+            
           </div>
         </div>
       </div>

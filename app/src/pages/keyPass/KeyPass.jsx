@@ -31,14 +31,14 @@ export const KeyPass = () => {
             <div className="grid grid-cols-12 gap-12">
               <div className="col-span-12 lg:col-span-7">
                 <h1
-                  style={{ color: '#fff' }}
+                  style={{ color: '#fff', fontSize: '48px' }}
                   className="leading-tight font-display text-6xl xl:text-7xl 2xl:text-8xl"
                 >
                   Additional Hardware Security with KeyPass to secure your
                   Wallet
                 </h1>
                 <p
-                  style={{ color: '#fff' }}
+                  style={{ color: '#fff', fontSize: '16px' }}
                   className="text-gray-600 mt-12 text-xl 2xl:text-4xl font-display font-normal leading-normal"
                 >
                   Take your security to the next level with KeyCard providing
@@ -77,7 +77,7 @@ export const KeyPass = () => {
               </div>
               <div className="col-span-7 lg:col-span-3">
                 <h3
-                  style={{ color: '#fff' }}
+                  style={{ color: '#fff',fontSize: '32px' }}
                   className="font-display text-4xl xl:text-5xl 2xl:text-6xl animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.5s"
@@ -85,7 +85,7 @@ export const KeyPass = () => {
                   Better Authentication &amp; Crypto Processing With KeyPass
                 </h3>
                 <p
-                  style={{ color: '#fff' }}
+                  style={{ color: '#fff', fontSize: '16px' }}
                   className="text-xl 2xl :text-2xl mt-12 text-gray-700 animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.6s"
@@ -122,7 +122,7 @@ export const KeyPass = () => {
         <section className="keycard-secure mt-20 lg:mt-64">
           <div className="max-w-screen-2xl mx-auto px-8 lg:px-20">
             <h2
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '48px' }}
               className="font-display text-4xl xl:text-7xl text-center animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.6s"
@@ -132,7 +132,7 @@ export const KeyPass = () => {
             <div className="grid md:grid-cols-2 gap-32 mt-40">
               <div className="md:pl-32">
                 <h3
-                  style={{ color: '#fff' }}
+                  style={{ color: '#fff', fontSize: '32px' }}
                   className="font-display text-4xl xl:text-5xl 2xl:text-6xl animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.7s"
@@ -141,7 +141,7 @@ export const KeyPass = () => {
                   Protect Your Digital Assets &amp; Funds
                 </h3>
                 <p
-                  style={{ color: '#fff' }}
+                  style={{ color: '#fff', fontSize: '16px' }}
                   className="text-lg 2xl:text-2xl mt-12 animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.8s"
@@ -240,7 +240,7 @@ export const KeyPass = () => {
               </div>
               <div className="md:pr-32 order-1 lg:order-none">
                 <h3
-                  style={{ color: '#fff' }}
+                  style={{ color: '#fff', fontSize: '32px' }}
                   className="font-display text-4xl xl:text-5xl 2xl:text-6xl animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.5s"
@@ -248,7 +248,7 @@ export const KeyPass = () => {
                   Protect PCNP Wallet with Two-Step Verification
                 </h3>
                 <p
-                  style={{ color: '#fff' }}
+                  style={{ color: '#fff', fontSize: '16px' }}
                   className="text-lg 2xl:text-2xl mt-12 animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.6s"
@@ -265,7 +265,7 @@ export const KeyPass = () => {
           <div className="max-w-screen-2xl mx-auto px-8 lg:px-20">
             <div className="grid lg:grid-cols-3 gap-12">
               <div className="p-8 lg:p-16 text-white">
-                <h3
+                <h3 style={{color: '#fff', fontSize: '20px'}}
                   className="text-2xl flex items-center animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.5s"
@@ -273,7 +273,7 @@ export const KeyPass = () => {
                   <AutonomyAndConfidence className="mr-12" />
                   Trustability with Autonomy
                 </h3>
-                <p
+                <p style={{color: '#fff', fontSize: '15px'}}
                   className="mt-12 text-gray-200 animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.6s"
@@ -286,7 +286,7 @@ export const KeyPass = () => {
                 </p>
               </div>
               <div className="p-8 lg:p-16 text-white">
-                <h3
+                <h3 style={{color: '#fff', fontSize: '20px'}}
                   className="text-2xl flex items-center animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.5s"
@@ -294,7 +294,7 @@ export const KeyPass = () => {
                   <MobileFirst className="mr-12" />
                   Protocol with Mobile Version
                 </h3>
-                <p
+                <p style={{color: '#fff', fontSize: '15px'}}
                   className="mt-12 text-gray-200 animated"
                   data-animation="fadeInUpShorter"
                   data-animation-delay="0.6s"
@@ -312,11 +312,13 @@ export const KeyPass = () => {
                 data-animation="fadeInUpShorter"
                 data-animation-delay="0.5s"
               >
-                <h3 className="text-2xl flex items-center">
+                <h3 style={{color: '#fff', fontSize: '20px'}} 
+                className="text-2xl flex items-center">
                   <AffordableSecurity className="mr-12" />
                   Cost-Effective Security
                 </h3>
-                <p className="mt-12 text-gray-200">
+                <p style={{color: '#fff', fontSize: '15px'}}
+                 className="mt-12 text-gray-200">
                   Invest just €24.9 to get a stronger hardware security system
                   for your crypto wallet without breaking the banks for this
                   latest tech.
@@ -335,7 +337,7 @@ export const KeyPass = () => {
         <section className="keycard-faq  py-40 mt-20 lg:mt-40">
           <div className="max-w-screen-2xl mx-auto px-8 lg:px-20 text-center">
             <h3
-              style={{ color: '#fff' }}
+              style={{ color: '#fff', fontSize: '32px'}}
               className="font-display text-4xl xl:text-5xl 2xl:text-6xl animated"
               data-animation="fadeInUpShorter"
               data-animation-delay="0.5s"
