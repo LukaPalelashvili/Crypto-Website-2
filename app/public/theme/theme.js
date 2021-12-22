@@ -67,7 +67,7 @@ $(window).on('load', function () {
     var scroll = $(window).scrollTop()
     if (scroll >= 50) {
       if ($(window).width() > 992) {
-        $('.navbar').addClass('')
+        $('.navbar ').addClass('navbar-fixed navbar-shadow')  //es
         $('.navbar #slide-line').removeClass('d-none')
         inverseNavbar(true) // For inverse navbar
       }
@@ -77,6 +77,21 @@ $(window).on('load', function () {
       inverseNavbar(false)
     }
   })
+
+  // $(window).scroll(function () {
+  //   var scroll = $(window).scrollTop()
+  //   if (scroll >= 50) {
+  //     if ($(window).width() > 992) {
+  //       $('.navbar ul.navbar-nav li a ').addClass('nav-link2')  //es
+  //       //  $('.navbar ul.navbar-nav li').removeClass('.navbar ul.navbar-nav li nav-link')
+  //       inverseNavbar(true) // For inverse navbar
+  //     }
+  //   } else {
+  //     $('.navbar ul.navbar-nav li a').removeClass('.navbar ul.navbar-nav li nav-link2')
+  //     // $('.navbar ul.navbar-nav li').addClass('.navbar ul.navbar-nav li nav-link')
+  //     inverseNavbar(false)
+  //   }
+  // })
 
   // Navbar absolute position on small screen
   navbarAbsolute()
