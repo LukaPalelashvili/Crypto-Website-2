@@ -60,14 +60,14 @@ export const Header = () => {
                     aria-haspopup="true"
                     aria-expanded="false"
                   > </a> */}
-                    <Link className="dropdown-toggle white"
+                    <a className="dropdown-toggle white"
                     href="index.html#problem-solution"
                     role="button"
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false" to="/features" className="nav-link ">
                     Features
-                  </Link>
+                  </a>
                     
                   
                 </li>

@@ -198,14 +198,14 @@
 @media (max-width: 990px) {
     .dropdown-toggle::after {
        
-        display: none !important;
-       
+        /* display: none !important;
+        */
     }
 }
 
 @media (max-width: 990px) {
     .dropdown-menu {
-        display: none !important;
+        /* display: none !important; */
     }
        
     }
