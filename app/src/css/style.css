@@ -2495,30 +2495,30 @@ svg#loader g:last-child circle {
 }
 
 .navbar ul.navbar-nav li .nav-link:hover{
-  font-size : 0.8rem;
+  /* font-size : 0.8rem; */
   color:rgb(58, 86, 212);
-  font-weight : 700;
+  /* font-weight : 700;
   letter-spacing : 0.5px;
   padding : 0.21rem 0.95rem;
-  text-decoration : none;
+  text-decoration : none; */
 }
 
 .navbar ul.navbar-nav li .nav-link2:hover{
-  font-size : 0.8rem;
+  /* font-size : 0.8rem; */
   color:rgb(58, 86, 212);
-  font-weight : 700;
+  /* font-weight : 700;
   letter-spacing : 0.5px;
   padding : 0.21rem 0.95rem;
-  text-decoration : none;
+  text-decoration : none; */
 }
 
 .dropdown:hover {
-  font-size : 0.8rem;
+  /* font-size : 0.8rem; */
   color:rgb(58, 86, 212);
-  font-weight : 700;
+  /* font-weight : 700;
   letter-spacing : 0.5px;
   padding : 0.21rem 0.95rem;
-  text-decoration : none;
+  text-decoration : none; */
 }
 
 .navbar ul.navbar-nav li::last-child {
@@ -4938,12 +4938,16 @@ p {
 
 @media (max-width: 991.98px) {
   .navbar-collapse {
-    background : #140E38 !important;
+    background: linear-gradient(to right, #000, #232526);
+    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #000;
   }
   .main-menu.navbar .dropdown-menu {
-    background : #102E65 !important;
-    -webkit-box-shadow : none !important;
-            box-shadow : none !important;
+    background: linear-gradient(to right, #000, #232526);
+    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #000;
   }
   .main-menu.navbar .dropdown-menu a {
     color : #FFFFFF;

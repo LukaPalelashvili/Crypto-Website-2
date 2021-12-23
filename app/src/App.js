@@ -14,6 +14,7 @@ import { KeyPass } from './pages/keyPass/KeyPass'
 import { Web3Browser } from './pages/web3Browser/Web3Browser'
 import { DVPN } from './pages/DVPN/DVPN'
 import { Content } from './components/Content'
+import { Features } from './pages/MainPage/Features/Features'
 
 function App() {
   return (
@@ -30,6 +31,9 @@ function App() {
         <Route path="/dvpn" element={<DVPN />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/security" element={<Security />} />
+        <Route path="/features" element={<Features />} />
+
+
       </Routes>
       <Footer />
     </BrowserRouter>

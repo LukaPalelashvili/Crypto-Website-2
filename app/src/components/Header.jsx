@@ -41,7 +41,7 @@ export const Header = () => {
                   }}
                   className="nav-item "
                 >
-                  <a className="nav-link" href="">
+                  <a className="nav-link " href="">
                     About
                   </a>
                 </li>
@@ -52,16 +52,24 @@ export const Header = () => {
                     setShowDropdown(true)
                   }}
                 >
-                  <a
+                  {/* <a
                     className="dropdown-toggle white"
                     href="index.html#problem-solution"
                     role="button"
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
-                  >
+                  > </a> */}
+                    <Link className="dropdown-toggle white"
+                    href="index.html#problem-solution"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false" to="/features" className="nav-link ">
                     Features
-                  </a>
+                  </Link>
+                    
+                  
                 </li>
                 <li
                   onMouseOver={() => {
@@ -70,7 +78,7 @@ export const Header = () => {
                   }}
                   className="nav-item "
                 >
-                  <Link to="/security" className="nav-link">
+                  <Link to="/security" className="nav-link ">
                     Security
                   </Link>
                 </li>
@@ -129,7 +137,7 @@ export const Header = () => {
                     More
                   </a>
                 </li>
-                <li style={{ border: 2 }} className="dropdown show mr-4 ">
+                <li style={{ border: 2 }} className="dropdown language-drop-down show mr-4 ">
                   <a
                     style={{ padding: '.8rem' }}
                     className="dropdown-toggle rounded  border border-radius"
