@@ -36,7 +36,7 @@ export const Footer = () => {
               >
                 <span
                   style={{
-                    color: '#161616',
+                    color: '#fff',
                     fontSize: '28px',
                     fontWeight: 'bolder'
                   }}
@@ -65,6 +65,7 @@ export const Footer = () => {
                     >
                       Company
                     </a>
+                    <hr className='title-bottom-line' />
                   </h5>
                   <div
                     className="collapse custom-accordion hidden-first-block "
@@ -160,6 +161,7 @@ export const Footer = () => {
                       Features
                     </a>
                   </h5>
+                  <hr className='title-bottom-line' />
                   <div
                     className="collapse custom-accordion hidden-first-block"
                     id="footer-nav-2"
@@ -285,6 +287,7 @@ export const Footer = () => {
                       Documentation
                     </a>
                   </h5>
+                  <hr className='title-bottom-line' />
                   <div
                     className="collapse custom-accordion hidden-first-block"
                     id="footer-nav-3"
@@ -393,6 +396,7 @@ export const Footer = () => {
                       />
                     </div>
                   </h5>
+                  <hr className='title-bottom-line' />
                   <div
                     className="collapse custom-accordion hidden-first-block"
                     id="footer-nav-4"
