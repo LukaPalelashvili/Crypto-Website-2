@@ -1,11 +1,10 @@
 import { useState } from 'react'
 import LogoTransparent from '../images/Logo 2 Transparent.png'
 import { Link } from 'react-router-dom'
+import { isDesktop, isMobile } from 'react-device-detect'
 
-import { ReactComponent as IconArrowRightWhite } from '../images/icon-arrow-right-white.svg';
-import { ReactComponent as IconArrowRightSmall } from '../images/icon-arrow-down-small.svg';
-
-
+import { ReactComponent as IconArrowRightWhite } from '../images/icon-arrow-right-white.svg'
+import { ReactComponent as IconArrowRightSmall } from '../images/icon-arrow-down-small.svg'
 
 export const Header = () => {
   const [showDropdown, setShowDropdown] = useState(false)
@@ -46,8 +45,20 @@ export const Header = () => {
                   </a>
                 </li>
                 <li
-                  className="dropdown show mr-2 px-2 "
+                  className="dropdown mr-2 px-2s"
+                  onClick={() => {
+                    if (isDesktop) {
+                      return
+                    }
+
+                    setShowDropdown(!showDropdown)
+                    setShowMoreDropdown(false)
+                  }}
                   onMouseOver={() => {
+                    if (isMobile) {
+                      return
+                    }
+
                     setShowMoreDropdown(false)
                     setShowDropdown(true)
                   }}
@@ -60,16 +71,25 @@ export const Header = () => {
                     aria-haspopup="true"
                     aria-expanded="false"
                   > </a> */}
-                    <a className="dropdown-toggle white"
-                    href="index.html#problem-solution"
-                    role="button"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false" to="/features" className="nav-link ">
+                  <span
+                    style={{ cursor: 'pointer' }}
+                    className="nav-link white"
+                  >
                     Features
-                  </a>
-                    
-                  
+                  </span>
+                  {isMobile && (
+                    <div
+                      className={`dropdown-menu ${showDropdown ? 'show' : ''}`}
+                      aria-labelledby="more"
+                    >
+                      <a className="dropdown-item">Private Messenger</a>
+                      <a className="dropdown-item">Account Generation</a>
+                      <a className="dropdown-item">Secure Crypto Wallet</a>
+                      <a className="dropdown-item">KeyPass</a>
+                      <a className="dropdown-item">Web3 Browser</a>
+                      <a className="dropdown-item">DVPN</a>
+                    </div>
+                  )}
                 </li>
                 <li
                   onMouseOver={() => {
@@ -119,25 +139,57 @@ export const Header = () => {
                   </a>
                 </li>
                 <li
+                  className="dropdown mr-2 px-2s"
+                  onClick={() => {
+                    if (isDesktop) {
+                      return
+                    }
+
+                    setShowMoreDropdown(!showMoreDropdown)
+                    setShowDropdown(false)
+                  }}
                   onMouseOver={() => {
+                    if (isMobile) {
+                      return
+                    }
+
                     setShowMoreDropdown(true)
                     setShowDropdown(false)
                   }}
-                  className={`dropdown mr-2 px-2`}
                 >
-                  <a
+                  {/* <a
                     className="dropdown-toggle white"
-                    href="#"
+                    href="index.html#problem-solution"
                     role="button"
-                    id="more"
                     data-toggle="dropdown"
                     aria-haspopup="true"
                     aria-expanded="false"
+                  > </a> */}
+                  <span
+                    style={{ cursor: 'pointer' }}
+                    className="nav-link white"
                   >
                     More
-                  </a>
+                  </span>
+                  {isMobile && (
+                    <div
+                      className={`dropdown-menu ${
+                        showMoreDropdown ? 'show' : ''
+                      }`}
+                      aria-labelledby="more"
+                    >
+                      <a className="dropdown-item">App</a>
+                      <a className="dropdown-item">Team</a>
+                      <a className="dropdown-item">FAQ</a>
+                      <a className="dropdown-item">Contact</a>
+                      <a className="dropdown-item">Jobs</a>
+                    </div>
+                  )}
                 </li>
-                <li style={{ border: 2 }} className="dropdown language-drop-down show mr-4 ">
+                <li
+                  style={{ border: 2 }}
+                  className="dropdown language-drop-down show mr-4 "
+                >
                   <a
                     style={{ padding: '.8rem' }}
                     className="dropdown-toggle rounded  border border-radius"
@@ -207,18 +259,19 @@ export const Header = () => {
                   Sign in
                 </a>
               </form>
-              <div
-                onMouseLeave={() => {
-                  setShowDropdown(false)
-                }}
-                onMouseOver={() => {
-                  setShowDropdown(true)
-                }}
-                style={{ width: '100%' }}
-                className={`dropdown-menu ${showDropdown ? 'show' : ''}`}
-                aria-labelledby="more"
-              >
-                {/* <Link to="/privatemessenger" className="dropdown-item">
+              {isDesktop && (
+                <div
+                  onMouseLeave={() => {
+                    setShowDropdown(false)
+                  }}
+                  onMouseOver={() => {
+                    setShowDropdown(true)
+                  }}
+                  style={{ width: '100%' }}
+                  className={`dropdown-menu ${showDropdown ? 'show' : ''}`}
+                  aria-labelledby="more"
+                >
+                  {/* <Link to="/privatemessenger" className="dropdown-item">
                   Private Messenger
                 </Link>
                 <Link to="/accountgeneration" className="dropdown-item">
@@ -236,123 +289,258 @@ export const Header = () => {
                 <Link to="/dvpn" className="dropdown-item">
                   DVPN
                 </Link> */}
-                <div style={{ width: '60%', marginLeft: '20%', marginTop: '30px' }} className="row">
-                        
-                    <div style={{  }} className="col-md-6">
-                    <h4 style={{color: '#fff', fontSize: '24px'}} className="text-4xl xl:text-4xl font-display text-gray-900">Features</h4>
-        <p style={{color: '#fff'}} className="2xl:text-2xl mt-4 font-display font-normal">Private Messenger, Crypto Wallet, <br />Web3 Browser, NFT Marketplace &amp; more</p>
+                  <div
+                    style={{
+                      width: '60%',
+                      marginLeft: '20%',
+                      marginTop: '30px'
+                    }}
+                    className="row"
+                  >
+                    <div style={{}} className="col-md-6">
+                      <h4
+                        style={{ color: '#fff', fontSize: '24px' }}
+                        className="text-4xl xl:text-4xl font-display text-gray-900"
+                      >
+                        Features
+                      </h4>
+                      <p
+                        style={{ color: '#fff' }}
+                        className="2xl:text-2xl mt-4 font-display font-normal"
+                      >
+                        Private Messenger, Crypto Wallet, <br />
+                        Web3 Browser, NFT Marketplace &amp; more
+                      </p>
                     </div>
 
-                    <div style={{  }} className="col-md-6">
-                    <ul className="grid xl:grid-cols-2 gap-8">
-        <li>
-          <Link to="/privatemessenger" style={{fontSize: '14px', color: '#fff'}} className="flex items-center group header-nav-links">
-                      Private Messenger
-                      <span style={{marginLeft: '10px'}} className="group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
-          </Link>
-        </li>
-        <li>
-        <Link to="/accountgeneration" style={{fontSize: '14px', color: '#fff'}} className="flex items-center group header-nav-links">
-               Account Generation
-                      <span style={{marginLeft: '10px'}} className="group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
-        </Link>
-        </li>
-        <li>
-        <Link to="/KeyPass" style={{fontSize: '14px', color: '#fff'}} className="flex items-center group header-nav-links">
-                          KeyPass
-                          <span style={{marginLeft: '10px'}} className="group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
-                    </Link>
-        </li>
-        <li>
-        <Link to="/KeyPass" style={{fontSize: '14px', color: '#fff'}} className="flex items-center group header-nav-links">
-                          DVPN
-                          <span style={{marginLeft: '10px'}} className="group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
-                    </Link>
-        </li>
-        <li>
-        <Link to="/web"  style={{fontSize: '14px', color: '#fff'}} className="flex items-center group header-nav-links">
-                          Web3 Browser
-                          <span style={{marginLeft: '10px'}} className="group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
-                    </Link>
-                   
-        </li>
-        <li>
-            
-                    <Link to="/securecryoto" style={{fontSize: '14px', color: '#fff', width: 'max-content'}} className="flex items-center group header-nav-links">
-               Secure Crypto Wallet
-                      <span style={{marginLeft: '10px'}} className="group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
-        </Link>
-        </li>
-      </ul>
-
+                    <div className="col-md-6">
+                      <ul className="grid xl:grid-cols-2 gap-8">
+                        <li>
+                          <Link
+                            to="/privatemessenger"
+                            style={{ fontSize: '14px', color: '#fff' }}
+                            className="flex items-center group header-nav-links"
+                          >
+                            Private Messenger
+                            <span
+                              style={{ marginLeft: '10px' }}
+                              className="group-hover:translate-x-1 transform transition-all duration-200 linear"
+                            >
+                              <IconArrowRightWhite />
+                            </span>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            to="/accountgeneration"
+                            style={{ fontSize: '14px', color: '#fff' }}
+                            className="flex items-center group header-nav-links"
+                          >
+                            Account Generation
+                            <span
+                              style={{ marginLeft: '10px' }}
+                              className="group-hover:translate-x-1 transform transition-all duration-200 linear"
+                            >
+                              <IconArrowRightWhite />
+                            </span>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            to="/KeyPass"
+                            style={{ fontSize: '14px', color: '#fff' }}
+                            className="flex items-center group header-nav-links"
+                          >
+                            KeyPass
+                            <span
+                              style={{ marginLeft: '10px' }}
+                              className="group-hover:translate-x-1 transform transition-all duration-200 linear"
+                            >
+                              <IconArrowRightWhite />
+                            </span>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            to="/KeyPass"
+                            style={{ fontSize: '14px', color: '#fff' }}
+                            className="flex items-center group header-nav-links"
+                          >
+                            DVPN
+                            <span
+                              style={{ marginLeft: '10px' }}
+                              className="group-hover:translate-x-1 transform transition-all duration-200 linear"
+                            >
+                              <IconArrowRightWhite />
+                            </span>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            to="/web"
+                            style={{ fontSize: '14px', color: '#fff' }}
+                            className="flex items-center group header-nav-links"
+                          >
+                            Web3 Browser
+                            <span
+                              style={{ marginLeft: '10px' }}
+                              className="group-hover:translate-x-1 transform transition-all duration-200 linear"
+                            >
+                              <IconArrowRightWhite />
+                            </span>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            to="/securecryoto"
+                            style={{
+                              fontSize: '14px',
+                              color: '#fff',
+                              width: 'max-content'
+                            }}
+                            className="flex items-center group header-nav-links"
+                          >
+                            Secure Crypto Wallet
+                            <span
+                              style={{ marginLeft: '10px' }}
+                              className="group-hover:translate-x-1 transform transition-all duration-200 linear"
+                            >
+                              <IconArrowRightWhite />
+                            </span>
+                          </Link>
+                        </li>
+                      </ul>
                     </div>
 
                     {/* <div style={{  }} className="col-md-4">
                     <p>How Are You?</p>
 
                     </div> */}
-              </div>
-              </div>
-              <div
-                onMouseLeave={() => {
-                  setShowMoreDropdown(false)
-                }}
-                onMouseOver={() => {
-                  setShowMoreDropdown(true)
-                }}
-                className={`dropdown-menu ${showMoreDropdown ? 'show' : ''}`}
-                aria-labelledby="more"
-                style={{ width: '100%',  }}
-              >
-                 <div style={{ width: '60%', marginLeft: '20%', marginTop: '30px' }} className="row">
-                        
-                        <div style={{  }} className="col-md-6">
-                        <h4 style={{color: '#fff', fontSize: '24px'}} className="text-4xl xl:text-4xl font-display text-gray-900">More</h4>
-            <p style={{color: '#fff'}} className="2xl:text-2xl mt-4 font-display font-normal">App, Team, FAQ, <br /> Contact, Jobs &amp; more</p>
-                        </div>
-    
-                        <div style={{  }} className="col-md-6">
-                        <ul className="grid xl:grid-cols-2 gap-8">
-            <li>
-              <a href="Private-Messenger.html" style={{fontSize: '14px', color: '#fff'}} className="flex items-center group header-nav-links">
-               App
-                <span style={{marginLeft: '10px'}} className="group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
-              </a>
-            </li>
-            <li>
-              <a href="Account-Generation.html" style={{fontSize: '14px', color: '#fff'}} className="flex items-center group header-nav-links">
-               Team
-                <span style={{marginLeft: '10px'}} className="group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
-              </a>
-            </li>
-            <li>
-              <a href="Secure-Crypto-Wallet.html" style={{fontSize: '14px', color: '#fff'}} className="flex items-center group header-nav-links">
-               FAQ
-                <span style={{marginLeft: '10px'}} className="group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
-              </a>
-            </li>
-            <li>
-              <a href="keygard.html" style={{fontSize: '14px', color: '#fff'}} className="flex items-center group header-nav-links">
-               Contact
-                <span style={{marginLeft: '10px'}} className="group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
-              </a>
-            </li>
-            <li>
-              <a href="Web3-Browser.html" style={{fontSize: '14px', color: '#fff'}} className="flex items-center group header-nav-links">
-                Jobs
-                <span  style={{marginLeft: '10px'}} className="group-hover:translate-x-1 transform transition-all duration-200 linear"><IconArrowRightWhite /></span>
-              </a>
-            </li>
-          </ul>
-    
-                        </div>
-    
-                        {/* <div style={{  }} className="col-md-4">
+                  </div>
+                </div>
+              )}
+              {isDesktop && (
+                <div
+                  onMouseLeave={() => {
+                    setShowMoreDropdown(false)
+                  }}
+                  onMouseOver={() => {
+                    setShowMoreDropdown(true)
+                  }}
+                  className={`dropdown-menu ${showMoreDropdown ? 'show' : ''}`}
+                  aria-labelledby="more"
+                  style={{ width: '100%' }}
+                >
+                  <div
+                    style={{
+                      width: '60%',
+                      marginLeft: '20%',
+                      marginTop: '30px'
+                    }}
+                    className="row"
+                  >
+                    <div style={{}} className="col-md-6">
+                      <h4
+                        style={{ color: '#fff', fontSize: '24px' }}
+                        className="text-4xl xl:text-4xl font-display text-gray-900"
+                      >
+                        More
+                      </h4>
+                      <p
+                        style={{ color: '#fff' }}
+                        className="2xl:text-2xl mt-4 font-display font-normal"
+                      >
+                        App, Team, FAQ, <br /> Contact, Jobs &amp; more
+                      </p>
+                    </div>
+
+                    <div style={{}} className="col-md-6">
+                      <ul className="grid xl:grid-cols-2 gap-8">
+                        <li>
+                          <a
+                            href="Private-Messenger.html"
+                            style={{ fontSize: '14px', color: '#fff' }}
+                            className="flex items-center group header-nav-links"
+                          >
+                            App
+                            <span
+                              style={{ marginLeft: '10px' }}
+                              className="group-hover:translate-x-1 transform transition-all duration-200 linear"
+                            >
+                              <IconArrowRightWhite />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="Account-Generation.html"
+                            style={{ fontSize: '14px', color: '#fff' }}
+                            className="flex items-center group header-nav-links"
+                          >
+                            Team
+                            <span
+                              style={{ marginLeft: '10px' }}
+                              className="group-hover:translate-x-1 transform transition-all duration-200 linear"
+                            >
+                              <IconArrowRightWhite />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="Secure-Crypto-Wallet.html"
+                            style={{ fontSize: '14px', color: '#fff' }}
+                            className="flex items-center group header-nav-links"
+                          >
+                            FAQ
+                            <span
+                              style={{ marginLeft: '10px' }}
+                              className="group-hover:translate-x-1 transform transition-all duration-200 linear"
+                            >
+                              <IconArrowRightWhite />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="keygard.html"
+                            style={{ fontSize: '14px', color: '#fff' }}
+                            className="flex items-center group header-nav-links"
+                          >
+                            Contact
+                            <span
+                              style={{ marginLeft: '10px' }}
+                              className="group-hover:translate-x-1 transform transition-all duration-200 linear"
+                            >
+                              <IconArrowRightWhite />
+                            </span>
+                          </a>
+                        </li>
+                        <li>
+                          <a
+                            href="Web3-Browser.html"
+                            style={{ fontSize: '14px', color: '#fff' }}
+                            className="flex items-center group header-nav-links"
+                          >
+                            Jobs
+                            <span
+                              style={{ marginLeft: '10px' }}
+                              className="group-hover:translate-x-1 transform transition-all duration-200 linear"
+                            >
+                              <IconArrowRightWhite />
+                            </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    {/* <div style={{  }} className="col-md-4">
                         <p>How Are You?</p>
     
                         </div> */}
                   </div>
-              </div>
+                </div>
+              )}
             </div>
           </div>
         </div>
