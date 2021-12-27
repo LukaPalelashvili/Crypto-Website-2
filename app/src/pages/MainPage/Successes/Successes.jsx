@@ -1,5 +1,7 @@
-import ProblemsGraphic from '../../..//images/problems-graphic.png'
-import SolutionsGraphic from '../../..//images/solutions-graphic.png'
+// import ProblemsGraphic from '../../..//images/problems-graphic.png'
+import Challanges from '../../../images/isometric1.png';
+import SuccessesGraphic from '../../../images/isometriccloud.png';
+// import SolutionsGraphic from '../../..//images/solutions-graphic.png'
 
 export const Successes = () => {
   return (
@@ -92,7 +94,7 @@ export const Successes = () => {
             </div>
             <div className="col-md-12 col-lg-6 text-center">
               <img
-                src={ProblemsGraphic}
+                src={Challanges}
                 className="problems-img animated"
                 data-animation="fadeInUpShorter"
                 data-animation-delay="0.5s"
@@ -105,7 +107,7 @@ export const Successes = () => {
           <div className="row">
             <div className="col-md-12 col-lg-6 text-center">
               <img
-                src={SolutionsGraphic}
+                src={SuccessesGraphic}
                 className="solutions-img animated"
                 data-animation="fadeInUpShorter"
                 data-animation-delay="0.5s"

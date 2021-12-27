@@ -4,6 +4,7 @@ import { ReactComponent as PrivateAndSecureSVG } from '../../../images/private-a
 import { ReactComponent as PrivateAndSecureLockSVG } from '../../../images/private-and-secure-lock-bottom.svg'
 import { ReactComponent as PrivateAndSecureLockTopSVG } from '../../../images/private-and-secure-lock-top.svg'
 import Img8020 from '../../../images/8020.png'
+import { Link } from 'react-router-dom'
 
 export const Security = () => {
   return (
@@ -39,14 +40,13 @@ export const Security = () => {
                 disrupt blockchain, we have permissionless blockchain access
                 with the least interruption in services.
               </p>
-              <a
-                href="security.html"
-                className="btn btn-lg btn-gradient-purple btn-glow mb-2 animated"
-                data-animation="fadeInUpShorter"
-                data-animation-delay="1.8s"
+              <Link to="/security" 
+               className="btn btn-lg btn-gradient-purple btn-glow mb-2 animated"
+               data-animation="fadeInUpShorter"
+               data-animation-delay="1.8s"
               >
-                Learn More
-              </a>
+                    Learn More
+                  </Link>
             </div>
             <div>
               <div style={{ marginTop: '70px' }} className="relative h-64">
@@ -157,14 +157,14 @@ export const Security = () => {
                 75% of advertisement revenue. If the advertisements bother you,
                 then you can also opt-out to not see them.
               </p>
-              <a
-                href="security.html"
-                className="btn btn-lg btn-gradient-purple btn-glow mb-2 animated"
-                data-animation="fadeInUpShorter"
-                data-animation-delay="1.8s"
+              <Link to="/security" 
+               className="btn btn-lg btn-gradient-purple btn-glow mb-2 animated"
+               data-animation="fadeInUpShorter"
+               data-animation-delay="1.8s"
               >
-                Learn More
-              </a>
+                    Learn More
+              </Link>
+              
             </div>
             <div>
               <div className="relative h-64">

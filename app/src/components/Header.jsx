@@ -1,10 +1,11 @@
 import { useState } from 'react'
-import LogoTransparent from '../images/Logo 2 Transparent.png'
+// import LogoTransparent from '../images/Logo 2 Transparent.png'
 import { Link } from 'react-router-dom'
 import { isDesktop, isMobile } from 'react-device-detect'
 
 import { ReactComponent as IconArrowRightWhite } from '../images/icon-arrow-right-white.svg'
 import { ReactComponent as IconArrowRightSmall } from '../images/icon-arrow-down-small.svg'
+import PcnpLogo from '../images/pcnplogo.png';
 
 export const Header = () => {
   const [showDropdown, setShowDropdown] = useState(false)
@@ -15,7 +16,7 @@ export const Header = () => {
       <nav className="main-menu static-top navbar-dark navbar navbar-expand-lg fixed-top mb-1">
         <div className="container">
           <Link to="/" className="navbar-brand">
-            <img src={LogoTransparent} alt="Pcnprotocol Logo" />
+            <img src={PcnpLogo} alt="Pcnprotocol Logo" />
           </Link>
           <Link to="/"></Link>
 
@@ -40,7 +41,7 @@ export const Header = () => {
                   }}
                   className="nav-item "
                 >
-                  <a className="nav-link " href="">
+                  <a className="nav-link " href="#about">
                     About
                   </a>
                 </li>
@@ -109,7 +110,7 @@ export const Header = () => {
                   }}
                   className="nav-item "
                 >
-                  <a className="nav-link" href="index.html#token-distribution">
+                  <a className="nav-link" href="#token-distribution">
                     Token Distribution
                   </a>
                 </li>
@@ -122,7 +123,7 @@ export const Header = () => {
                 >
                   <a
                     className="nav-link"
-                    href="index.html#token-sale-mobile-app"
+                    href="#token-sale-mobile-app"
                   >
                     Token Sale
                   </a>
@@ -134,7 +135,7 @@ export const Header = () => {
                   }}
                   className="nav-item "
                 >
-                  <a className="nav-link" href="index.html#roadmap">
+                  <a className="nav-link" href="#roadmap">
                     Roadmap
                   </a>
                 </li>
@@ -249,11 +250,11 @@ export const Header = () => {
                   </div>
                 </li>
               </ul>
-              <span id="slide-line" />
+              {/* <span id="slide-line" /> */}
               <form className="form-inline mt-2 mt-md-0">
                 <a
                   className="btn btn-sm  btn-gradient-purple btn-glow my-2 my-sm-0 "
-                  href="https://pixinvent.com/demo/crypto-ico-admin/html/ltr/vertical-menu/account-login.html"
+                  href=""
                   target="_blank"
                 >
                   Sign in
@@ -458,7 +459,7 @@ export const Header = () => {
                       <ul className="grid xl:grid-cols-2 gap-8">
                         <li>
                           <a
-                            href="Private-Messenger.html"
+                            href="#mobile-app"
                             style={{ fontSize: '14px', color: '#fff' }}
                             className="flex items-center group header-nav-links"
                           >

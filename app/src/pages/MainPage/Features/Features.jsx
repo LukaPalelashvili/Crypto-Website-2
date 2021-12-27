@@ -1,6 +1,7 @@
 import { ReactComponent as NoPhoneSVG } from '../../..//images/no-phone.svg'
 import { ReactComponent as NoEmailSVG } from '../../..//images/no-email.svg'
 import { ReactComponent as NoBankSVG } from '../../..//images/no-bank.svg'
+import { Link } from 'react-router-dom'
 
 export const Features = () => {
   return (
@@ -46,15 +47,16 @@ export const Features = () => {
                       peer-to-peer protocol along with end-to-end encryption for
                       unbreachable privacy.
                     </p>
-                    <a
-                      href="Private-messenger.html"
-                      className="btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated fadeInUpShorter"
-                      data-animation="fadeInUpShorter"
-                      data-animation-delay="0.4s"
-                      style={{ animationDelay: '0.4s', opacity: 1 }}
-                    >
-                      Explore All Features
-                    </a>
+                    <Link to="/privatemessenger"
+                     className="btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated fadeInUpShorter "
+                     data-animation="fadeInUpShorter"
+                     data-animation-delay="0.4s"
+                     style={{ animationDelay: '0.4s', opacity: 1 }}
+                     >
+                    Explore All Features
+                  </Link>
+                    
+
                   </div>
                 </div>
               </div>
@@ -91,15 +93,14 @@ export const Features = () => {
                     Crypto Wallets are designed highly intuitive to keep the
                     fund’s security our utmost priority.
                   </p>
-                  <a
-                    href="Secure-Crypto-Wallet.html"
-                    className="btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated fadeInUpShorter"
-                    data-animation="fadeInUpShorter"
-                    data-animation-delay='0.4s"'
-                    style={{ animationDelay: '0.4s', opacity: 1 }}
-                  >
+                  <Link to="/securecryoto"
+                     className="btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated fadeInUpShorter "
+                     data-animation="fadeInUpShorter"
+                     data-animation-delay="0.4s"
+                     style={{ animationDelay: '0.4s', opacity: 1 }}
+                     >
                     Explore All Features
-                  </a>
+                  </Link>
                 </div>
                 <div className="mt-12 md:-mb-32"></div>
               </div>
@@ -155,15 +156,14 @@ export const Features = () => {
                     and service providers.
                   </p>
                   <br />
-                  <a
-                    href="Web3-Browser.html"
-                    className="btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated fadeInUpShorter"
-                    data-animation="fadeInUpShorter"
-                    data-animation-delay="0.4s"
-                    style={{ animationDelay: '0.4s', opacity: 1 }}
-                  >
+                  <Link to="/web"
+                     className="btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated fadeInUpShorter "
+                     data-animation="fadeInUpShorter"
+                     data-animation-delay="0.4s"
+                     style={{ animationDelay: '0.4s', opacity: 1 }}
+                     >
                     Explore All Features
-                  </a>
+                  </Link>
                 </div>
                 <div className="mt-12 md:mt-4 my-auto flex items-center justify-center flex-1"></div>
               </div>
@@ -240,15 +240,14 @@ export const Features = () => {
                         </span>
                       </li>
                     </ul>
-                    <a
-                      href="Account-Generation.html"
-                      className="btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated fadeInUpShorter"
-                      data-animation="fadeInUpShorter"
-                      data-animation-delay="0.4s"
-                      style={{ animationDelay: '0.4s', opacity: 1 }}
-                    >
-                      Explore All Features
-                    </a>
+                    <Link to="/accountgeneration"
+                     className="btn btn-lg btn-gradient-purple btn-glow mr-4 mb-2 animated fadeInUpShorter "
+                     data-animation="fadeInUpShorter"
+                     data-animation-delay="0.4s"
+                     style={{ animationDelay: '0.4s', opacity: 1 }}
+                     >
+                    Explore All Features
+                  </Link>
                   </div>
                 </div>
               </div>

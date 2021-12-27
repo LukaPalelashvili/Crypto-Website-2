@@ -1,4 +1,5 @@
-import PCNP6 from '../images/pcnp6.png'
+// import PCNP6 from '../images/pcnp6.png'
+import PcnpLogo from '../images/pcnplogo.png';
 import { Link } from 'react-router-dom'
 
 export const Footer = () => {
@@ -17,18 +18,17 @@ export const Footer = () => {
             >
               <img
                 style={{
-                  width: '65px',
-                  height: '60px',
-                  marginBottom: '-7px',
+                  width: '75px',
+                  marginTop: '10px',
                   marginLeft: '-20px'
                 }}
-                src={PCNP6}
+                src={PcnpLogo}
                 alt={'PCNP'}
               />
               <p
                 style={{
-                  marginLeft: '23px',
-                  marginTop: '-25px',
+                  marginLeft: '65px',
+                  marginTop: '-40px',
                   color: '#7D7D7D',
                   fontSize: '20px'
                 }}
@@ -77,6 +77,7 @@ export const Footer = () => {
                           className="hover:text-white footer-nav-main"
                           target="_blank"
                           rel="noreferrer"
+                          href="#"
                         
                         >
                           Team
@@ -85,7 +86,6 @@ export const Footer = () => {
                       <li>
                         <a href='#about'
                           className="hover:text-white footer-nav-main"
-                          target="_blank"
                         >
                           About Us
                         </a>
@@ -94,7 +94,6 @@ export const Footer = () => {
                         <a
                           className="hover:text-white footer-nav-main"
                           href="#roadmap"
-                          target="_blank"
                           rel="noreferrer"
                         >
                           Roadmap
@@ -110,6 +109,7 @@ export const Footer = () => {
                         className="hover:text-white footer-nav-main"
                         target="_blank"
                         rel="noreferrer"
+                        href="#"
                        
                       >
                         Team
@@ -121,7 +121,6 @@ export const Footer = () => {
                       <a
                         className="hover:text-white footer-nav-main"
                         href="#about"
-                        target="_blank"
                         rel="noreferrer"
                       >
                         About Us
@@ -133,7 +132,6 @@ export const Footer = () => {
                       <a
                         className="hover:text-white footer-nav-main"
                         href="#roadmap"
-                        target="_blank"
                         rel="noreferrer"
                       >
                         Roadmap
@@ -298,7 +296,7 @@ export const Footer = () => {
                         // data-animation-delay="0.6s"
                         // style={{ animationDelay: '0.6s', opacity: 1 }}
                       >
-                        <a href="files\whitepaper.pdf" target="_blank">
+                        <a href="#" target="_blank">
                           Whitepaper
                         </a>
                       </li>
@@ -307,7 +305,7 @@ export const Footer = () => {
                         // data-animation-delay="0.7s"
                         // style={{ animationDelay: '0.7s', opacity: 1 }}
                       >
-                        <a href="privacy-policy.html" target="_blank">
+                        <a href="#" target="_blank">
                           Privacy Policy
                         </a>
                       </li>
@@ -315,7 +313,7 @@ export const Footer = () => {
                         className="footer-nav-main \"
                         
                       >
-                        <a href="terms-of-use.html">Terms of use</a>
+                        <a href="#">Terms of use</a>
                       </li>
                       <li
                         // className="footer-nav-main animated"
@@ -335,7 +333,7 @@ export const Footer = () => {
                      data-animation="fadeInUpShorter"
                      data-animation-delay="0.6s"
                     >
-                      <a href="files\whitepaper.pdf" target="_blank">
+                      <a href="#" target="_blank">
                         Whitepaper
                       </a>
                     </li>
@@ -344,7 +342,7 @@ export const Footer = () => {
                     data-animation="fadeInUpShorter"
                     data-animation-delay="0.7s"
                     >
-                      <a href="privacy-policy.html" target="_blank">
+                      <a href="#" target="_blank">
                         Privacy Policy
                       </a>
                     </li>
@@ -353,7 +351,7 @@ export const Footer = () => {
                      data-animation="fadeInUpShorter"
                      data-animation-delay="0.8s"
                     >
-                      <a href="terms-of-use.html">Terms of use</a>
+                      <a href="#">Terms of use</a>
                     </li>
                     <li
                    className="animated"
@@ -425,7 +423,7 @@ export const Footer = () => {
                       <li
                         className="footer-nav-main "
                       >
-                        <a href="index.html#token-sale-mobile-app">
+                        <a href="#token-sale-mobile-app">
                           Token Sale
                         </a>
                       </li>
@@ -466,7 +464,7 @@ export const Footer = () => {
                       data-animation="fadeInUpShorter"
                       data-animation-delay="0.8s"
                     >
-                      <a href="index.html#token-sale-mobile-app">Token Sale</a>
+                      <a href="#token-sale-mobile-app">Token Sale</a>
                     </li>
                     <li
                        className="animated"
