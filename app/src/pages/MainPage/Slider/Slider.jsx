@@ -3,7 +3,7 @@ import Picture2 from '../../../images/images slider/picture2.png'
 import Picture3 from '../../../images/images slider/picture3.png'
 import Picture4 from '../../../images/images slider/picture4.png'
 import Picture5 from '../../../images/images slider/picture5.png'
-import './sliderResp.css';
+import './sliderResp.css'
 
 export const Slider = () => {
   return (
@@ -13,8 +13,8 @@ export const Slider = () => {
         className="wpsisac-slick-carousal-wrp wpsisac-clearfix "
         data-conf='{"slidestoshow":"3","slidestoscroll":1,"dots":"true","arrows":"true","autoplay":"true","autoplay_interval":3000,"speed":300,"rtl":"false","centermode":"true","lazyload":"","variablewidth":"false","loop":"true","hover_pause":"true"}'
       >
-        <div 
-        className="sliderMobileDevice"
+        <div
+          className="sliderMobileDevice"
           style={{
             // width: '600px',
             marginTop: '40px !important'
@@ -23,7 +23,7 @@ export const Slider = () => {
           className="wpsisac-slick-init wpsisac-slick-carousal design-6 wpsisac-image-fit wpsisac-center"
         >
           <div className="wpsisac-image-slide">
-            <a href>
+            <span>
               {' '}
               <div
                 className="wpsisac-image-slide-wrap"
@@ -34,7 +34,7 @@ export const Slider = () => {
                   alt="1-The urban farmers battling Bangalore’s jungle"
                 />
               </div>
-            </a>
+            </span>
           </div>
           <div className="wpsisac-image-slide">
             <div
@@ -48,7 +48,7 @@ export const Slider = () => {
             </div>
           </div>
           <div className="wpsisac-image-slide">
-            <a href>
+            <span>
               {' '}
               <div
                 className="wpsisac-image-slide-wrap"
@@ -59,7 +59,7 @@ export const Slider = () => {
                   alt="This flagship coffee shop is about to disappear"
                 />
               </div>
-            </a>
+            </span>
           </div>
           <div className="wpsisac-image-slide">
             <div
@@ -70,7 +70,7 @@ export const Slider = () => {
             </div>
           </div>
           <div className="wpsisac-image-slide">
-            <a href>
+            <span>
               {' '}
               <div
                 className="wpsisac-image-slide-wrap"
@@ -81,7 +81,7 @@ export const Slider = () => {
                   alt="Kerala: They call it Own Country for nothing"
                 />
               </div>
-            </a>
+            </span>
           </div>{' '}
         </div>
       </div>

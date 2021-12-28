@@ -1,11 +1,18 @@
+import Countdown, {
+  zeroPad,
+  calcTimeDelta,
+  formatTimeDelta
+} from 'react-countdown'
 import Chart1 from '../../../images/Chart1.webp'
 import IconAndroid from '../../../images/icon-android.png'
 import IconApple from '../../../images/icon-apple.png'
-import { Slider2 } from '../../../pages/MainPage/Slider/Slider2'
+import { Slider2 } from '../Slider/Slider2'
+import { Counter } from './Counter'
 // import '../Sale/sale.css'
 
-
 export const Sale = () => {
+  const date = new Date('2022-01-29T00:00:00')
+
   return (
     <section
       id="token-sale-mobile-app"
@@ -37,19 +44,21 @@ export const Sale = () => {
               style={{ animationDelay: '0.4s', opacity: 1 }}
             >
               <div className="token-sale-counter">
-        <h5>ICO will start in</h5>
-        <div className="token-details text-center">
-          {/* Counter Starts*/}
-          <div className="clock-counter mb-4">
-            <div className="clock ml-0 mt-5 d-flex justify-content-center flip-clock-wrapper"><span className="flip-clock-divider days"><span className="flip-clock-label">Days</span></span><ul className="flip "><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">0</div></div><div className="down"><div className="shadow" /><div className="inn">0</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">9</div></div><div className="down"><div className="shadow" /><div className="inn">9</div></div></a></li></ul><ul className="flip "><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">0</div></div><div className="down"><div className="shadow" /><div className="inn">0</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">3</div></div><div className="down"><div className="shadow" /><div className="inn">3</div></div></a></li></ul><span className="flip-clock-divider hours"><span className="flip-clock-label">Hours</span></span><ul className="flip "><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">0</div></div><div className="down"><div className="shadow" /><div className="inn">0</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">1</div></div><div className="down"><div className="shadow" /><div className="inn">1</div></div></a></li></ul><ul className="flip play"><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">8</div></div><div className="down"><div className="shadow" /><div className="inn">8</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">7</div></div><div className="down"><div className="shadow" /><div className="inn">7</div></div></a></li></ul><span className="flip-clock-divider minutes"><span className="flip-clock-label">Minutes</span></span><ul className="flip play"><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">0</div></div><div className="down"><div className="shadow" /><div className="inn">0</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">5</div></div><div className="down"><div className="shadow" /><div className="inn">5</div></div></a></li></ul><ul className="flip play"><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">4</div></div><div className="down"><div className="shadow" /><div className="inn">4</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">3</div></div><div className="down"><div className="shadow" /><div className="inn">3</div></div></a></li></ul><span className="flip-clock-divider seconds"><span className="flip-clock-label">Seconds</span></span><ul className="flip play"><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">4</div></div><div className="down"><div className="shadow" /><div className="inn">4</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">3</div></div><div className="down"><div className="shadow" /><div className="inn">3</div></div></a></li></ul><ul className="flip play"><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">9</div></div><div className="down"><div className="shadow" /><div className="inn">9</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">8</div></div><div className="down"><div className="shadow" /><div className="inn">8</div></div></a></li></ul></div>
-            <div className="message" />            
-          </div>
-          {/* Counter Ends */}
-          {/* Progressbar Starts */}
-          {/* Progressbar Starts */}
-          <a href="#" className="btn btn-lg btn-gradient-blue btn-glow">Purchase Token</a>
-        </div>
-      </div>
+                <h5>ICO will start in</h5>
+                <div className="token-details text-center">
+                  {/* Counter Starts*/}
+                  <div className="clock-counter mb-4">
+                    <Countdown renderer={Counter} date={date.getTime()} />
+                    <div className="message" />
+                  </div>
+                  {/* Counter Ends */}
+                  {/* Progressbar Starts */}
+                  {/* Progressbar Starts */}
+                  <a href="#" className="btn btn-lg btn-gradient-blue btn-glow">
+                    Purchase Token
+                  </a>
+                </div>
+              </div>
             </div>
             <div
               className="col-xl-7 col-lg-6 col-md-12 mt-5 pl-4 animated fadeInUpShorter"
@@ -67,35 +76,46 @@ export const Sale = () => {
                 </p>
                 <div className="col-md-5">
                   <ul className="token-sale-info">
-                    <li style={{color: '#7D7D7D'}}>
+                    <li style={{ color: '#7D7D7D' }}>
                       Public Pre-ITS starts{' '}
-                      <strong style={{color: '#FFFFFF'}} className="white">13 March</strong>
+                      <strong style={{ color: '#FFFFFF' }} className="white">
+                        13 March
+                      </strong>
                     </li>
-                    <li style={{color: '#7D7D7D'}} >
+                    <li style={{ color: '#7D7D7D' }}>
                       Public ITS starts{' '}
-                      <strong style={{color: '#FFFFFF'}} className="white">25 April</strong>
+                      <strong style={{ color: '#FFFFFF' }} className="white">
+                        25 April
+                      </strong>
                     </li>
-                    <li style={{color: '#7D7D7D'}}>
-                      Public ITS ends <strong style={{color: '#FFFFFF'}} className="white">25 May</strong>
+                    <li style={{ color: '#7D7D7D' }}>
+                      Public ITS ends{' '}
+                      <strong style={{ color: '#FFFFFF' }} className="white">
+                        25 May
+                      </strong>
                     </li>
                   </ul>
                 </div>
                 <div className="col-md-7 pr-0">
                   <ul className="token-sale-info">
-                    <li style={{color: '#7D7D7D'}}>
+                    <li style={{ color: '#7D7D7D' }}>
                       PCNP accepts
-                      <strong style={{color: '#FFFFFF'}} className="white">ETH, BTC, &amp; LTC</strong>
+                      <strong style={{ color: '#FFFFFF' }} className="white">
+                        ETH, BTC, &amp; LTC
+                      </strong>
                     </li>
-                    <li style={{color: '#7D7D7D'}}>
+                    <li style={{ color: '#7D7D7D' }}>
                       You can do a minimum transaction of{' '}
-                      <strong style={{color: '#FFFFFF'}} className="white">
+                      <strong style={{ color: '#FFFFFF' }} className="white">
                         1 ETH, 1BTC, &amp; 1LTC.
                       </strong>
                     </li>
-                    <li style={{color: '#7D7D7D'}}>
+                    <li style={{ color: '#7D7D7D' }}>
                       About 8% Tokens sold till now as the approximated number
                       of sold coins is{' '}
-                      <strong style={{color: '#FFFFFF'}} className="white">890,000 CIC</strong>
+                      <strong style={{ color: '#FFFFFF' }} className="white">
+                        890,000 CIC
+                      </strong>
                     </li>
                   </ul>
                 </div>
@@ -309,9 +329,8 @@ export const Sale = () => {
                 <span>Apple</span> <img src={IconApple} alt="" />
               </a>
             </div>
-            
-             <Slider2 />
-            
+
+            <Slider2 />
           </div>
         </div>
       </div>

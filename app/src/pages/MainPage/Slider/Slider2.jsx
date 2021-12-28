@@ -5,7 +5,7 @@ import Picture2 from '../../../images/images slider/picture2.png'
 import Picture3 from '../../../images/images slider/picture3.png'
 import Picture4 from '../../../images/images slider/picture4.png'
 import Picture5 from '../../../images/images slider/picture5.png'
-import './sliderResp.css';
+import './sliderResp.css'
 
 export const Slider2 = () => {
   const settings = {
@@ -20,11 +20,12 @@ export const Slider2 = () => {
   return (
     <div className="col-lg-6 move-first header-first-main-text col-md-12 ">
       <div
-        style={{  marginTop: '70px',  }}
+        style={{ marginTop: '70px' }}
         className="wpsisac-slick-carousal-wrp wpsisac-clearfix "
         data-conf='{"slidestoshow":"3","slidestoscroll":1,"dots":"false","arrows":"true","autoplay":"true","autoplay_interval":3000,"speed":300,"rtl":"false","centermode":"true","lazyload":"","variablewidth":"false","loop":"true","hover_pause":"true"}'
       >
-        <div className='sliderMobileDevice'
+        <div
+          className="sliderMobileDevice"
           style={{
             // width: '600px',
             marginTop: '40px !important'
@@ -33,7 +34,6 @@ export const Slider2 = () => {
           <link
             rel="stylesheet"
             type="text/css"
-            charset="UTF-8"
             href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
           />
           <link
@@ -43,7 +43,7 @@ export const Slider2 = () => {
           />
           <Slider {...settings}>
             <div className="wpsisac-image-slide">
-              <a href>
+              <span>
                 {' '}
                 <div
                   className="wpsisac-image-slide-wrap"
@@ -54,7 +54,7 @@ export const Slider2 = () => {
                     alt="1-The urban farmers battling Bangalore’s jungle"
                   />
                 </div>
-              </a>
+              </span>
             </div>
             <div
               style={{ transform: 'scale(1.2)' }}
@@ -71,7 +71,7 @@ export const Slider2 = () => {
               </div>
             </div>
             <div className="wpsisac-image-slide">
-              <a href>
+              <span>
                 {' '}
                 <div
                   className="wpsisac-image-slide-wrap"
@@ -82,7 +82,7 @@ export const Slider2 = () => {
                     alt="This flagship coffee shop is about to disappear"
                   />
                 </div>
-              </a>
+              </span>
             </div>
             <div
               style={{ transform: 'scale(1.2)' }}
@@ -96,8 +96,7 @@ export const Slider2 = () => {
               </div>
             </div>
             <div className="wpsisac-image-slide">
-              <a href>
-                {' '}
+              <span>
                 <div
                   className="wpsisac-image-slide-wrap"
                   // style={{ height: '400px' }}
@@ -107,7 +106,7 @@ export const Slider2 = () => {
                     alt="Kerala: They call it Own Country for nothing"
                   />
                 </div>
-              </a>
+              </span>
             </div>
           </Slider>
         </div>
