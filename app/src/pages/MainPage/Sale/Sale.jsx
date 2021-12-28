@@ -10,9 +10,9 @@ import { Slider2 } from '../Slider/Slider2'
 import { Counter } from './Counter'
 // import '../Sale/sale.css'
 
-export const Sale = () => {
-  const date = new Date('2022-01-29T00:00:00')
+const launchDate = new Date('2022-01-29T00:00:00')
 
+export const Sale = () => {
   return (
     <section
       id="token-sale-mobile-app"
@@ -48,7 +48,7 @@ export const Sale = () => {
                 <div className="token-details text-center">
                   {/* Counter Starts*/}
                   <div className="clock-counter mb-4">
-                    <Countdown renderer={Counter} date={date.getTime()} />
+                    <Countdown renderer={Counter} date={launchDate.getTime()} />
                     <div className="message" />
                   </div>
                   {/* Counter Ends */}
