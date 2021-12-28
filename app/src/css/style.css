@@ -2355,12 +2355,12 @@ svg#loader g:last-child circle {
   height : 52%;
   top : -2px;
 }
-.clock-counter .flip-clock-wrapper ul li a div.up:after {
+/* .clock-counter .flip-clock-wrapper ul li a div.up:after {
   top : 32px;
   height : 1px;
   background-color : #000000 !important;
   background-color : rgba(0, 0, 0, 0.4) !important;
-}
+} */
 .clock-counter .flip-clock-wrapper ul li a div.up div.inn {
   text-shadow : 0 1px 2px #FFFFFF !important;
   background-color : #FFFFFF !important;

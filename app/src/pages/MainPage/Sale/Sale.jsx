@@ -37,14 +37,19 @@ export const Sale = () => {
               style={{ animationDelay: '0.4s', opacity: 1 }}
             >
               <div className="token-sale-counter">
-                <h5>ICO will start in</h5>
-                <iframe className='date-counter-token-sale'
-                  src="https://w2.countingdownto.com/3909113"
-                  width={398}
-                  height={204}
-                  frameBorder={0}
-                />
-              </div>
+        <h5>ICO will start in</h5>
+        <div className="token-details text-center">
+          {/* Counter Starts*/}
+          <div className="clock-counter mb-4">
+            <div className="clock ml-0 mt-5 d-flex justify-content-center flip-clock-wrapper"><span className="flip-clock-divider days"><span className="flip-clock-label">Days</span></span><ul className="flip "><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">0</div></div><div className="down"><div className="shadow" /><div className="inn">0</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">9</div></div><div className="down"><div className="shadow" /><div className="inn">9</div></div></a></li></ul><ul className="flip "><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">0</div></div><div className="down"><div className="shadow" /><div className="inn">0</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">3</div></div><div className="down"><div className="shadow" /><div className="inn">3</div></div></a></li></ul><span className="flip-clock-divider hours"><span className="flip-clock-label">Hours</span></span><ul className="flip "><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">0</div></div><div className="down"><div className="shadow" /><div className="inn">0</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">1</div></div><div className="down"><div className="shadow" /><div className="inn">1</div></div></a></li></ul><ul className="flip play"><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">8</div></div><div className="down"><div className="shadow" /><div className="inn">8</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">7</div></div><div className="down"><div className="shadow" /><div className="inn">7</div></div></a></li></ul><span className="flip-clock-divider minutes"><span className="flip-clock-label">Minutes</span></span><ul className="flip play"><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">0</div></div><div className="down"><div className="shadow" /><div className="inn">0</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">5</div></div><div className="down"><div className="shadow" /><div className="inn">5</div></div></a></li></ul><ul className="flip play"><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">4</div></div><div className="down"><div className="shadow" /><div className="inn">4</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">3</div></div><div className="down"><div className="shadow" /><div className="inn">3</div></div></a></li></ul><span className="flip-clock-divider seconds"><span className="flip-clock-label">Seconds</span></span><ul className="flip play"><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">4</div></div><div className="down"><div className="shadow" /><div className="inn">4</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">3</div></div><div className="down"><div className="shadow" /><div className="inn">3</div></div></a></li></ul><ul className="flip play"><li className="flip-clock-before"><a href="#"><div className="up"><div className="shadow" /><div className="inn">9</div></div><div className="down"><div className="shadow" /><div className="inn">9</div></div></a></li><li className="flip-clock-active"><a href="#"><div className="up"><div className="shadow" /><div className="inn">8</div></div><div className="down"><div className="shadow" /><div className="inn">8</div></div></a></li></ul></div>
+            <div className="message" />            
+          </div>
+          {/* Counter Ends */}
+          {/* Progressbar Starts */}
+          {/* Progressbar Starts */}
+          <a href="#" className="btn btn-lg btn-gradient-blue btn-glow">Purchase Token</a>
+        </div>
+      </div>
             </div>
             <div
               className="col-xl-7 col-lg-6 col-md-12 mt-5 pl-4 animated fadeInUpShorter"

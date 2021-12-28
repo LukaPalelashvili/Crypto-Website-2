@@ -1,3 +1,10 @@
+.eapps-link {
+    display: none !important;
+    display: none !important;
+    visibility: hidden !important;
+}
+
+
 @media screen and (max-width: 480px){
     .private-and-secure-img {
         width: 333px !important;
