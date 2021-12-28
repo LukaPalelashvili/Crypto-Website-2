@@ -47,14 +47,14 @@ export const Sale = () => {
                 <h5>ICO will start in</h5>
                 <div className="token-details text-center">
                   {/* Counter Starts*/}
-                  <div className="clock-counter mb-4">
+                  <div style={{marginTop: '50px !important'}} className="clock-counter mb-4">
                     <Countdown renderer={Counter} date={launchDate.getTime()} />
                     <div className="message" />
                   </div>
                   {/* Counter Ends */}
                   {/* Progressbar Starts */}
                   {/* Progressbar Starts */}
-                  <a href="#" className="btn btn-lg btn-gradient-blue btn-glow">
+                  <a href="#" className="btn btn-lg btn-gradient-blue btn-glow" style={{marginTop: '10px'}}>
                     Purchase Token
                   </a>
                 </div>

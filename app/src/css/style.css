@@ -2169,13 +2169,10 @@ svg#loader g:last-child circle {
 /*	Token Sale box with counter progress and button
 * 	----------------------------------------------------------------------------------------------*/
 .token-details {
-  background : -webkit-linear-gradient(58deg, #FF4137, #FDC800);
-  background :    -moz-linear-gradient(58deg, #FF4137, #FDC800);
-  background :      -o-linear-gradient(58deg, #FF4137, #FDC800);
-  background :         linear-gradient(32deg, #FF4137, #FDC800);
+  background : #194089;
   padding : 1.2rem;
   border-radius : 0.35rem;
-  height : 336px;
+  height : 300px;
   /* Flip Clock */
   /* Progress bar */
 }
