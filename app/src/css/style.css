@@ -2169,7 +2169,9 @@ svg#loader g:last-child circle {
 /*	Token Sale box with counter progress and button
 * 	----------------------------------------------------------------------------------------------*/
 .token-details {
-  background : #194089;
+  background: linear-gradient(to right, #000, #232526);
+  background-color: rgba(0, 0, 0, 0);
+  background-color: #000;
   padding : 1.2rem;
   border-radius : 0.35rem;
   height : 300px;
@@ -2180,6 +2182,17 @@ svg#loader g:last-child circle {
   margin : 3px;
   -webkit-box-shadow : none !important;
           box-shadow : none !important;
+}
+
+.flip-clock-wrapper ul li a div {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  font-size: 80px;
+  overflow: inherit !important;
+  outline: 1px solid transparent;
 }
 .token-details .clock-counter .flip-clock-divider {
   width : 12px;
@@ -2359,17 +2372,15 @@ svg#loader g:last-child circle {
   background-color : rgba(0, 0, 0, 0.4) !important;
 } */
 .clock-counter .flip-clock-wrapper ul li a div.up div.inn {
-  text-shadow : 0 1px 2px #FFFFFF !important;
-  background-color : #FFFFFF !important;
-  color : #3F3F3F !important;
+  background-color : #194089 !important;
+  color : #FFF !important;
 }
 .clock-counter .flip-clock-wrapper ul li a div.down {
   height : 51%;
 }
 .clock-counter .flip-clock-wrapper ul li a div.down div.inn {
-  text-shadow : 0 1px 2px #FFFFFF !important;
-  background-color : #FFFFFF !important;
-  color : #3F3F3F !important;
+  background-color : #194089 !important;
+  color : #FFF !important;
 }
 .clock-counter .flip-clock-wrapper ul.play li.flip-clock-before .up .shadow, .clock-counter .flip-clock-wrapper ul.play li.flip-clock-active .up .shadow {
   background : transparent !important;
